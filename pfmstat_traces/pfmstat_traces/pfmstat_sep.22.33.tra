@@ -1,0 +1,1634 @@
+ 11:07:47... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:07:47... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:07:47... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:07:47.. slitf.cxx.2771: Waiting incoming message during 17723 msec ...
+ 11:07:47.. transp.cxx.64: Transport ROUTER:fd=216, flags=FD_READ | 
+ 11:07:47.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:07:47.. transp.cxx.64: Transport ROUTER:fd=225, flags=FD_READ | 
+ 11:07:47.. transp.cxx.64: Transport THREAD:fd=196, flags=FD_READ | 
+ 11:07:47.. slitf.cxx.2779: MaxFD = 4
+ 11:07:48.. slitf.cxx.2849: calling Event on FD 225 (nbFD=1) for TRANSPORT 'ROUTER' index 2
+ 11:07:48.. transp.cxx.127: READ event transport ROUTER, FD= 225
+ 11:07:48... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:07:48... tcptransp.cxx.1285: For transport ROUTER
+ 11:07:48... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40052260, nEntry=0, nWait=0, threadId=-1
+ 11:07:48... tcptransp.cxx.1347: Read Event: SepName: RC-OSP19DEVSTEP (23), cnx 10, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=225, idx=2
+ 11:07:48.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:07:48.... dpesocket.cxx.69: New message length to read:4
+ 11:07:48.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:07:48.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:07:48.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:07:48.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:07:48.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:07:48.... dpesocket.cxx.69: New message length to read:1329
+ 11:07:48.... dpesocket.cxx.159: Message length to read:1329, full message length=1329
+ 11:07:48.... dpesocket.cxx.189: nRead=1329, alreadyRead=0, in.length()=1329
+ 11:07:48.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:07:48.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:07:48... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40052260, nEntry=1, nWait=1, threadId=33
+ 11:07:48.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:07:48.... septransp.cxx.1070: hd=orig=23, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=RECOVERY ROUTING IGNOREERROR NEWTRANSACTION (b1), version=1
+ 11:07:48.... septransp.cxx.1364: 0x7f3c4005401d DATA received : 
+ 11:07:48.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:07:48.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:07:48.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:07:48.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:07:48.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:07:48.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:07:48.... septransp.cxx.1364: 0096->636F6E74 00FFA904 00000168 6F73745F cont.......host_
+ 11:07:48.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:07:48.... septransp.cxx.1364: 0128->17000000 73657276 5F696400 04100000 ....serv_id.....
+ 11:07:48.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:07:48.... septransp.cxx.1364: 0160->745F7469 6D00030B 0730746B 745F746C t_tim....0tkt_tl
+ 11:07:48.... septransp.cxx.1364: 0176->7600FF5C 04000030 820458A0 030A0102 v..\...0..X.....
+ 11:07:48.... septransp.cxx.1364: 0192->A1030201 10308204 4AA21A30 1802041C .....0..J..0....
+ 11:07:48.... septransp.cxx.1364: 0208->B7BD0F02 04000000 10040A70 666D6877 ...........pfmhw
+ 11:07:48.... septransp.cxx.1364: 0224->6167656E 74A21C30 1A02041A C3AF4802 agent..0......H.
+ 11:07:48.... septransp.cxx.1364: 0240->04000000 01040C4F 53503139 44455653 .......OSP19DEVS
+ 11:07:48.... septransp.cxx.1364: 0256->544550A1 20301E02 04000000 01020400 TEP. 0..........
+ 11:07:48.... septransp.cxx.1364: 0272->00000002 04000000 01020400 00000102 ................
+ 11:07:48.... septransp.cxx.1364: 0288->04000000 00A12030 1E020400 00000102 ...... 0........
+ 11:07:48.... septransp.cxx.1364: 0304->04000000 00020400 00000602 04000000 ................
+ 11:07:48.... septransp.cxx.1364: 0320->01020400 000000A0 2F302D02 04000000 ......../0-.....
+ 11:07:48.... septransp.cxx.1364: 0336->01020400 00000202 04000000 01020400 ................
+ 11:07:48.... septransp.cxx.1364: 0352->00000504 1331392F 30382F32 30323120 .....19/08/2021 
+ 11:07:48.... septransp.cxx.1364: 0368->31313A30 373A3435 A130302E 02040000 11:07:45.00.....
+ 11:07:48.... septransp.cxx.1364: 0384->00000204 00000000 02040000 00000204 ................
+ 11:07:48.... septransp.cxx.1364: 0400->00000000 02040000 0000040E 73746174 ............stat
+ 11:07:48.... septransp.cxx.1364: 0416->20736570 61726174 6F72A21A 30180204  separator..0...
+ 11:07:48.... septransp.cxx.1364: 0432->1CB7BD0F 02040000 0010040A 70666D68 ............pfmh
+ 11:07:48.... septransp.cxx.1364: 0448->77616765 6E74A21C 301A0204 1AC3AF48 wagent..0......H
+ 11:07:48.... septransp.cxx.1364: 0464->02040000 0001040C 4F535031 39444556 ........OSP19DEV
+ 11:07:48.... septransp.cxx.1364: 0480->53544550 A120301E 02040000 00010204 STEP. 0.........
+ 11:07:48.... septransp.cxx.1364: 0496->00000000 02040000 00010204 00000001 ................
+ 11:07:48.... septransp.cxx.1364: 0512->02040000 0000A120 301E0204 00000001 ....... 0.......
+ 11:07:48.... septransp.cxx.1364: 0528->02040000 00000204 00000006 02040000 ................
+ 11:07:48.... septransp.cxx.1364: 0544->00010204 00000000 A02F302D 02040000 ........./0-....
+ 11:07:48.... septransp.cxx.1364: 0560->00010204 00000002 02040000 00010204 ................
+ 11:07:48.... septransp.cxx.1364: 0576->00000005 04133139 2F30382F 32303231 ......19/08/2021
+ 11:07:48.... septransp.cxx.1364: 0592->2031313A 30373A34 35A13030 2E020400  11:07:45.00....
+ 11:07:48.... septransp.cxx.1364: 0608->00000002 04000000 00020400 00000002 ................
+ 11:07:48.... septransp.cxx.1364: 0624->04000000 00020400 00000004 0E737461 .............sta
+ 11:07:48.... septransp.cxx.1364: 0640->74207365 70617261 746F72A0 2F302D02 t separator./0-.
+ 11:07:48.... septransp.cxx.1364: 0656->04000000 01020400 00000202 04000000 ................
+ 11:07:48.... septransp.cxx.1364: 0672->01020400 00000504 1331392F 30382F32 .........19/08/2
+ 11:07:48.... septransp.cxx.1364: 0688->30323120 31313A30 373A3435 A130302E 021 11:07:45.00.
+ 11:07:48.... septransp.cxx.1364: 0704->02040000 00000204 00000000 02040000 ................
+ 11:07:48.... septransp.cxx.1364: 0720->00000204 00000000 02040000 0000040E ................
+ 11:07:48.... septransp.cxx.1364: 0736->73746174 20736570 61726174 6F72A21A stat separator..
+ 11:07:48.... septransp.cxx.1364: 0752->30180204 1CB7BD0F 02040000 0010040A 0...............
+ 11:07:48.... septransp.cxx.1364: 0768->70666D68 77616765 6E74A21C 301A0204 pfmhwagent..0...
+ 11:07:48.... septransp.cxx.1364: 0784->1AC3AF48 02040000 0001040C 4F535031 ...H........OSP1
+ 11:07:48.... septransp.cxx.1364: 0800->39444556 53544550 A120301E 02040000 9DEVSTEP. 0.....
+ 11:07:48.... septransp.cxx.1364: 0816->00010204 00000000 02040000 00010204 ................
+ 11:07:48.... septransp.cxx.1364: 0832->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:07:48.... septransp.cxx.1364: 0848->00000001 02040000 00000204 00000006 ................
+ 11:07:48.... septransp.cxx.1364: 0864->02040000 00010204 00000000 A02F302D ............./0-
+ 11:07:48.... septransp.cxx.1364: 0880->02040000 00010204 00000002 02040000 ................
+ 11:07:48.... septransp.cxx.1364: 0896->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:07:48.... septransp.cxx.1364: 0912->32303231 2031313A 30373A34 36A13030 2021 11:07:46.00
+ 11:07:48.... septransp.cxx.1364: 0928->2E020400 00000002 04000000 00020400 ................
+ 11:07:48.... septransp.cxx.1364: 0944->00000002 04000000 00020400 00000004 ................
+ 11:07:48.... septransp.cxx.1364: 0960->0E737461 74207365 70617261 746F72A2 .stat separator.
+ 11:07:48.... septransp.cxx.1364: 0976->1A301802 041CB7BD 0F020400 00001004 .0..............
+ 11:07:48.... septransp.cxx.1364: 0992->0A70666D 68776167 656E74A2 1C301A02 .pfmhwagent..0..
+ 11:07:48.... septransp.cxx.1364: 1008->041AC3AF 48020400 00000104 0C4F5350 ....H........OSP
+ 11:07:48.... septransp.cxx.1364: 1024->31394445 56535445 50A12030 1E020400 19DEVSTEP. 0....
+ 11:07:48.... septransp.cxx.1364: 1040->00000102 04000000 00020400 00000102 ................
+ 11:07:48.... septransp.cxx.1364: 1056->04000000 01020400 000000A1 20301E02 ............ 0..
+ 11:07:48.... septransp.cxx.1364: 1072->04000000 01020400 00000002 04000000 ................
+ 11:07:48.... septransp.cxx.1364: 1088->06020400 00000102 04000000 00A02F30 ............../0
+ 11:07:48.... septransp.cxx.1364: 1104->2D020400 00000102 04000000 02020400 -...............
+ 11:07:48.... septransp.cxx.1364: 1120->00000102 04000000 05041331 392F3038 ...........19/08
+ 11:07:48.... septransp.cxx.1364: 1136->2F323032 31203131 3A30373A 3436A130 /2021 11:07:46.0
+ 11:07:48.... septransp.cxx.1364: 1152->302E0204 00000000 02040000 00000204 0...............
+ 11:07:48.... septransp.cxx.1364: 1168->00000000 02040000 00000204 00000000 ................
+ 11:07:48.... septransp.cxx.1364: 1184->040E7374 61742073 65706172 61746F72 ..stat separator
+ 11:07:48.... septransp.cxx.1364: 1200->A02F302D 02040000 00010204 00000002 ./0-............
+ 11:07:48.... septransp.cxx.1364: 1216->02040000 00010204 00000005 04133139 ..............19
+ 11:07:48.... septransp.cxx.1364: 1232->2F30382F 32303231 2031313A 30373A34 /08/2021 11:07:4
+ 11:07:48.... septransp.cxx.1364: 1248->36A13030 2E020400 00000002 04000000 6.00............
+ 11:07:48.... septransp.cxx.1364: 1264->00020400 00000002 04000000 00020400 ................
+ 11:07:48.... septransp.cxx.1364: 1280->00000004 0E737461 74207365 70617261 .....stat separa
+ 11:07:48.... septransp.cxx.1364: 1296->746F7200                            tor.            
+ 11:07:48.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:07:48..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:07:48..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:07:48.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:07:48.... septransp.cxx.350: Entry in Lock: 0x7f3cfc225b68
+ 11:07:48.... septransp.cxx.350: Exit from Lock: 0x7f3cfc225b68
+ 11:07:48.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 3110 aCtxt[dial]: 0xffffffffffffffff
+ 11:07:48.... septransp.cxx.351: Entry in UnLock: 0x7f3cfc225b68
+ 11:07:48.... septransp.cxx.351: Exit from UnLock: 0x7f3cfc225b68
+ 11:07:48..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:07:48..... sliclass.h.169: dial: 1161 aCtxt[dial]: 0xffffffffffffffff
+ 11:07:48..... getDial.hxx.10: sepConf.currentDial:44*100/nDial:10000=0, time(0):1629351468<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:07:48...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:07:48...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=45
+ 11:07:48...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:07:48..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 1161, dialogue_id: 3110, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:07:48..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:07:48.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40053260, nEntry=0, nWait=0, threadId=-1
+ 11:07:48.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40053260, nEntry=1, nWait=1, threadId=33
+ 11:07:48..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:07:48...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:07:48...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:07:48...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:07:48...... threadtransp.cxx.634: Free thread in pool: 26
+ 11:07:48...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:07:48..... threadtransp.cxx.348: Assign thread 26 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:07:48..... threadtransp.cxx.260: 0x7f3c4b955fa0 Message for thread 26, origThread=33
+ 11:07:48..... threadtransp.cxx.260: 0000->00000000 260C0000 89040000 3C7F0000 ....&.......<..
+ 11:07:48..... threadtransp.cxx.260: 0016->A0520540 3C7F0000                   .R.@<..        
+ 11:07:48..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:07:48.... septransp.cxx.350: Entry in Lock: 0x7f3cfc225b68
+ 11:07:48.... septransp.cxx.350: Exit from Lock: 0x7f3cfc225b68
+ 11:07:48.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 3110 aCtxt[dial]: 0x7f3c40055130
+ 11:07:48.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40053260, nEntry=0, nWait=0, threadId=-1
+ 11:07:48.... septransp.cxx.351: Entry in UnLock: 0x7f3cfc225b68
+ 11:07:48.... septransp.cxx.351: Exit from UnLock: 0x7f3cfc225b68
+ 11:07:48.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40053260, nEntry=1, nWait=1, threadId=33
+ 11:07:48.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:07:48... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:07:48... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:07:48... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:07:48.. slitf.cxx.2771: Waiting incoming message during 17355 msec ...
+ 11:07:48.. transp.cxx.64: Transport ROUTER:fd=216, flags=FD_READ | 
+ 11:07:48.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:07:48.. transp.cxx.64: Transport ROUTER:fd=225, flags=FD_READ | 
+ 11:07:48.. transp.cxx.64: Transport THREAD:fd=196, flags=FD_READ | 
+ 11:07:48.. slitf.cxx.2779: MaxFD = 4
+ 11:07:57.. slitf.cxx.2849: calling Event on FD 220 (nbFD=1) for TRANSPORT 'ROUTER' index 1
+ 11:07:57.. transp.cxx.127: READ event transport ROUTER, FD= 220
+ 11:07:57... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:07:57... tcptransp.cxx.1285: For transport ROUTER
+ 11:07:57... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c4004fd60, nEntry=0, nWait=0, threadId=-1
+ 11:07:57... tcptransp.cxx.1347: Read Event: SepName: pfmddup-PSMF-2 (15), cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:07:57.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:07:57.... dpesocket.cxx.69: New message length to read:4
+ 11:07:57.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:07:57.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:07:57.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:07:57.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:07:57.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:07:57.... dpesocket.cxx.69: New message length to read:861
+ 11:07:57.... dpesocket.cxx.159: Message length to read:861, full message length=861
+ 11:07:57.... dpesocket.cxx.189: nRead=861, alreadyRead=0, in.length()=861
+ 11:07:57.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:07:57.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:07:57... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c4004fd60, nEntry=1, nWait=1, threadId=33
+ 11:07:57.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:07:57.... septransp.cxx.1070: hd=orig=15, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=ROUTING IGNOREERROR NEWTRANSACTION (b0), version=1
+ 11:07:57.... septransp.cxx.1364: 0x7f3c4005269d DATA received : 
+ 11:07:57.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:07:57.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:07:57.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:07:57.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:07:57.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:07:57.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:07:57.... septransp.cxx.1364: 0096->636F6E74 00FFD502 00000168 6F73745F cont.......host_
+ 11:07:57.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:07:57.... septransp.cxx.1364: 0128->0F000000 73657276 5F696400 04050000 ....serv_id.....
+ 11:07:57.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:07:57.... septransp.cxx.1364: 0160->745F7469 6D00030B 0739746B 745F746C t_tim....9tkt_tl
+ 11:07:57.... septransp.cxx.1364: 0176->7600FF88 02000030 820284A0 030A0100 v......0........
+ 11:07:57.... septransp.cxx.1364: 0192->A1030201 05308202 76A21730 1502041C .....0..v..0....
+ 11:07:57.... septransp.cxx.1364: 0208->B7BD0F02 04000000 05040770 666D6464 ...........pfmdd
+ 11:07:57.... septransp.cxx.1364: 0224->7570A21C 301A0204 1AC3AF48 02040000 up..0......H....
+ 11:07:57.... septransp.cxx.1364: 0240->0001040C 4F535031 39444556 53544550 ....OSP19DEVSTEP
+ 11:07:57.... septransp.cxx.1364: 0256->A120301E 02040000 003A0204 00000002 . 0......:......
+ 11:07:57.... septransp.cxx.1364: 0272->02040000 00010204 00000001 02040000 ................
+ 11:07:57.... septransp.cxx.1364: 0288->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:07:57.... septransp.cxx.1364: 0304->00020204 00000001 02040000 00020204 ................
+ 11:07:57.... septransp.cxx.1364: 0320->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:07:57.... septransp.cxx.1364: 0336->00000002 02040000 00010204 00000003 ................
+ 11:07:57.... septransp.cxx.1364: 0352->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:07:57.... septransp.cxx.1364: 0368->02040000 00030204 00000001 02040000 ................
+ 11:07:57.... septransp.cxx.1364: 0384->00010204 00000000 A120301E 02040000 ......... 0.....
+ 11:07:57.... septransp.cxx.1364: 0400->003A0204 00000003 02040000 00010204 .:..............
+ 11:07:57.... septransp.cxx.1364: 0416->00000002 02040000 0000A120 301E0204 ........... 0...
+ 11:07:57.... septransp.cxx.1364: 0432->0000003A 02040000 00010204 00000001 ...:............
+ 11:07:57.... septransp.cxx.1364: 0448->02040000 00020204 00000000 A120301E ............. 0.
+ 11:07:57.... septransp.cxx.1364: 0464->02040000 003A0204 00000001 02040000 .....:..........
+ 11:07:57.... septransp.cxx.1364: 0480->00010204 00000003 02040000 0000A120 ............... 
+ 11:07:57.... septransp.cxx.1364: 0496->301E0204 0000003A 02040000 00040204 0......:........
+ 11:07:57.... septransp.cxx.1364: 0512->00000001 02040000 00010204 00000000 ................
+ 11:07:57.... septransp.cxx.1364: 0528->A120301E 02040000 003A0204 00000004 . 0......:......
+ 11:07:57.... septransp.cxx.1364: 0544->02040000 00010204 00000002 02040000 ................
+ 11:07:57.... septransp.cxx.1364: 0560->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:07:57.... septransp.cxx.1364: 0576->00040204 00000001 02040000 00030204 ................
+ 11:07:57.... septransp.cxx.1364: 0592->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:07:57.... septransp.cxx.1364: 0608->00000004 02040000 00010204 00000004 ................
+ 11:07:57.... septransp.cxx.1364: 0624->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:07:57.... septransp.cxx.1364: 0640->02040000 00040204 00000001 02040000 ................
+ 11:07:57.... septransp.cxx.1364: 0656->00050204 00000000 A120301E 02040000 ......... 0.....
+ 11:07:57.... septransp.cxx.1364: 0672->00010204 00000000 02040000 00010204 ................
+ 11:07:57.... septransp.cxx.1364: 0688->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:07:57.... septransp.cxx.1364: 0704->00000001 02040000 00000204 00000006 ................
+ 11:07:57.... septransp.cxx.1364: 0720->02040000 00010204 00000000 A02F302D ............./0-
+ 11:07:57.... septransp.cxx.1364: 0736->02040000 00010204 00000002 02040000 ................
+ 11:07:57.... septransp.cxx.1364: 0752->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:07:57.... septransp.cxx.1364: 0768->32303231 2031313A 30373A35 35A13030 2021 11:07:55.00
+ 11:07:57.... septransp.cxx.1364: 0784->2E020400 00000002 04000000 00020400 ................
+ 11:07:57.... septransp.cxx.1364: 0800->00000002 04000000 00020400 00000004 ................
+ 11:07:57.... septransp.cxx.1364: 0816->0E737461 74207365 70617261 746F7200 .stat separator.
+ 11:07:57.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:07:57..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:07:57..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:07:57.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:07:57.... septransp.cxx.350: Entry in Lock: 0x7f3cfc225b68
+ 11:07:57.... septransp.cxx.350: Exit from Lock: 0x7f3cfc225b68
+ 11:07:57.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 3116 aCtxt[dial]: 0xffffffffffffffff
+ 11:07:57.... septransp.cxx.351: Entry in UnLock: 0x7f3cfc225b68
+ 11:07:57.... septransp.cxx.351: Exit from UnLock: 0x7f3cfc225b68
+ 11:07:57..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:07:57..... sliclass.h.169: dial: 1168 aCtxt[dial]: 0xffffffffffffffff
+ 11:07:57..... getDial.hxx.10: sepConf.currentDial:44*100/nDial:10000=0, time(0):1629351477<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:07:57...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:07:57...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=45
+ 11:07:57...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:07:57..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 1168, dialogue_id: 3116, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:07:57..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:07:57.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40053260, nEntry=0, nWait=0, threadId=-1
+ 11:07:57.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40053260, nEntry=1, nWait=1, threadId=33
+ 11:07:57..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:07:57...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:07:57...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:07:57...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:07:57...... threadtransp.cxx.634: Free thread in pool: 32
+ 11:07:57...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:07:57..... threadtransp.cxx.348: Assign thread 32 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:07:57..... threadtransp.cxx.260: 0x7f3c4b955fa0 Message for thread 32, origThread=33
+ 11:07:57..... threadtransp.cxx.260: 0000->00000000 2C0C0000 90040000 3C7F0000 ....,.......<..
+ 11:07:57..... threadtransp.cxx.260: 0016->C0500540 3C7F0000                   .P.@<..        
+ 11:07:57..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:07:57.... septransp.cxx.350: Entry in Lock: 0x7f3cfc225b68
+ 11:07:57.... septransp.cxx.350: Exit from Lock: 0x7f3cfc225b68
+ 11:07:57.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 3116 aCtxt[dial]: 0x7f3c40054f50
+ 11:07:57.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40053260, nEntry=0, nWait=0, threadId=-1
+ 11:07:57.... septransp.cxx.351: Entry in UnLock: 0x7f3cfc225b68
+ 11:07:57.... septransp.cxx.351: Exit from UnLock: 0x7f3cfc225b68
+ 11:07:57.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40053260, nEntry=1, nWait=1, threadId=33
+ 11:07:57.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:07:57... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:07:57... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:07:57... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:07:57.. slitf.cxx.2771: Waiting incoming message during 7721 msec ...
+ 11:07:57.. transp.cxx.64: Transport ROUTER:fd=216, flags=FD_READ | 
+ 11:07:57.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:07:57.. transp.cxx.64: Transport ROUTER:fd=225, flags=FD_READ | 
+ 11:07:57.. transp.cxx.64: Transport THREAD:fd=196, flags=FD_READ | 
+ 11:07:57.. slitf.cxx.2779: MaxFD = 4
+ 11:08:03.. slitf.cxx.2849: calling Event on FD 225 (nbFD=1) for TRANSPORT 'ROUTER' index 2
+ 11:08:03.. transp.cxx.127: READ event transport ROUTER, FD= 225
+ 11:08:03... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:03... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:03... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40052260, nEntry=0, nWait=0, threadId=-1
+ 11:08:03... tcptransp.cxx.1347: Read Event: SepName: RC-OSP19DEVSTEP (23), cnx 10, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=225, idx=2
+ 11:08:03.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:03.... dpesocket.cxx.69: New message length to read:4
+ 11:08:03.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:08:03.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:08:03.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:03.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:03.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:03.... dpesocket.cxx.69: New message length to read:1329
+ 11:08:03.... dpesocket.cxx.159: Message length to read:1329, full message length=1329
+ 11:08:03.... dpesocket.cxx.189: nRead=1329, alreadyRead=0, in.length()=1329
+ 11:08:03.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:03.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:03... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40052260, nEntry=1, nWait=1, threadId=33
+ 11:08:03.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:08:03.... septransp.cxx.1070: hd=orig=23, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=RECOVERY ROUTING IGNOREERROR NEWTRANSACTION (b1), version=1
+ 11:08:03.... septransp.cxx.1364: 0x7f3c4005401d DATA received : 
+ 11:08:03.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:08:03.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:08:03.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:08:03.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:08:03.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:08:03.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:08:03.... septransp.cxx.1364: 0096->636F6E74 00FFA904 00000168 6F73745F cont.......host_
+ 11:08:03.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:08:03.... septransp.cxx.1364: 0128->17000000 73657276 5F696400 04100000 ....serv_id.....
+ 11:08:03.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:08:03.... septransp.cxx.1364: 0160->745F7469 6D00030B 0803746B 745F746C t_tim.....tkt_tl
+ 11:08:03.... septransp.cxx.1364: 0176->7600FF5C 04000030 820458A0 030A0102 v..\...0..X.....
+ 11:08:03.... septransp.cxx.1364: 0192->A1030201 10308204 4AA21A30 1802041C .....0..J..0....
+ 11:08:03.... septransp.cxx.1364: 0208->B7BD0F02 04000000 10040A70 666D6877 ...........pfmhw
+ 11:08:03.... septransp.cxx.1364: 0224->6167656E 74A21C30 1A02041A C3AF4802 agent..0......H.
+ 11:08:03.... septransp.cxx.1364: 0240->04000000 01040C4F 53503139 44455653 .......OSP19DEVS
+ 11:08:03.... septransp.cxx.1364: 0256->544550A1 20301E02 04000000 01020400 TEP. 0..........
+ 11:08:03.... septransp.cxx.1364: 0272->00000002 04000000 01020400 00000102 ................
+ 11:08:03.... septransp.cxx.1364: 0288->04000000 00A12030 1E020400 00000102 ...... 0........
+ 11:08:03.... septransp.cxx.1364: 0304->04000000 00020400 00000602 04000000 ................
+ 11:08:03.... septransp.cxx.1364: 0320->01020400 000000A0 2F302D02 04000000 ......../0-.....
+ 11:08:03.... septransp.cxx.1364: 0336->01020400 00000202 04000000 01020400 ................
+ 11:08:03.... septransp.cxx.1364: 0352->00000504 1331392F 30382F32 30323120 .....19/08/2021 
+ 11:08:03.... septransp.cxx.1364: 0368->31313A30 373A3536 A130302E 02040000 11:07:56.00.....
+ 11:08:03.... septransp.cxx.1364: 0384->00000204 00000000 02040000 00000204 ................
+ 11:08:03.... septransp.cxx.1364: 0400->00000000 02040000 0000040E 73746174 ............stat
+ 11:08:03.... septransp.cxx.1364: 0416->20736570 61726174 6F72A21A 30180204  separator..0...
+ 11:08:03.... septransp.cxx.1364: 0432->1CB7BD0F 02040000 0010040A 70666D68 ............pfmh
+ 11:08:03.... septransp.cxx.1364: 0448->77616765 6E74A21C 301A0204 1AC3AF48 wagent..0......H
+ 11:08:03.... septransp.cxx.1364: 0464->02040000 0001040C 4F535031 39444556 ........OSP19DEV
+ 11:08:03.... septransp.cxx.1364: 0480->53544550 A120301E 02040000 00010204 STEP. 0.........
+ 11:08:03.... septransp.cxx.1364: 0496->00000000 02040000 00010204 00000001 ................
+ 11:08:03.... septransp.cxx.1364: 0512->02040000 0000A120 301E0204 00000001 ....... 0.......
+ 11:08:03.... septransp.cxx.1364: 0528->02040000 00000204 00000006 02040000 ................
+ 11:08:03.... septransp.cxx.1364: 0544->00010204 00000000 A02F302D 02040000 ........./0-....
+ 11:08:03.... septransp.cxx.1364: 0560->00010204 00000002 02040000 00010204 ................
+ 11:08:03.... septransp.cxx.1364: 0576->00000005 04133139 2F30382F 32303231 ......19/08/2021
+ 11:08:03.... septransp.cxx.1364: 0592->2031313A 30373A35 36A13030 2E020400  11:07:56.00....
+ 11:08:03.... septransp.cxx.1364: 0608->00000002 04000000 00020400 00000002 ................
+ 11:08:03.... septransp.cxx.1364: 0624->04000000 00020400 00000004 0E737461 .............sta
+ 11:08:03.... septransp.cxx.1364: 0640->74207365 70617261 746F72A0 2F302D02 t separator./0-.
+ 11:08:03.... septransp.cxx.1364: 0656->04000000 01020400 00000202 04000000 ................
+ 11:08:03.... septransp.cxx.1364: 0672->01020400 00000504 1331392F 30382F32 .........19/08/2
+ 11:08:03.... septransp.cxx.1364: 0688->30323120 31313A30 373A3536 A130302E 021 11:07:56.00.
+ 11:08:03.... septransp.cxx.1364: 0704->02040000 00000204 00000000 02040000 ................
+ 11:08:03.... septransp.cxx.1364: 0720->00000204 00000000 02040000 0000040E ................
+ 11:08:03.... septransp.cxx.1364: 0736->73746174 20736570 61726174 6F72A21A stat separator..
+ 11:08:03.... septransp.cxx.1364: 0752->30180204 1CB7BD0F 02040000 0010040A 0...............
+ 11:08:03.... septransp.cxx.1364: 0768->70666D68 77616765 6E74A21C 301A0204 pfmhwagent..0...
+ 11:08:03.... septransp.cxx.1364: 0784->1AC3AF48 02040000 0001040C 4F535031 ...H........OSP1
+ 11:08:03.... septransp.cxx.1364: 0800->39444556 53544550 A120301E 02040000 9DEVSTEP. 0.....
+ 11:08:03.... septransp.cxx.1364: 0816->00010204 00000000 02040000 00010204 ................
+ 11:08:03.... septransp.cxx.1364: 0832->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:08:03.... septransp.cxx.1364: 0848->00000001 02040000 00000204 00000006 ................
+ 11:08:03.... septransp.cxx.1364: 0864->02040000 00010204 00000000 A02F302D ............./0-
+ 11:08:03.... septransp.cxx.1364: 0880->02040000 00010204 00000002 02040000 ................
+ 11:08:03.... septransp.cxx.1364: 0896->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:08:03.... septransp.cxx.1364: 0912->32303231 2031313A 30373A35 37A13030 2021 11:07:57.00
+ 11:08:03.... septransp.cxx.1364: 0928->2E020400 00000002 04000000 00020400 ................
+ 11:08:03.... septransp.cxx.1364: 0944->00000002 04000000 00020400 00000004 ................
+ 11:08:03.... septransp.cxx.1364: 0960->0E737461 74207365 70617261 746F72A2 .stat separator.
+ 11:08:03.... septransp.cxx.1364: 0976->1A301802 041CB7BD 0F020400 00001004 .0..............
+ 11:08:03.... septransp.cxx.1364: 0992->0A70666D 68776167 656E74A2 1C301A02 .pfmhwagent..0..
+ 11:08:03.... septransp.cxx.1364: 1008->041AC3AF 48020400 00000104 0C4F5350 ....H........OSP
+ 11:08:03.... septransp.cxx.1364: 1024->31394445 56535445 50A12030 1E020400 19DEVSTEP. 0....
+ 11:08:03.... septransp.cxx.1364: 1040->00000102 04000000 00020400 00000102 ................
+ 11:08:03.... septransp.cxx.1364: 1056->04000000 01020400 000000A1 20301E02 ............ 0..
+ 11:08:03.... septransp.cxx.1364: 1072->04000000 01020400 00000002 04000000 ................
+ 11:08:03.... septransp.cxx.1364: 1088->06020400 00000102 04000000 00A02F30 ............../0
+ 11:08:03.... septransp.cxx.1364: 1104->2D020400 00000102 04000000 02020400 -...............
+ 11:08:03.... septransp.cxx.1364: 1120->00000102 04000000 05041331 392F3038 ...........19/08
+ 11:08:03.... septransp.cxx.1364: 1136->2F323032 31203131 3A30373A 3537A130 /2021 11:07:57.0
+ 11:08:03.... septransp.cxx.1364: 1152->302E0204 00000000 02040000 00000204 0...............
+ 11:08:03.... septransp.cxx.1364: 1168->00000000 02040000 00000204 00000000 ................
+ 11:08:03.... septransp.cxx.1364: 1184->040E7374 61742073 65706172 61746F72 ..stat separator
+ 11:08:03.... septransp.cxx.1364: 1200->A02F302D 02040000 00010204 00000002 ./0-............
+ 11:08:03.... septransp.cxx.1364: 1216->02040000 00010204 00000005 04133139 ..............19
+ 11:08:03.... septransp.cxx.1364: 1232->2F30382F 32303231 2031313A 30373A35 /08/2021 11:07:5
+ 11:08:03.... septransp.cxx.1364: 1248->37A13030 2E020400 00000002 04000000 7.00............
+ 11:08:03.... septransp.cxx.1364: 1264->00020400 00000002 04000000 00020400 ................
+ 11:08:03.... septransp.cxx.1364: 1280->00000004 0E737461 74207365 70617261 .....stat separa
+ 11:08:03.... septransp.cxx.1364: 1296->746F7200                            tor.            
+ 11:08:03.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:08:03..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:08:03..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:03.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:03.... septransp.cxx.350: Entry in Lock: 0x7f3cfc225b68
+ 11:08:03.... septransp.cxx.350: Exit from Lock: 0x7f3cfc225b68
+ 11:08:03.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 3121 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:03.... septransp.cxx.351: Entry in UnLock: 0x7f3cfc225b68
+ 11:08:03.... septransp.cxx.351: Exit from UnLock: 0x7f3cfc225b68
+ 11:08:03..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:08:03..... sliclass.h.169: dial: 1174 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:03..... getDial.hxx.10: sepConf.currentDial:44*100/nDial:10000=0, time(0):1629351483<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:08:03...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:08:03...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=45
+ 11:08:03...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:08:03..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 1174, dialogue_id: 3121, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:08:03..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:03.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40052280, nEntry=0, nWait=0, threadId=-1
+ 11:08:03.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40052280, nEntry=1, nWait=1, threadId=33
+ 11:08:03..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:08:03...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:08:03...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:08:03...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:08:03...... threadtransp.cxx.634: Free thread in pool: 25
+ 11:08:03...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:08:03..... threadtransp.cxx.348: Assign thread 25 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:03..... threadtransp.cxx.260: 0x7f3c4b955fa0 Message for thread 25, origThread=33
+ 11:08:03..... threadtransp.cxx.260: 0000->00000000 310C0000 96040000 3C7F0000 ....1.......<..
+ 11:08:03..... threadtransp.cxx.260: 0016->A0520540 3C7F0000                   .R.@<..        
+ 11:08:03..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:03.... septransp.cxx.350: Entry in Lock: 0x7f3cfc225b68
+ 11:08:03.... septransp.cxx.350: Exit from Lock: 0x7f3cfc225b68
+ 11:08:03.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 3121 aCtxt[dial]: 0x7f3c40055130
+ 11:08:03.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40052280, nEntry=0, nWait=0, threadId=-1
+ 11:08:03.... septransp.cxx.351: Entry in UnLock: 0x7f3cfc225b68
+ 11:08:03.... septransp.cxx.351: Exit from UnLock: 0x7f3cfc225b68
+ 11:08:03.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40052280, nEntry=1, nWait=1, threadId=33
+ 11:08:03.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:03... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:03... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:03... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:03.. slitf.cxx.2771: Waiting incoming message during 2354 msec ...
+ 11:08:03.. transp.cxx.64: Transport ROUTER:fd=216, flags=FD_READ | 
+ 11:08:03.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:03.. transp.cxx.64: Transport ROUTER:fd=225, flags=FD_READ | 
+ 11:08:03.. transp.cxx.64: Transport THREAD:fd=196, flags=FD_READ | 
+ 11:08:03.. slitf.cxx.2779: MaxFD = 4
+ 11:08:05... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:05.... septransp.cxx.2508: { Entry in 'DPE_TRANSPORT::TimerExpired' [Aug 10 2021 18:46:50]
+ 11:08:05..... tcptransp.cxx.1079: { Entry in 'TCP_TRANSP::TimerExpired' [Jul 19 2019 17:50:30]
+ 11:08:05..... tcptransp.cxx.1080: For transport ROUTER
+ 11:08:05..... tcptransp.cxx.1081: tim=-1
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 0
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x196ecb0, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... tcptransp.cxx.1122: *pCnx=SEP RI=0, cnx 0, host : , port 20022, length type : LONG_NT, status=SERVER, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=216, idx=0
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x196ecb0, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 1
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x1c05d90, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x1c05d90, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 2
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40053330, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40053330, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 3
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40045990, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40045990, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 4
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c7c299700, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c7c299700, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 5
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c4004fd60, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... tcptransp.cxx.1122: *pCnx=SepName: pfmddup-PSMF-2 (15), cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c4004fd60, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 6
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40053430, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40053430, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 7
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40053450, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40053450, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 8
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40051870, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40051870, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 9
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40050fe0, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40050fe0, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 10
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40052260, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... tcptransp.cxx.1122: *pCnx=SepName: RC-OSP19DEVSTEP (23), cnx 10, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=225, idx=2
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40052260, nEntry=1, nWait=1, threadId=33
+ 11:08:05..... tcptransp.cxx.1113: Testing connection 11
+ 11:08:05..... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40048330, nEntry=0, nWait=0, threadId=-1
+ 11:08:05..... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40048330, nEntry=1, nWait=1, threadId=33
+ 11:08:05...... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jul 19 2019 17:50:35]
+ 11:08:05...... slitf.cxx.1473: Setting timer t=60000 msec with idenfier -1 on SLI context : -2
+ 11:08:05...... tcptransp.cxx: Exiting from 'SLITF::SetTimer' to 'TCP_TRANSP::TimerExpired' }
+ 11:08:05..... septransp.cxx: Exiting from 'TCP_TRANSP::TimerExpired' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:08:05.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:08:05... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:05.. slitf.cxx.2771: Waiting incoming message during 60000 msec ...
+ 11:08:05.. transp.cxx.64: Transport ROUTER:fd=216, flags=FD_READ | 
+ 11:08:05.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:05.. transp.cxx.64: Transport ROUTER:fd=225, flags=FD_READ | 
+ 11:08:05.. transp.cxx.64: Transport THREAD:fd=196, flags=FD_READ | 
+ 11:08:05.. slitf.cxx.2779: MaxFD = 4
+ 11:08:07.. slitf.cxx.2849: calling Event on FD 220 (nbFD=1) for TRANSPORT 'ROUTER' index 1
+ 11:08:07.. transp.cxx.127: READ event transport ROUTER, FD= 220
+ 11:08:07... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:07... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:07... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c4004fd60, nEntry=0, nWait=0, threadId=-1
+ 11:08:07... tcptransp.cxx.1347: Read Event: SepName: pfmddup-PSMF-2 (15), cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:08:07.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:07.... dpesocket.cxx.69: New message length to read:4
+ 11:08:07.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:08:07.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:08:07.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:07.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:07.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:07.... dpesocket.cxx.69: New message length to read:861
+ 11:08:07.... dpesocket.cxx.159: Message length to read:861, full message length=861
+ 11:08:07.... dpesocket.cxx.189: nRead=861, alreadyRead=0, in.length()=861
+ 11:08:07.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:07.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:07... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c4004fd60, nEntry=1, nWait=1, threadId=33
+ 11:08:07.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:08:07.... septransp.cxx.1070: hd=orig=15, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=ROUTING IGNOREERROR NEWTRANSACTION (b0), version=1
+ 11:08:07.... septransp.cxx.1364: 0x7f3c4005269d DATA received : 
+ 11:08:07.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:08:07.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:08:07.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:08:07.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:08:07.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:08:07.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:08:07.... septransp.cxx.1364: 0096->636F6E74 00FFD502 00000168 6F73745F cont.......host_
+ 11:08:07.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:08:07.... septransp.cxx.1364: 0128->0F000000 73657276 5F696400 04050000 ....serv_id.....
+ 11:08:07.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:08:07.... septransp.cxx.1364: 0160->745F7469 6D00030B 0807746B 745F746C t_tim.....tkt_tl
+ 11:08:07.... septransp.cxx.1364: 0176->7600FF88 02000030 820284A0 030A0100 v......0........
+ 11:08:07.... septransp.cxx.1364: 0192->A1030201 05308202 76A21730 1502041C .....0..v..0....
+ 11:08:07.... septransp.cxx.1364: 0208->B7BD0F02 04000000 05040770 666D6464 ...........pfmdd
+ 11:08:07.... septransp.cxx.1364: 0224->7570A21C 301A0204 1AC3AF48 02040000 up..0......H....
+ 11:08:07.... septransp.cxx.1364: 0240->0001040C 4F535031 39444556 53544550 ....OSP19DEVSTEP
+ 11:08:07.... septransp.cxx.1364: 0256->A120301E 02040000 003A0204 00000002 . 0......:......
+ 11:08:07.... septransp.cxx.1364: 0272->02040000 00010204 00000001 02040000 ................
+ 11:08:07.... septransp.cxx.1364: 0288->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:07.... septransp.cxx.1364: 0304->00020204 00000001 02040000 00020204 ................
+ 11:08:07.... septransp.cxx.1364: 0320->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:07.... septransp.cxx.1364: 0336->00000002 02040000 00010204 00000003 ................
+ 11:08:07.... septransp.cxx.1364: 0352->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:07.... septransp.cxx.1364: 0368->02040000 00030204 00000001 02040000 ................
+ 11:08:07.... septransp.cxx.1364: 0384->00010204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:07.... septransp.cxx.1364: 0400->003A0204 00000003 02040000 00010204 .:..............
+ 11:08:07.... septransp.cxx.1364: 0416->00000002 02040000 0000A120 301E0204 ........... 0...
+ 11:08:07.... septransp.cxx.1364: 0432->0000003A 02040000 00010204 00000001 ...:............
+ 11:08:07.... septransp.cxx.1364: 0448->02040000 00020204 00000000 A120301E ............. 0.
+ 11:08:07.... septransp.cxx.1364: 0464->02040000 003A0204 00000001 02040000 .....:..........
+ 11:08:07.... septransp.cxx.1364: 0480->00010204 00000003 02040000 0000A120 ............... 
+ 11:08:07.... septransp.cxx.1364: 0496->301E0204 0000003A 02040000 00040204 0......:........
+ 11:08:07.... septransp.cxx.1364: 0512->00000001 02040000 00010204 00000000 ................
+ 11:08:07.... septransp.cxx.1364: 0528->A120301E 02040000 003A0204 00000004 . 0......:......
+ 11:08:07.... septransp.cxx.1364: 0544->02040000 00010204 00000002 02040000 ................
+ 11:08:07.... septransp.cxx.1364: 0560->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:07.... septransp.cxx.1364: 0576->00040204 00000001 02040000 00030204 ................
+ 11:08:07.... septransp.cxx.1364: 0592->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:07.... septransp.cxx.1364: 0608->00000004 02040000 00010204 00000004 ................
+ 11:08:07.... septransp.cxx.1364: 0624->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:07.... septransp.cxx.1364: 0640->02040000 00040204 00000001 02040000 ................
+ 11:08:07.... septransp.cxx.1364: 0656->00050204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:07.... septransp.cxx.1364: 0672->00010204 00000000 02040000 00010204 ................
+ 11:08:07.... septransp.cxx.1364: 0688->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:08:07.... septransp.cxx.1364: 0704->00000001 02040000 00000204 00000006 ................
+ 11:08:07.... septransp.cxx.1364: 0720->02040000 00010204 00000000 A02F302D ............./0-
+ 11:08:07.... septransp.cxx.1364: 0736->02040000 00010204 00000002 02040000 ................
+ 11:08:07.... septransp.cxx.1364: 0752->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:08:07.... septransp.cxx.1364: 0768->32303231 2031313A 30383A30 35A13030 2021 11:08:05.00
+ 11:08:07.... septransp.cxx.1364: 0784->2E020400 00000002 04000000 00020400 ................
+ 11:08:07.... septransp.cxx.1364: 0800->00000002 04000000 00020400 00000004 ................
+ 11:08:07.... septransp.cxx.1364: 0816->0E737461 74207365 70617261 746F7200 .stat separator.
+ 11:08:07.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:08:07..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:08:07..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:07.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:07.... septransp.cxx.350: Entry in Lock: 0x7f3cfc225b68
+ 11:08:07.... septransp.cxx.350: Exit from Lock: 0x7f3cfc225b68
+ 11:08:07.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 3124 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:07.... septransp.cxx.351: Entry in UnLock: 0x7f3cfc225b68
+ 11:08:07.... septransp.cxx.351: Exit from UnLock: 0x7f3cfc225b68
+ 11:08:07..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:08:07..... sliclass.h.169: dial: 1177 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:07..... getDial.hxx.10: sepConf.currentDial:44*100/nDial:10000=0, time(0):1629351487<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:08:07...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:08:07...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=45
+ 11:08:07...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:08:07..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 1177, dialogue_id: 3124, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:08:07..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:07.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40052240, nEntry=0, nWait=0, threadId=-1
+ 11:08:07.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40052240, nEntry=1, nWait=1, threadId=33
+ 11:08:07..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:08:07...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:08:07...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:08:07...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:08:07...... threadtransp.cxx.634: Free thread in pool: 28
+ 11:08:07...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:08:07..... threadtransp.cxx.348: Assign thread 28 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:07..... threadtransp.cxx.260: 0x7f3c4b955fa0 Message for thread 28, origThread=33
+ 11:08:07..... threadtransp.cxx.260: 0000->00000000 340C0000 99040000 3C7F0000 ....4.......<..
+ 11:08:07..... threadtransp.cxx.260: 0016->C0500540 3C7F0000                   .P.@<..        
+ 11:08:07..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:07.... septransp.cxx.350: Entry in Lock: 0x7f3cfc225b68
+ 11:08:07.... septransp.cxx.350: Exit from Lock: 0x7f3cfc225b68
+ 11:08:07.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 3124 aCtxt[dial]: 0x7f3c40054f50
+ 11:08:07.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7f3c40052240, nEntry=0, nWait=0, threadId=-1
+ 11:08:07.... septransp.cxx.351: Entry in UnLock: 0x7f3cfc225b68
+ 11:08:07.... septransp.cxx.351: Exit from UnLock: 0x7f3cfc225b68
+ 11:08:07.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7f3c40052240, nEntry=1, nWait=1, threadId=33
+ 11:08:07.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:07... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:07... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:07... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:07.. slitf.cxx.2771: Waiting incoming message during 57722 msec ...
+ 11:08:07.. transp.cxx.64: Transport ROUTER:fd=216, flags=FD_READ | 
+ 11:08:07.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:07.. transp.cxx.64: Transport ROUTER:fd=225, flags=FD_READ | 
+ 11:08:07.. transp.cxx.64: Transport THREAD:fd=196, flags=FD_READ | 
+ 11:08:07.. slitf.cxx.2779: MaxFD = 4
+ 11:08:25. threadtransp.cxx.533: { Entry in 'ThreadInit' [Jul 19 2019 17:50:26]
+ 11:08:25.. chaintask.cxx.49: { Entry in 'MAKE_CHAIN::ExecuteAll' [Jan 13 2019 20:40:51]
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'Transport ROUTER' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'Transport RECOVERY TRANSPORT' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. object.cxx.201: ptr: this:0x7fe2800011b0
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'Pfmstat statcmd thrctxt' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'alarm SUB_NAME' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'DATABASE cnx' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. shmdb.cxx.4328: Create new SHMDB_ThreadList array with sz=22
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'Transport LOCAL' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'Transport THREAD' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'CMD log' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'Transport AsynchMsg' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'ml_CATGETS' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'stat ASN buf' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'STAT GLOBAL TICKET THREAD CONTEXT' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'Trace Thread' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:25.. chaintask.cxx.53: Calling 'BSMP_Thread' for chain 'Thread Context'
+ 11:08:25.. threadtransp.cxx: Exiting from 'MAKE_CHAIN::ExecuteAll' to 'ThreadInit' }
+ 11:08:25. threadtransp.cxx.537: +++++++++++++++++++++++++++++++++++++++++++++++++++
+Starting new Thread id=33 at 19/08/2021 11:08:25
+ 11:08:25.. threadtransp.cxx.171: { Entry in 'THREAD_TRANSP::InitiateDial' [Jul 19 2019 17:50:26]
+ 11:08:25.. threadtransp.cxx.173: ctxt=0x2a0f9b0, _threadID=33
+ 11:08:25.. threadtransp.cxx: Exiting from 'THREAD_TRANSP::InitiateDial' to 'ThreadInit' }
+ 11:08:25.. slitf.cxx.2668: { Entry in 'SLITF::TreatMessage' [Jul 19 2019 17:50:35]
+ 11:08:25... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:25... slitf.cxx.1496: No timers
+ 11:08:25... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:25.. slitf.cxx.2771: Waiting incoming message during indefinitely 
+ 11:08:25.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:25.. slitf.cxx.2779: MaxFD = 1
+ 11:08:25.. slitf.cxx.2849: calling Event on FD 195 (nbFD=1) for TRANSPORT 'THREAD' index 0
+ 11:08:25.. transp.cxx.127: READ event transport THREAD, FD= 195
+ 11:08:25... threadtransp.cxx.208: { Entry in 'THREAD_TRANSP::ReadEvent' [Jul 19 2019 17:50:26]
+ 11:08:25... threadtransp.cxx.218: 0x7fe280045990 Message received : 
+ 11:08:25... threadtransp.cxx.218: 0000->01000000 E37F0000 E027A802 00000000 ........'......
+ 11:08:25... threadtransp.cxx.218: 0016->C059A43F E37F0000                   .Y.?...        
+ 11:08:25... threadtransp.cxx.238: Refresh on transport ROUTER
+ 11:08:25.... regexp.cxx.25: { Entry in 'REGEXP::REGEXP' [Jan 13 2019 20:40:33]
+ 11:08:25.... regexp.cxx.26: patstr=::ffff:[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}
+ 11:08:25.... /osp/sde/osp19_src_view/lib/platform/intypes/i_linux_regexp.h.207: return ok during regexp compilation
+ 11:08:25.... threadtransp.cxx: Exiting from 'REGEXP::REGEXP' to 'THREAD_TRANSP::ReadEvent' }
+ 11:08:25.... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:25.... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:25.... transp.cxx.298: TRANSPORT::Entry, (this)=0x2bde460, nEntry=0, nWait=0, threadId=-1
+ 11:08:25..... tcptransp.cxx.785: { Entry in 'TCP_CNX::NewFD' [Jul 19 2019 17:50:30]
+ 11:08:25..... tcptransp.cxx.786: For transport ROUTER
+ 11:08:25..... tcptransp.cxx.841: nCnx[0]=1 for thread 33
+ 11:08:25..... tcptransp.cxx.92: Starting reconnect timer value 60 for thread: 33
+ 11:08:25...... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jul 19 2019 17:50:35]
+ 11:08:25...... slitf.cxx.1473: Setting timer t=60000 msec with idenfier -1 on SLI context : -2
+ 11:08:25...... tcptransp.cxx: Exiting from 'SLITF::SetTimer' to 'TCP_CNX::NewFD' }
+ 11:08:25..... tcptransp.cxx.861: Add a new FD: fd=215, flags=FD_READ |  at index 0
+ 11:08:25..... tcptransp.cxx: Exiting from 'TCP_CNX::NewFD' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:25.... transp.cxx.278: TRANSPORT::Exit, (this)=0x2bde460, nEntry=1, nWait=1, threadId=33
+ 11:08:25.... threadtransp.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'THREAD_TRANSP::ReadEvent' }
+ 11:08:25... slitf.cxx: Exiting from 'THREAD_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:25... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:25... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:25.. slitf.cxx.2771: Waiting incoming message during 60000 msec ...
+ 11:08:25.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:25.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:25.. slitf.cxx.2779: MaxFD = 2
+ 11:08:26.. slitf.cxx.2849: calling Event on FD 215 (nbFD=1) for TRANSPORT 'ROUTER' index 0
+ 11:08:26.. transp.cxx.127: READ event transport ROUTER, FD= 215
+ 11:08:26... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:26... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:26... transp.cxx.298: TRANSPORT::Entry, (this)=0x2bde460, nEntry=0, nWait=0, threadId=-1
+ 11:08:26... tcptransp.cxx.1347: Read Event: SEP RI=0, cnx 0, host : , port 20022, length type : LONG_NT, status=SERVER, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=215, idx=0
+ 11:08:26... transp.cxx.278: TRANSPORT::Exit, (this)=0x2bde460, nEntry=1, nWait=1, threadId=33
+ 11:08:26.... tcptransp.cxx.70: { Entry in 'TCP_CNX::TCP_CNX' [Jul 19 2019 17:50:30]
+ 11:08:26.... tcptransp.cxx: Exiting from 'TCP_CNX::TCP_CNX' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:26... tcptransp.cxx.103: lockRef :0x7fe280045990
+ 11:08:26... socket.cxx.1090: socket_t::accept
+ 11:08:26... socket.cxx.1199: socket_t::getNonBlock
+ 11:08:26... socket.cxx.1170: socket_t::setNonBlock
+ 11:08:26... tcptransp.cxx.1375: Accept OK : Success (0) FD: 218
+ 11:08:26... tcptransp.cxx.1389:  IPV6 
+ 11:08:26.... regexp.cxx.41: { Entry in 'REGEXP::match' [Jan 13 2019 20:40:33]
+ 11:08:26.... regexp.cxx.42: line=::ffff:172.19.26.67
+ 11:08:26.... regexp.cxx.44: match=1
+ 11:08:26.... tcptransp.cxx: Exiting from 'REGEXP::match' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:26... tcptransp.cxx.1398: ipv4-mapped ipv6 addr
+ 11:08:26.... tcptransp.cxx.592: { Entry in 'TCP_TRANSP::StoreSock' [Jul 19 2019 17:50:30]
+ 11:08:26.... tcptransp.cxx.593: For transport ROUTER
+ 11:08:26..... tcptransp.cxx.785: { Entry in 'TCP_CNX::NewFD' [Jul 19 2019 17:50:30]
+ 11:08:26..... tcptransp.cxx.786: For transport ROUTER
+ 11:08:26..... tcptransp.cxx.829: Transfer to thread 36, nThread=5, nCnx[3]=0
+ 11:08:26..... tcptransp.cxx.832: Refresh Thread 36 for cnx=3, action=newFD
+ 11:08:26...... threadtransp.cxx.405: { Entry in 'SLITF::RefreshTransport' [Jul 19 2019 17:50:26]
+ 11:08:26...... threadtransp.cxx.260: 0x7fe293155730 Message for thread 36, origThread=33
+ 11:08:26...... threadtransp.cxx.260: 0000->01000000 E27F0000 60FD0480 E27F0000 .......`......
+ 11:08:26...... threadtransp.cxx.260: 0016->C059A43F E37F0000                   .Y.?...        
+ 11:08:26...... tcptransp.cxx: Exiting from 'SLITF::RefreshTransport' to 'TCP_CNX::NewFD' }
+ 11:08:26..... tcptransp.cxx: Exiting from 'TCP_CNX::NewFD' to 'TCP_TRANSP::StoreSock' }
+ 11:08:26.... tcptransp.cxx.608: Store cnx 3
+ 11:08:26.... tcptransp.cxx: Exiting from 'TCP_TRANSP::StoreSock' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:26... tcptransp.cxx.1408: New connection accepted: SEP RI=0, cnx 3, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=36, bWr=0, rdStatus=0, bRestricted=0, fd=218, idx=-1
+ 11:08:26.... septransp.cxx.719: { Entry in 'DPE_TRANSPORT::Accept' [Aug 10 2021 18:46:50]
+ 11:08:26.... septransp.cxx.723: set TCP_NODELAY
+ 11:08:26.... dpesocket.cxx.401: maxBuffer=50, restrictedTreshold=33, unrestrictedTreshold=32
+ 11:08:26.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::Accept' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:26... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:26... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:26... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:26.. slitf.cxx.2771: Waiting incoming message during 58373 msec ...
+ 11:08:26.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:26.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:26.. slitf.cxx.2779: MaxFD = 2
+ 11:08:27.. slitf.cxx.2849: calling Event on FD 215 (nbFD=1) for TRANSPORT 'ROUTER' index 0
+ 11:08:27.. transp.cxx.127: READ event transport ROUTER, FD= 215
+ 11:08:27... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:27... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:27... transp.cxx.298: TRANSPORT::Entry, (this)=0x2bde460, nEntry=0, nWait=0, threadId=-1
+ 11:08:27... tcptransp.cxx.1347: Read Event: SEP RI=0, cnx 0, host : , port 20022, length type : LONG_NT, status=SERVER, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=215, idx=0
+ 11:08:27... transp.cxx.278: TRANSPORT::Exit, (this)=0x2bde460, nEntry=1, nWait=1, threadId=33
+ 11:08:27.... tcptransp.cxx.70: { Entry in 'TCP_CNX::TCP_CNX' [Jul 19 2019 17:50:30]
+ 11:08:27.... tcptransp.cxx: Exiting from 'TCP_CNX::TCP_CNX' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:27... tcptransp.cxx.103: lockRef :0x7fe28004fd60
+ 11:08:27... socket.cxx.1090: socket_t::accept
+ 11:08:27... socket.cxx.1199: socket_t::getNonBlock
+ 11:08:27... socket.cxx.1170: socket_t::setNonBlock
+ 11:08:27... tcptransp.cxx.1375: Accept OK : Success (0) FD: 219
+ 11:08:27... tcptransp.cxx.1389:  IPV6 
+ 11:08:27.... regexp.cxx.41: { Entry in 'REGEXP::match' [Jan 13 2019 20:40:33]
+ 11:08:27.... regexp.cxx.42: line=::ffff:172.19.26.67
+ 11:08:27.... regexp.cxx.44: match=1
+ 11:08:27.... tcptransp.cxx: Exiting from 'REGEXP::match' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:27... tcptransp.cxx.1398: ipv4-mapped ipv6 addr
+ 11:08:27.... tcptransp.cxx.592: { Entry in 'TCP_TRANSP::StoreSock' [Jul 19 2019 17:50:30]
+ 11:08:27.... tcptransp.cxx.593: For transport ROUTER
+ 11:08:27..... tcptransp.cxx.785: { Entry in 'TCP_CNX::NewFD' [Jul 19 2019 17:50:30]
+ 11:08:27..... tcptransp.cxx.786: For transport ROUTER
+ 11:08:27..... tcptransp.cxx.829: Transfer to thread 37, nThread=5, nCnx[4]=0
+ 11:08:27..... tcptransp.cxx.832: Refresh Thread 37 for cnx=4, action=newFD
+ 11:08:27...... threadtransp.cxx.405: { Entry in 'SLITF::RefreshTransport' [Jul 19 2019 17:50:26]
+ 11:08:27...... threadtransp.cxx.260: 0x7fe293155730 Message for thread 37, origThread=33
+ 11:08:27...... threadtransp.cxx.260: 0000->01000000 E27F0000 E00F0580 E27F0000 ..............
+ 11:08:27...... threadtransp.cxx.260: 0016->C059A43F E37F0000                   .Y.?...        
+ 11:08:27...... tcptransp.cxx: Exiting from 'SLITF::RefreshTransport' to 'TCP_CNX::NewFD' }
+ 11:08:27..... tcptransp.cxx: Exiting from 'TCP_CNX::NewFD' to 'TCP_TRANSP::StoreSock' }
+ 11:08:27.... tcptransp.cxx.608: Store cnx 4
+ 11:08:27.... tcptransp.cxx: Exiting from 'TCP_TRANSP::StoreSock' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:27... tcptransp.cxx.1408: New connection accepted: SEP RI=0, cnx 4, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=37, bWr=0, rdStatus=0, bRestricted=0, fd=219, idx=-1
+ 11:08:27.... septransp.cxx.719: { Entry in 'DPE_TRANSPORT::Accept' [Aug 10 2021 18:46:50]
+ 11:08:27.... septransp.cxx.723: set TCP_NODELAY
+ 11:08:27.... dpesocket.cxx.401: maxBuffer=50, restrictedTreshold=33, unrestrictedTreshold=32
+ 11:08:27.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::Accept' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:27... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:27... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:27... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:27.. slitf.cxx.2771: Waiting incoming message during 57570 msec ...
+ 11:08:27.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:27.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:27.. slitf.cxx.2779: MaxFD = 2
+ 11:08:28.. slitf.cxx.2849: calling Event on FD 215 (nbFD=1) for TRANSPORT 'ROUTER' index 0
+ 11:08:28.. transp.cxx.127: READ event transport ROUTER, FD= 215
+ 11:08:28... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:28... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:28... transp.cxx.298: TRANSPORT::Entry, (this)=0x2bde460, nEntry=0, nWait=0, threadId=-1
+ 11:08:28... tcptransp.cxx.1347: Read Event: SEP RI=0, cnx 0, host : , port 20022, length type : LONG_NT, status=SERVER, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=215, idx=0
+ 11:08:28... transp.cxx.278: TRANSPORT::Exit, (this)=0x2bde460, nEntry=1, nWait=1, threadId=33
+ 11:08:28.... tcptransp.cxx.70: { Entry in 'TCP_CNX::TCP_CNX' [Jul 19 2019 17:50:30]
+ 11:08:28.... tcptransp.cxx: Exiting from 'TCP_CNX::TCP_CNX' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... tcptransp.cxx.103: lockRef :0x7fe280050fe0
+ 11:08:28... socket.cxx.1090: socket_t::accept
+ 11:08:28... socket.cxx.1199: socket_t::getNonBlock
+ 11:08:28... socket.cxx.1170: socket_t::setNonBlock
+ 11:08:28... tcptransp.cxx.1375: Accept OK : Success (0) FD: 220
+ 11:08:28... tcptransp.cxx.1389:  IPV6 
+ 11:08:28.... regexp.cxx.41: { Entry in 'REGEXP::match' [Jan 13 2019 20:40:33]
+ 11:08:28.... regexp.cxx.42: line=::ffff:172.19.26.67
+ 11:08:28.... regexp.cxx.44: match=1
+ 11:08:28.... tcptransp.cxx: Exiting from 'REGEXP::match' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... tcptransp.cxx.1398: ipv4-mapped ipv6 addr
+ 11:08:28.... tcptransp.cxx.592: { Entry in 'TCP_TRANSP::StoreSock' [Jul 19 2019 17:50:30]
+ 11:08:28.... tcptransp.cxx.593: For transport ROUTER
+ 11:08:28..... tcptransp.cxx.785: { Entry in 'TCP_CNX::NewFD' [Jul 19 2019 17:50:30]
+ 11:08:28..... tcptransp.cxx.786: For transport ROUTER
+ 11:08:28..... tcptransp.cxx.841: nCnx[0]=2 for thread 33
+ 11:08:28..... tcptransp.cxx.861: Add a new FD: fd=220, flags=FD_READ |  at index 1
+ 11:08:28..... tcptransp.cxx: Exiting from 'TCP_CNX::NewFD' to 'TCP_TRANSP::StoreSock' }
+ 11:08:28.... tcptransp.cxx.608: Store cnx 5
+ 11:08:28.... tcptransp.cxx: Exiting from 'TCP_TRANSP::StoreSock' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... tcptransp.cxx.1408: New connection accepted: SEP RI=0, cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:08:28.... septransp.cxx.719: { Entry in 'DPE_TRANSPORT::Accept' [Aug 10 2021 18:46:50]
+ 11:08:28.... septransp.cxx.723: set TCP_NODELAY
+ 11:08:28.... dpesocket.cxx.401: maxBuffer=50, restrictedTreshold=33, unrestrictedTreshold=32
+ 11:08:28.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::Accept' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:28... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:28... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:28.. slitf.cxx.2771: Waiting incoming message during 57228 msec ...
+ 11:08:28.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:28.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:28.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:28.. slitf.cxx.2779: MaxFD = 3
+ 11:08:28.. slitf.cxx.2849: calling Event on FD 220 (nbFD=1) for TRANSPORT 'ROUTER' index 1
+ 11:08:28.. transp.cxx.127: READ event transport ROUTER, FD= 220
+ 11:08:28... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:28... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:28... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280050fe0, nEntry=0, nWait=0, threadId=-1
+ 11:08:28... tcptransp.cxx.1347: Read Event: SEP RI=0, cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:08:28.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:28.... dpesocket.cxx.69: New message length to read:4
+ 11:08:28.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:08:28.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:08:28.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:28.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:28.... dpesocket.cxx.69: New message length to read:30
+ 11:08:28.... dpesocket.cxx.159: Message length to read:30, full message length=30
+ 11:08:28.... dpesocket.cxx.189: nRead=30, alreadyRead=0, in.length()=30
+ 11:08:28.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:28.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280050fe0, nEntry=1, nWait=1, threadId=33
+ 11:08:28.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:08:28.... septransp.cxx.1070: hd=orig=17, dest=0, origDID=0, destDID=0, protocolRef=0, groupRef=0, flags=(0), version=1
+ 11:08:28.... septransp.cxx.1122: 0x7fe2800521ad DPE protocol message:
+ 11:08:28.... septransp.cxx.1122: 0000->0F                                  .               
+ 11:08:28.... septransp.cxx.1191: origin sep info: 17
+ 11:08:28.... septransp.cxx.262: Inside LockMap... mOrigLock
+ 11:08:28.... septransp.cxx.284: Inside UnLockMap... mOrigLock
+ 11:08:28.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:28... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:28... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:28.. slitf.cxx.2771: Waiting incoming message during 57228 msec ...
+ 11:08:28.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:28.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:28.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:28.. slitf.cxx.2779: MaxFD = 3
+ 11:08:28.. slitf.cxx.2849: calling Event on FD 220 (nbFD=1) for TRANSPORT 'ROUTER' index 1
+ 11:08:28.. transp.cxx.127: READ event transport ROUTER, FD= 220
+ 11:08:28... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:28... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:28... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280050fe0, nEntry=0, nWait=0, threadId=-1
+ 11:08:28... tcptransp.cxx.1347: Read Event: SepName: pfmddup-PSMF-4 (17), cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:08:28.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:28.... dpesocket.cxx.69: New message length to read:4
+ 11:08:28.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:08:28.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:08:28.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:28.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:28.... dpesocket.cxx.69: New message length to read:1491
+ 11:08:28.... dpesocket.cxx.159: Message length to read:1491, full message length=1491
+ 11:08:28.... dpesocket.cxx.189: nRead=1491, alreadyRead=0, in.length()=1491
+ 11:08:28.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:28.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280050fe0, nEntry=1, nWait=1, threadId=33
+ 11:08:28.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:08:28.... septransp.cxx.1070: hd=orig=17, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=ROUTING IGNOREERROR NEWTRANSACTION (b0), version=1
+ 11:08:28.... septransp.cxx.1364: 0x7fe280052a5d DATA received : 
+ 11:08:28.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:08:28.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:08:28.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:08:28.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:08:28.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:08:28.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:08:28.... septransp.cxx.1364: 0096->636F6E74 00FF4B05 00000168 6F73745F cont..K....host_
+ 11:08:28.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:08:28.... septransp.cxx.1364: 0128->11000000 73657276 5F696400 04050000 ....serv_id.....
+ 11:08:28.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:08:28.... septransp.cxx.1364: 0160->745F7469 6D00030B 081C746B 745F746C t_tim.....tkt_tl
+ 11:08:28.... septransp.cxx.1364: 0176->7600FFFE 04000030 8204FAA0 030A0100 v......0........
+ 11:08:28.... septransp.cxx.1364: 0192->A1030201 05308204 ECA21730 1502041C .....0.....0....
+ 11:08:28.... septransp.cxx.1364: 0208->B7BD0F02 04000000 05040770 666D6464 ...........pfmdd
+ 11:08:28.... septransp.cxx.1364: 0224->7570A21C 301A0204 1AC3AF48 02040000 up..0......H....
+ 11:08:28.... septransp.cxx.1364: 0240->0001040C 4F535031 39444556 53544550 ....OSP19DEVSTEP
+ 11:08:28.... septransp.cxx.1364: 0256->A120301E 02040000 003A0204 00000002 . 0......:......
+ 11:08:28.... septransp.cxx.1364: 0272->02040000 00010204 00000001 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 0288->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:28.... septransp.cxx.1364: 0304->00020204 00000001 02040000 00020204 ................
+ 11:08:28.... septransp.cxx.1364: 0320->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:28.... septransp.cxx.1364: 0336->00000002 02040000 00010204 00000003 ................
+ 11:08:28.... septransp.cxx.1364: 0352->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:28.... septransp.cxx.1364: 0368->02040000 00030204 00000001 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 0384->00010204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:28.... septransp.cxx.1364: 0400->003A0204 00000003 02040000 00010204 .:..............
+ 11:08:28.... septransp.cxx.1364: 0416->00000002 02040000 0000A120 301E0204 ........... 0...
+ 11:08:28.... septransp.cxx.1364: 0432->0000003A 02040000 00010204 00000001 ...:............
+ 11:08:28.... septransp.cxx.1364: 0448->02040000 00020204 00000000 A120301E ............. 0.
+ 11:08:28.... septransp.cxx.1364: 0464->02040000 003A0204 00000001 02040000 .....:..........
+ 11:08:28.... septransp.cxx.1364: 0480->00010204 00000003 02040000 0000A120 ............... 
+ 11:08:28.... septransp.cxx.1364: 0496->301E0204 0000003A 02040000 00040204 0......:........
+ 11:08:28.... septransp.cxx.1364: 0512->00000001 02040000 00010204 00000000 ................
+ 11:08:28.... septransp.cxx.1364: 0528->A120301E 02040000 003A0204 00000004 . 0......:......
+ 11:08:28.... septransp.cxx.1364: 0544->02040000 00010204 00000002 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 0560->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:28.... septransp.cxx.1364: 0576->00040204 00000001 02040000 00030204 ................
+ 11:08:28.... septransp.cxx.1364: 0592->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:28.... septransp.cxx.1364: 0608->00000004 02040000 00010204 00000004 ................
+ 11:08:28.... septransp.cxx.1364: 0624->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:28.... septransp.cxx.1364: 0640->02040000 00040204 00000001 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 0656->00050204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:28.... septransp.cxx.1364: 0672->00010204 00000000 02040000 00010204 ................
+ 11:08:28.... septransp.cxx.1364: 0688->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:08:28.... septransp.cxx.1364: 0704->00000001 02040000 00000204 00000006 ................
+ 11:08:28.... septransp.cxx.1364: 0720->02040000 00010204 00000000 A02F302D ............./0-
+ 11:08:28.... septransp.cxx.1364: 0736->02040000 00010204 00000002 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 0752->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:08:28.... septransp.cxx.1364: 0768->32303231 2031313A 30383A31 34A13030 2021 11:08:14.00
+ 11:08:28.... septransp.cxx.1364: 0784->2E020400 00000002 04000000 00020400 ................
+ 11:08:28.... septransp.cxx.1364: 0800->00000002 04000000 00020400 00000004 ................
+ 11:08:28.... septransp.cxx.1364: 0816->0E737461 74207365 70617261 746F72A2 .stat separator.
+ 11:08:28.... septransp.cxx.1364: 0832->17301502 041CB7BD 0F020400 00000504 .0..............
+ 11:08:28.... septransp.cxx.1364: 0848->0770666D 64647570 A21C301A 02041AC3 .pfmddup..0.....
+ 11:08:28.... septransp.cxx.1364: 0864->AF480204 00000001 040C4F53 50313944 .H........OSP19D
+ 11:08:28.... septransp.cxx.1364: 0880->45565354 4550A120 301E0204 0000003A EVSTEP. 0......:
+ 11:08:28.... septransp.cxx.1364: 0896->02040000 00020204 00000001 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 0912->00010204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:28.... septransp.cxx.1364: 0928->003A0204 00000002 02040000 00010204 .:..............
+ 11:08:28.... septransp.cxx.1364: 0944->00000002 02040000 0000A120 301E0204 ........... 0...
+ 11:08:28.... septransp.cxx.1364: 0960->0000003A 02040000 00020204 00000001 ...:............
+ 11:08:28.... septransp.cxx.1364: 0976->02040000 00030204 00000000 A120301E ............. 0.
+ 11:08:28.... septransp.cxx.1364: 0992->02040000 003A0204 00000003 02040000 .....:..........
+ 11:08:28.... septransp.cxx.1364: 1008->00010204 00000001 02040000 0000A120 ............... 
+ 11:08:28.... septransp.cxx.1364: 1024->301E0204 0000003A 02040000 00030204 0......:........
+ 11:08:28.... septransp.cxx.1364: 1040->00000001 02040000 00020204 00000000 ................
+ 11:08:28.... septransp.cxx.1364: 1056->A120301E 02040000 003A0204 00000001 . 0......:......
+ 11:08:28.... septransp.cxx.1364: 1072->02040000 00010204 00000002 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 1088->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:28.... septransp.cxx.1364: 1104->00010204 00000001 02040000 00030204 ................
+ 11:08:28.... septransp.cxx.1364: 1120->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:28.... septransp.cxx.1364: 1136->00000004 02040000 00010204 00000001 ................
+ 11:08:28.... septransp.cxx.1364: 1152->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:28.... septransp.cxx.1364: 1168->02040000 00040204 00000001 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 1184->00020204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:28.... septransp.cxx.1364: 1200->003A0204 00000004 02040000 00010204 .:..............
+ 11:08:28.... septransp.cxx.1364: 1216->00000003 02040000 0000A120 301E0204 ........... 0...
+ 11:08:28.... septransp.cxx.1364: 1232->0000003A 02040000 00040204 00000001 ...:............
+ 11:08:28.... septransp.cxx.1364: 1248->02040000 00040204 00000000 A120301E ............. 0.
+ 11:08:28.... septransp.cxx.1364: 1264->02040000 003A0204 00000004 02040000 .....:..........
+ 11:08:28.... septransp.cxx.1364: 1280->00010204 00000005 02040000 0000A120 ............... 
+ 11:08:28.... septransp.cxx.1364: 1296->301E0204 00000001 02040000 00000204 0...............
+ 11:08:28.... septransp.cxx.1364: 1312->00000001 02040000 00010204 00000000 ................
+ 11:08:28.... septransp.cxx.1364: 1328->A120301E 02040000 00010204 00000000 . 0.............
+ 11:08:28.... septransp.cxx.1364: 1344->02040000 00060204 00000001 02040000 ................
+ 11:08:28.... septransp.cxx.1364: 1360->0000A02F 302D0204 00000001 02040000 .../0-..........
+ 11:08:28.... septransp.cxx.1364: 1376->00020204 00000001 02040000 00050413 ................
+ 11:08:28.... septransp.cxx.1364: 1392->31392F30 382F3230 32312031 313A3038 19/08/2021 11:08
+ 11:08:28.... septransp.cxx.1364: 1408->3A3234A1 30302E02 04000000 00020400 :24.00..........
+ 11:08:28.... septransp.cxx.1364: 1424->00000002 04000000 00020400 00000002 ................
+ 11:08:28.... septransp.cxx.1364: 1440->04000000 00040E73 74617420 73657061 .......stat sepa
+ 11:08:28.... septransp.cxx.1364: 1456->7261746F 7200                       rator.          
+ 11:08:28.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:08:28..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:08:28..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:28.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:28.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:08:28.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:08:28.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 5 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:28.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:08:28.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:08:28..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:08:28..... sliclass.h.169: dial: 25 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:28..... getDial.hxx.10: sepConf.currentDial:22*100/nDial:10000=0, time(0):1629351508<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:08:28...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:08:28...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=23
+ 11:08:28...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:08:28..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 25, dialogue_id: 5, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:08:28..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:28.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280051870, nEntry=0, nWait=0, threadId=-1
+ 11:08:28.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280051870, nEntry=1, nWait=1, threadId=33
+ 11:08:28..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:08:28...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:08:28...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:08:28...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:08:28...... threadtransp.cxx.634: Free thread in pool: 23
+ 11:08:28...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:08:28..... threadtransp.cxx.348: Assign thread 23 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:28..... threadtransp.cxx.260: 0x7fe293154fa0 Message for thread 23, origThread=33
+ 11:08:28..... threadtransp.cxx.260: 0000->00000000 05000000 19000000 E37F0000 ...............
+ 11:08:28..... threadtransp.cxx.260: 0016->20370580 E27F0000                    7.....        
+ 11:08:28..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:28.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:08:28.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:08:28.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 5 aCtxt[dial]: 0x7fe280053580
+ 11:08:28.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280051870, nEntry=0, nWait=0, threadId=-1
+ 11:08:28.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:08:28.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:08:28.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280051870, nEntry=1, nWait=1, threadId=33
+ 11:08:28.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:28... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:28... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:28.. slitf.cxx.2771: Waiting incoming message during 57227 msec ...
+ 11:08:28.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:28.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:28.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:28.. slitf.cxx.2779: MaxFD = 3
+ 11:08:28.. slitf.cxx.2849: calling Event on FD 215 (nbFD=1) for TRANSPORT 'ROUTER' index 0
+ 11:08:28.. transp.cxx.127: READ event transport ROUTER, FD= 215
+ 11:08:28... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:28... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:28... transp.cxx.298: TRANSPORT::Entry, (this)=0x2bde460, nEntry=0, nWait=0, threadId=-1
+ 11:08:28... tcptransp.cxx.1347: Read Event: SEP RI=0, cnx 0, host : , port 20022, length type : LONG_NT, status=SERVER, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=215, idx=0
+ 11:08:28... transp.cxx.278: TRANSPORT::Exit, (this)=0x2bde460, nEntry=1, nWait=1, threadId=33
+ 11:08:28.... tcptransp.cxx.70: { Entry in 'TCP_CNX::TCP_CNX' [Jul 19 2019 17:50:30]
+ 11:08:28.... tcptransp.cxx: Exiting from 'TCP_CNX::TCP_CNX' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... tcptransp.cxx.103: lockRef :0x7fe280052640
+ 11:08:28... socket.cxx.1090: socket_t::accept
+ 11:08:28... socket.cxx.1199: socket_t::getNonBlock
+ 11:08:28... socket.cxx.1170: socket_t::setNonBlock
+ 11:08:28... tcptransp.cxx.1375: Accept OK : Success (0) FD: 221
+ 11:08:28... tcptransp.cxx.1389:  IPV6 
+ 11:08:28.... regexp.cxx.41: { Entry in 'REGEXP::match' [Jan 13 2019 20:40:33]
+ 11:08:28.... regexp.cxx.42: line=::ffff:172.19.26.67
+ 11:08:28.... regexp.cxx.44: match=1
+ 11:08:28.... tcptransp.cxx: Exiting from 'REGEXP::match' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... tcptransp.cxx.1398: ipv4-mapped ipv6 addr
+ 11:08:28.... tcptransp.cxx.592: { Entry in 'TCP_TRANSP::StoreSock' [Jul 19 2019 17:50:30]
+ 11:08:28.... tcptransp.cxx.593: For transport ROUTER
+ 11:08:28..... tcptransp.cxx.785: { Entry in 'TCP_CNX::NewFD' [Jul 19 2019 17:50:30]
+ 11:08:28..... tcptransp.cxx.786: For transport ROUTER
+ 11:08:28..... tcptransp.cxx.829: Transfer to thread 34, nThread=5, nCnx[1]=1
+ 11:08:28..... tcptransp.cxx.832: Refresh Thread 34 for cnx=6, action=newFD
+ 11:08:28...... threadtransp.cxx.405: { Entry in 'SLITF::RefreshTransport' [Jul 19 2019 17:50:26]
+ 11:08:28...... threadtransp.cxx.260: 0x7fe293155730 Message for thread 34, origThread=33
+ 11:08:28...... threadtransp.cxx.260: 0000->01000000 E27F0000 C0370580 E27F0000 ........7.....
+ 11:08:28...... threadtransp.cxx.260: 0016->C059A43F E37F0000                   .Y.?...        
+ 11:08:28...... tcptransp.cxx: Exiting from 'SLITF::RefreshTransport' to 'TCP_CNX::NewFD' }
+ 11:08:28..... tcptransp.cxx: Exiting from 'TCP_CNX::NewFD' to 'TCP_TRANSP::StoreSock' }
+ 11:08:28.... tcptransp.cxx.608: Store cnx 6
+ 11:08:28.... tcptransp.cxx: Exiting from 'TCP_TRANSP::StoreSock' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... tcptransp.cxx.1408: New connection accepted: SEP RI=0, cnx 6, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=34, bWr=0, rdStatus=0, bRestricted=0, fd=221, idx=-1
+ 11:08:28.... septransp.cxx.719: { Entry in 'DPE_TRANSPORT::Accept' [Aug 10 2021 18:46:50]
+ 11:08:28.... septransp.cxx.723: set TCP_NODELAY
+ 11:08:28.... dpesocket.cxx.401: maxBuffer=50, restrictedTreshold=33, unrestrictedTreshold=32
+ 11:08:28.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::Accept' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:28... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:28... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:28... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:28.. slitf.cxx.2771: Waiting incoming message during 56384 msec ...
+ 11:08:28.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:28.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:28.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:28.. slitf.cxx.2779: MaxFD = 3
+ 11:08:34.. slitf.cxx.2849: calling Event on FD 215 (nbFD=1) for TRANSPORT 'ROUTER' index 0
+ 11:08:34.. transp.cxx.127: READ event transport ROUTER, FD= 215
+ 11:08:34... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:34... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:34... transp.cxx.298: TRANSPORT::Entry, (this)=0x2bde460, nEntry=0, nWait=0, threadId=-1
+ 11:08:34... tcptransp.cxx.1347: Read Event: SEP RI=0, cnx 0, host : , port 20022, length type : LONG_NT, status=SERVER, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=215, idx=0
+ 11:08:34... transp.cxx.278: TRANSPORT::Exit, (this)=0x2bde460, nEntry=1, nWait=1, threadId=33
+ 11:08:34.... tcptransp.cxx.70: { Entry in 'TCP_CNX::TCP_CNX' [Jul 19 2019 17:50:30]
+ 11:08:34.... tcptransp.cxx: Exiting from 'TCP_CNX::TCP_CNX' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:34... tcptransp.cxx.103: lockRef :0x7fe2800537c0
+ 11:08:34... socket.cxx.1090: socket_t::accept
+ 11:08:34... socket.cxx.1199: socket_t::getNonBlock
+ 11:08:34... socket.cxx.1170: socket_t::setNonBlock
+ 11:08:34... tcptransp.cxx.1375: Accept OK : Success (0) FD: 222
+ 11:08:34... tcptransp.cxx.1389:  IPV6 
+ 11:08:34.... regexp.cxx.41: { Entry in 'REGEXP::match' [Jan 13 2019 20:40:33]
+ 11:08:34.... regexp.cxx.42: line=::ffff:172.19.26.67
+ 11:08:34.... regexp.cxx.44: match=1
+ 11:08:34.... tcptransp.cxx: Exiting from 'REGEXP::match' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:34... tcptransp.cxx.1398: ipv4-mapped ipv6 addr
+ 11:08:34.... tcptransp.cxx.592: { Entry in 'TCP_TRANSP::StoreSock' [Jul 19 2019 17:50:30]
+ 11:08:34.... tcptransp.cxx.593: For transport ROUTER
+ 11:08:34..... tcptransp.cxx.785: { Entry in 'TCP_CNX::NewFD' [Jul 19 2019 17:50:30]
+ 11:08:34..... tcptransp.cxx.786: For transport ROUTER
+ 11:08:34..... tcptransp.cxx.829: Transfer to thread 35, nThread=5, nCnx[2]=1
+ 11:08:34..... tcptransp.cxx.832: Refresh Thread 35 for cnx=7, action=newFD
+ 11:08:34...... threadtransp.cxx.405: { Entry in 'SLITF::RefreshTransport' [Jul 19 2019 17:50:26]
+ 11:08:34...... threadtransp.cxx.260: 0x7fe293155730 Message for thread 35, origThread=33
+ 11:08:34...... threadtransp.cxx.260: 0000->01000000 E27F0000 60220580 E27F0000 .......`".....
+ 11:08:34...... threadtransp.cxx.260: 0016->C059A43F E37F0000                   .Y.?...        
+ 11:08:34...... tcptransp.cxx: Exiting from 'SLITF::RefreshTransport' to 'TCP_CNX::NewFD' }
+ 11:08:34..... tcptransp.cxx: Exiting from 'TCP_CNX::NewFD' to 'TCP_TRANSP::StoreSock' }
+ 11:08:34.... tcptransp.cxx.608: Store cnx 7
+ 11:08:34.... tcptransp.cxx: Exiting from 'TCP_TRANSP::StoreSock' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:34... tcptransp.cxx.1408: New connection accepted: SEP RI=0, cnx 7, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=35, bWr=0, rdStatus=0, bRestricted=0, fd=222, idx=-1
+ 11:08:34.... septransp.cxx.719: { Entry in 'DPE_TRANSPORT::Accept' [Aug 10 2021 18:46:50]
+ 11:08:34.... septransp.cxx.723: set TCP_NODELAY
+ 11:08:34.... dpesocket.cxx.401: maxBuffer=50, restrictedTreshold=33, unrestrictedTreshold=32
+ 11:08:34.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::Accept' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:34... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:34... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:34... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:34.. slitf.cxx.2771: Waiting incoming message during 51106 msec ...
+ 11:08:34.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:34.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:34.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:34.. slitf.cxx.2779: MaxFD = 3
+ 11:08:34.. slitf.cxx.2849: calling Event on FD 215 (nbFD=1) for TRANSPORT 'ROUTER' index 0
+ 11:08:34.. transp.cxx.127: READ event transport ROUTER, FD= 215
+ 11:08:34... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:34... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:34... transp.cxx.298: TRANSPORT::Entry, (this)=0x2bde460, nEntry=0, nWait=0, threadId=-1
+ 11:08:34... tcptransp.cxx.1347: Read Event: SEP RI=0, cnx 0, host : , port 20022, length type : LONG_NT, status=SERVER, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=215, idx=0
+ 11:08:34... transp.cxx.278: TRANSPORT::Exit, (this)=0x2bde460, nEntry=1, nWait=1, threadId=33
+ 11:08:34.... tcptransp.cxx.70: { Entry in 'TCP_CNX::TCP_CNX' [Jul 19 2019 17:50:30]
+ 11:08:34.... tcptransp.cxx: Exiting from 'TCP_CNX::TCP_CNX' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:34... tcptransp.cxx.103: lockRef :0x7fe280052260
+ 11:08:34... socket.cxx.1090: socket_t::accept
+ 11:08:34... socket.cxx.1199: socket_t::getNonBlock
+ 11:08:34... socket.cxx.1170: socket_t::setNonBlock
+ 11:08:34... tcptransp.cxx.1375: Accept OK : Success (0) FD: 223
+ 11:08:34... tcptransp.cxx.1389:  IPV6 
+ 11:08:34.... regexp.cxx.41: { Entry in 'REGEXP::match' [Jan 13 2019 20:40:33]
+ 11:08:34.... regexp.cxx.42: line=::ffff:172.19.26.67
+ 11:08:34.... regexp.cxx.44: match=1
+ 11:08:34.... tcptransp.cxx: Exiting from 'REGEXP::match' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:34... tcptransp.cxx.1398: ipv4-mapped ipv6 addr
+ 11:08:34.... tcptransp.cxx.592: { Entry in 'TCP_TRANSP::StoreSock' [Jul 19 2019 17:50:30]
+ 11:08:34.... tcptransp.cxx.593: For transport ROUTER
+ 11:08:34..... tcptransp.cxx.785: { Entry in 'TCP_CNX::NewFD' [Jul 19 2019 17:50:30]
+ 11:08:34..... tcptransp.cxx.786: For transport ROUTER
+ 11:08:34..... tcptransp.cxx.829: Transfer to thread 36, nThread=5, nCnx[3]=1
+ 11:08:34..... tcptransp.cxx.832: Refresh Thread 36 for cnx=8, action=newFD
+ 11:08:34...... threadtransp.cxx.405: { Entry in 'SLITF::RefreshTransport' [Jul 19 2019 17:50:26]
+ 11:08:34...... threadtransp.cxx.260: 0x7fe293155730 Message for thread 36, origThread=33
+ 11:08:34...... threadtransp.cxx.260: 0000->01000000 E27F0000 C00F0580 E27F0000 ..............
+ 11:08:34...... threadtransp.cxx.260: 0016->C059A43F E37F0000                   .Y.?...        
+ 11:08:34...... tcptransp.cxx: Exiting from 'SLITF::RefreshTransport' to 'TCP_CNX::NewFD' }
+ 11:08:34..... tcptransp.cxx: Exiting from 'TCP_CNX::NewFD' to 'TCP_TRANSP::StoreSock' }
+ 11:08:34.... tcptransp.cxx.608: Store cnx 8
+ 11:08:34.... tcptransp.cxx: Exiting from 'TCP_TRANSP::StoreSock' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:34... tcptransp.cxx.1408: New connection accepted: SEP RI=0, cnx 8, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=36, bWr=0, rdStatus=0, bRestricted=0, fd=223, idx=-1
+ 11:08:34.... septransp.cxx.719: { Entry in 'DPE_TRANSPORT::Accept' [Aug 10 2021 18:46:50]
+ 11:08:34.... septransp.cxx.723: set TCP_NODELAY
+ 11:08:34.... dpesocket.cxx.401: maxBuffer=50, restrictedTreshold=33, unrestrictedTreshold=32
+ 11:08:34.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::Accept' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:34... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:34... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:34... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:34.. slitf.cxx.2771: Waiting incoming message during 50595 msec ...
+ 11:08:34.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:34.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:34.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:34.. slitf.cxx.2779: MaxFD = 3
+ 11:08:38.. slitf.cxx.2849: calling Event on FD 220 (nbFD=1) for TRANSPORT 'ROUTER' index 1
+ 11:08:38.. transp.cxx.127: READ event transport ROUTER, FD= 220
+ 11:08:38... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:38... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:38... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280050fe0, nEntry=0, nWait=0, threadId=-1
+ 11:08:38... tcptransp.cxx.1347: Read Event: SepName: pfmddup-PSMF-4 (17), cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:08:38.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:38.... dpesocket.cxx.69: New message length to read:4
+ 11:08:38.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:08:38.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:08:38.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:38.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:38.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:38.... dpesocket.cxx.69: New message length to read:861
+ 11:08:38.... dpesocket.cxx.159: Message length to read:861, full message length=861
+ 11:08:38.... dpesocket.cxx.189: nRead=861, alreadyRead=0, in.length()=861
+ 11:08:38.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:38.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:38... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280050fe0, nEntry=1, nWait=1, threadId=33
+ 11:08:38.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:08:38.... septransp.cxx.1070: hd=orig=17, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=ROUTING IGNOREERROR NEWTRANSACTION (b0), version=1
+ 11:08:38.... septransp.cxx.1364: 0x7fe280052a5d DATA received : 
+ 11:08:38.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:08:38.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:08:38.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:08:38.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:08:38.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:08:38.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:08:38.... septransp.cxx.1364: 0096->636F6E74 00FFD502 00000168 6F73745F cont.......host_
+ 11:08:38.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:08:38.... septransp.cxx.1364: 0128->11000000 73657276 5F696400 04050000 ....serv_id.....
+ 11:08:38.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:08:38.... septransp.cxx.1364: 0160->745F7469 6D00030B 0826746B 745F746C t_tim....&tkt_tl
+ 11:08:38.... septransp.cxx.1364: 0176->7600FF88 02000030 820284A0 030A0100 v......0........
+ 11:08:38.... septransp.cxx.1364: 0192->A1030201 05308202 76A21730 1502041C .....0..v..0....
+ 11:08:38.... septransp.cxx.1364: 0208->B7BD0F02 04000000 05040770 666D6464 ...........pfmdd
+ 11:08:38.... septransp.cxx.1364: 0224->7570A21C 301A0204 1AC3AF48 02040000 up..0......H....
+ 11:08:38.... septransp.cxx.1364: 0240->0001040C 4F535031 39444556 53544550 ....OSP19DEVSTEP
+ 11:08:38.... septransp.cxx.1364: 0256->A120301E 02040000 003A0204 00000002 . 0......:......
+ 11:08:38.... septransp.cxx.1364: 0272->02040000 00010204 00000001 02040000 ................
+ 11:08:38.... septransp.cxx.1364: 0288->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:38.... septransp.cxx.1364: 0304->00020204 00000001 02040000 00020204 ................
+ 11:08:38.... septransp.cxx.1364: 0320->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:38.... septransp.cxx.1364: 0336->00000002 02040000 00010204 00000003 ................
+ 11:08:38.... septransp.cxx.1364: 0352->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:38.... septransp.cxx.1364: 0368->02040000 00030204 00000001 02040000 ................
+ 11:08:38.... septransp.cxx.1364: 0384->00010204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:38.... septransp.cxx.1364: 0400->003A0204 00000003 02040000 00010204 .:..............
+ 11:08:38.... septransp.cxx.1364: 0416->00000002 02040000 0000A120 301E0204 ........... 0...
+ 11:08:38.... septransp.cxx.1364: 0432->0000003A 02040000 00010204 00000001 ...:............
+ 11:08:38.... septransp.cxx.1364: 0448->02040000 00020204 00000000 A120301E ............. 0.
+ 11:08:38.... septransp.cxx.1364: 0464->02040000 003A0204 00000001 02040000 .....:..........
+ 11:08:38.... septransp.cxx.1364: 0480->00010204 00000003 02040000 0000A120 ............... 
+ 11:08:38.... septransp.cxx.1364: 0496->301E0204 0000003A 02040000 00040204 0......:........
+ 11:08:38.... septransp.cxx.1364: 0512->00000001 02040000 00010204 00000000 ................
+ 11:08:38.... septransp.cxx.1364: 0528->A120301E 02040000 003A0204 00000004 . 0......:......
+ 11:08:38.... septransp.cxx.1364: 0544->02040000 00010204 00000002 02040000 ................
+ 11:08:38.... septransp.cxx.1364: 0560->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:38.... septransp.cxx.1364: 0576->00040204 00000001 02040000 00030204 ................
+ 11:08:38.... septransp.cxx.1364: 0592->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:38.... septransp.cxx.1364: 0608->00000004 02040000 00010204 00000004 ................
+ 11:08:38.... septransp.cxx.1364: 0624->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:38.... septransp.cxx.1364: 0640->02040000 00040204 00000001 02040000 ................
+ 11:08:38.... septransp.cxx.1364: 0656->00050204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:38.... septransp.cxx.1364: 0672->00010204 00000000 02040000 00010204 ................
+ 11:08:38.... septransp.cxx.1364: 0688->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:08:38.... septransp.cxx.1364: 0704->00000001 02040000 00000204 00000006 ................
+ 11:08:38.... septransp.cxx.1364: 0720->02040000 00010204 00000000 A02F302D ............./0-
+ 11:08:38.... septransp.cxx.1364: 0736->02040000 00010204 00000002 02040000 ................
+ 11:08:38.... septransp.cxx.1364: 0752->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:08:38.... septransp.cxx.1364: 0768->32303231 2031313A 30383A33 34A13030 2021 11:08:34.00
+ 11:08:38.... septransp.cxx.1364: 0784->2E020400 00000002 04000000 00020400 ................
+ 11:08:38.... septransp.cxx.1364: 0800->00000002 04000000 00020400 00000004 ................
+ 11:08:38.... septransp.cxx.1364: 0816->0E737461 74207365 70617261 746F7200 .stat separator.
+ 11:08:38.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:08:38..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:08:38..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:38.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:38.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:08:38.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:08:38.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 13 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:38.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:08:38.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:08:38..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:08:38..... sliclass.h.169: dial: 34 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:38..... getDial.hxx.10: sepConf.currentDial:30*100/nDial:10000=0, time(0):1629351518<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:08:38...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:08:38...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=31
+ 11:08:38...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:08:38..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 34, dialogue_id: 13, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:08:38..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:38.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280053620, nEntry=0, nWait=0, threadId=-1
+ 11:08:38.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280053620, nEntry=1, nWait=1, threadId=33
+ 11:08:38..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:08:38...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:08:38...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:08:38...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:08:38...... threadtransp.cxx.634: Free thread in pool: 31
+ 11:08:38...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:08:38..... threadtransp.cxx.348: Assign thread 31 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:38..... threadtransp.cxx.260: 0x7fe293154fa0 Message for thread 31, origThread=33
+ 11:08:38..... threadtransp.cxx.260: 0000->00000000 0D000000 22000000 E37F0000 ........"......
+ 11:08:38..... threadtransp.cxx.260: 0016->602E0580 E27F0000                   `......        
+ 11:08:38..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:38.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:08:38.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:08:38.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 13 aCtxt[dial]: 0x7fe2800536f0
+ 11:08:38.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280053620, nEntry=0, nWait=0, threadId=-1
+ 11:08:38.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:08:38.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:08:38.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280053620, nEntry=1, nWait=1, threadId=33
+ 11:08:38.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:38... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:38... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:38... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:38.. slitf.cxx.2771: Waiting incoming message during 47225 msec ...
+ 11:08:38.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:38.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:38.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:38.. slitf.cxx.2779: MaxFD = 3
+ 11:08:48.. slitf.cxx.2849: calling Event on FD 220 (nbFD=1) for TRANSPORT 'ROUTER' index 1
+ 11:08:48.. transp.cxx.127: READ event transport ROUTER, FD= 220
+ 11:08:48... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:48... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:48... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280050fe0, nEntry=0, nWait=0, threadId=-1
+ 11:08:48... tcptransp.cxx.1347: Read Event: SepName: pfmddup-PSMF-4 (17), cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:08:48.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:48.... dpesocket.cxx.69: New message length to read:4
+ 11:08:48.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:08:48.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:08:48.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:48.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:48.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:48.... dpesocket.cxx.69: New message length to read:861
+ 11:08:48.... dpesocket.cxx.159: Message length to read:861, full message length=861
+ 11:08:48.... dpesocket.cxx.189: nRead=861, alreadyRead=0, in.length()=861
+ 11:08:48.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:48.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:48... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280050fe0, nEntry=1, nWait=1, threadId=33
+ 11:08:48.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:08:48.... septransp.cxx.1070: hd=orig=17, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=ROUTING IGNOREERROR NEWTRANSACTION (b0), version=1
+ 11:08:48.... septransp.cxx.1364: 0x7fe280052a5d DATA received : 
+ 11:08:48.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:08:48.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:08:48.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:08:48.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:08:48.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:08:48.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:08:48.... septransp.cxx.1364: 0096->636F6E74 00FFD502 00000168 6F73745F cont.......host_
+ 11:08:48.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:08:48.... septransp.cxx.1364: 0128->11000000 73657276 5F696400 04050000 ....serv_id.....
+ 11:08:48.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:08:48.... septransp.cxx.1364: 0160->745F7469 6D00030B 0830746B 745F746C t_tim....0tkt_tl
+ 11:08:48.... septransp.cxx.1364: 0176->7600FF88 02000030 820284A0 030A0100 v......0........
+ 11:08:48.... septransp.cxx.1364: 0192->A1030201 05308202 76A21730 1502041C .....0..v..0....
+ 11:08:48.... septransp.cxx.1364: 0208->B7BD0F02 04000000 05040770 666D6464 ...........pfmdd
+ 11:08:48.... septransp.cxx.1364: 0224->7570A21C 301A0204 1AC3AF48 02040000 up..0......H....
+ 11:08:48.... septransp.cxx.1364: 0240->0001040C 4F535031 39444556 53544550 ....OSP19DEVSTEP
+ 11:08:48.... septransp.cxx.1364: 0256->A120301E 02040000 003A0204 00000002 . 0......:......
+ 11:08:48.... septransp.cxx.1364: 0272->02040000 00010204 00000001 02040000 ................
+ 11:08:48.... septransp.cxx.1364: 0288->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:48.... septransp.cxx.1364: 0304->00020204 00000001 02040000 00020204 ................
+ 11:08:48.... septransp.cxx.1364: 0320->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:48.... septransp.cxx.1364: 0336->00000002 02040000 00010204 00000003 ................
+ 11:08:48.... septransp.cxx.1364: 0352->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:48.... septransp.cxx.1364: 0368->02040000 00030204 00000001 02040000 ................
+ 11:08:48.... septransp.cxx.1364: 0384->00010204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:48.... septransp.cxx.1364: 0400->003A0204 00000003 02040000 00010204 .:..............
+ 11:08:48.... septransp.cxx.1364: 0416->00000002 02040000 0000A120 301E0204 ........... 0...
+ 11:08:48.... septransp.cxx.1364: 0432->0000003A 02040000 00010204 00000001 ...:............
+ 11:08:48.... septransp.cxx.1364: 0448->02040000 00020204 00000000 A120301E ............. 0.
+ 11:08:48.... septransp.cxx.1364: 0464->02040000 003A0204 00000001 02040000 .....:..........
+ 11:08:48.... septransp.cxx.1364: 0480->00010204 00000003 02040000 0000A120 ............... 
+ 11:08:48.... septransp.cxx.1364: 0496->301E0204 0000003A 02040000 00040204 0......:........
+ 11:08:48.... septransp.cxx.1364: 0512->00000001 02040000 00010204 00000000 ................
+ 11:08:48.... septransp.cxx.1364: 0528->A120301E 02040000 003A0204 00000004 . 0......:......
+ 11:08:48.... septransp.cxx.1364: 0544->02040000 00010204 00000002 02040000 ................
+ 11:08:48.... septransp.cxx.1364: 0560->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:48.... septransp.cxx.1364: 0576->00040204 00000001 02040000 00030204 ................
+ 11:08:48.... septransp.cxx.1364: 0592->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:48.... septransp.cxx.1364: 0608->00000004 02040000 00010204 00000004 ................
+ 11:08:48.... septransp.cxx.1364: 0624->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:48.... septransp.cxx.1364: 0640->02040000 00040204 00000001 02040000 ................
+ 11:08:48.... septransp.cxx.1364: 0656->00050204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:48.... septransp.cxx.1364: 0672->00010204 00000000 02040000 00010204 ................
+ 11:08:48.... septransp.cxx.1364: 0688->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:08:48.... septransp.cxx.1364: 0704->00000001 02040000 00000204 00000006 ................
+ 11:08:48.... septransp.cxx.1364: 0720->02040000 00010204 00000000 A02F302D ............./0-
+ 11:08:48.... septransp.cxx.1364: 0736->02040000 00010204 00000002 02040000 ................
+ 11:08:48.... septransp.cxx.1364: 0752->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:08:48.... septransp.cxx.1364: 0768->32303231 2031313A 30383A34 34A13030 2021 11:08:44.00
+ 11:08:48.... septransp.cxx.1364: 0784->2E020400 00000002 04000000 00020400 ................
+ 11:08:48.... septransp.cxx.1364: 0800->00000002 04000000 00020400 00000004 ................
+ 11:08:48.... septransp.cxx.1364: 0816->0E737461 74207365 70617261 746F7200 .stat separator.
+ 11:08:48.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:08:48..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:08:48..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:48.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:48.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:08:48.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:08:48.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 21 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:48.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:08:48.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:08:48..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:08:48..... sliclass.h.169: dial: 43 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:48..... getDial.hxx.10: sepConf.currentDial:32*100/nDial:10000=0, time(0):1629351528<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:08:48...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:08:48...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=33
+ 11:08:48...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:08:48..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 43, dialogue_id: 21, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:08:48..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:48.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280053620, nEntry=0, nWait=0, threadId=-1
+ 11:08:48.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280053620, nEntry=1, nWait=1, threadId=33
+ 11:08:48..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:08:48...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:08:48...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:08:48...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:08:48...... threadtransp.cxx.634: Free thread in pool: 27
+ 11:08:48...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:08:48..... threadtransp.cxx.348: Assign thread 27 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:48..... threadtransp.cxx.260: 0x7fe293154fa0 Message for thread 27, origThread=33
+ 11:08:48..... threadtransp.cxx.260: 0000->00000000 15000000 2B000000 E37F0000 ........+......
+ 11:08:48..... threadtransp.cxx.260: 0016->602E0580 E27F0000                   `......        
+ 11:08:48..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:48.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:08:48.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:08:48.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 21 aCtxt[dial]: 0x7fe2800536f0
+ 11:08:48.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280053620, nEntry=0, nWait=0, threadId=-1
+ 11:08:48.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:08:48.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:08:48.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280053620, nEntry=1, nWait=1, threadId=33
+ 11:08:48.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:48... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:48... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:48... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:48.. slitf.cxx.2771: Waiting incoming message during 37223 msec ...
+ 11:08:48.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:48.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:48.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:48.. slitf.cxx.2779: MaxFD = 3
+ 11:08:58.. slitf.cxx.2849: calling Event on FD 220 (nbFD=1) for TRANSPORT 'ROUTER' index 1
+ 11:08:58.. transp.cxx.127: READ event transport ROUTER, FD= 220
+ 11:08:58... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:08:58... tcptransp.cxx.1285: For transport ROUTER
+ 11:08:58... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280050fe0, nEntry=0, nWait=0, threadId=-1
+ 11:08:58... tcptransp.cxx.1347: Read Event: SepName: pfmddup-PSMF-4 (17), cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:08:58.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:58.... dpesocket.cxx.69: New message length to read:4
+ 11:08:58.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:08:58.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:08:58.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:58.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:58.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:08:58.... dpesocket.cxx.69: New message length to read:861
+ 11:08:58.... dpesocket.cxx.159: Message length to read:861, full message length=861
+ 11:08:58.... dpesocket.cxx.189: nRead=861, alreadyRead=0, in.length()=861
+ 11:08:58.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:08:58.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:58... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280050fe0, nEntry=1, nWait=1, threadId=33
+ 11:08:58.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:08:58.... septransp.cxx.1070: hd=orig=17, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=ROUTING IGNOREERROR NEWTRANSACTION (b0), version=1
+ 11:08:58.... septransp.cxx.1364: 0x7fe280052a5d DATA received : 
+ 11:08:58.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:08:58.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:08:58.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:08:58.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:08:58.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:08:58.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:08:58.... septransp.cxx.1364: 0096->636F6E74 00FFD502 00000168 6F73745F cont.......host_
+ 11:08:58.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:08:58.... septransp.cxx.1364: 0128->11000000 73657276 5F696400 04050000 ....serv_id.....
+ 11:08:58.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:08:58.... septransp.cxx.1364: 0160->745F7469 6D00030B 083A746B 745F746C t_tim....:tkt_tl
+ 11:08:58.... septransp.cxx.1364: 0176->7600FF88 02000030 820284A0 030A0100 v......0........
+ 11:08:58.... septransp.cxx.1364: 0192->A1030201 05308202 76A21730 1502041C .....0..v..0....
+ 11:08:58.... septransp.cxx.1364: 0208->B7BD0F02 04000000 05040770 666D6464 ...........pfmdd
+ 11:08:58.... septransp.cxx.1364: 0224->7570A21C 301A0204 1AC3AF48 02040000 up..0......H....
+ 11:08:58.... septransp.cxx.1364: 0240->0001040C 4F535031 39444556 53544550 ....OSP19DEVSTEP
+ 11:08:58.... septransp.cxx.1364: 0256->A120301E 02040000 003A0204 00000002 . 0......:......
+ 11:08:58.... septransp.cxx.1364: 0272->02040000 00010204 00000001 02040000 ................
+ 11:08:58.... septransp.cxx.1364: 0288->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:58.... septransp.cxx.1364: 0304->00020204 00000001 02040000 00020204 ................
+ 11:08:58.... septransp.cxx.1364: 0320->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:58.... septransp.cxx.1364: 0336->00000002 02040000 00010204 00000003 ................
+ 11:08:58.... septransp.cxx.1364: 0352->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:58.... septransp.cxx.1364: 0368->02040000 00030204 00000001 02040000 ................
+ 11:08:58.... septransp.cxx.1364: 0384->00010204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:58.... septransp.cxx.1364: 0400->003A0204 00000003 02040000 00010204 .:..............
+ 11:08:58.... septransp.cxx.1364: 0416->00000002 02040000 0000A120 301E0204 ........... 0...
+ 11:08:58.... septransp.cxx.1364: 0432->0000003A 02040000 00010204 00000001 ...:............
+ 11:08:58.... septransp.cxx.1364: 0448->02040000 00020204 00000000 A120301E ............. 0.
+ 11:08:58.... septransp.cxx.1364: 0464->02040000 003A0204 00000001 02040000 .....:..........
+ 11:08:58.... septransp.cxx.1364: 0480->00010204 00000003 02040000 0000A120 ............... 
+ 11:08:58.... septransp.cxx.1364: 0496->301E0204 0000003A 02040000 00040204 0......:........
+ 11:08:58.... septransp.cxx.1364: 0512->00000001 02040000 00010204 00000000 ................
+ 11:08:58.... septransp.cxx.1364: 0528->A120301E 02040000 003A0204 00000004 . 0......:......
+ 11:08:58.... septransp.cxx.1364: 0544->02040000 00010204 00000002 02040000 ................
+ 11:08:58.... septransp.cxx.1364: 0560->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:08:58.... septransp.cxx.1364: 0576->00040204 00000001 02040000 00030204 ................
+ 11:08:58.... septransp.cxx.1364: 0592->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:08:58.... septransp.cxx.1364: 0608->00000004 02040000 00010204 00000004 ................
+ 11:08:58.... septransp.cxx.1364: 0624->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:08:58.... septransp.cxx.1364: 0640->02040000 00040204 00000001 02040000 ................
+ 11:08:58.... septransp.cxx.1364: 0656->00050204 00000000 A120301E 02040000 ......... 0.....
+ 11:08:58.... septransp.cxx.1364: 0672->00010204 00000000 02040000 00010204 ................
+ 11:08:58.... septransp.cxx.1364: 0688->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:08:58.... septransp.cxx.1364: 0704->00000001 02040000 00000204 00000006 ................
+ 11:08:58.... septransp.cxx.1364: 0720->02040000 00010204 00000000 A02F302D ............./0-
+ 11:08:58.... septransp.cxx.1364: 0736->02040000 00010204 00000002 02040000 ................
+ 11:08:58.... septransp.cxx.1364: 0752->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:08:58.... septransp.cxx.1364: 0768->32303231 2031313A 30383A35 34A13030 2021 11:08:54.00
+ 11:08:58.... septransp.cxx.1364: 0784->2E020400 00000002 04000000 00020400 ................
+ 11:08:58.... septransp.cxx.1364: 0800->00000002 04000000 00020400 00000004 ................
+ 11:08:58.... septransp.cxx.1364: 0816->0E737461 74207365 70617261 746F7200 .stat separator.
+ 11:08:58.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:08:58..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:08:58..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:58.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:58.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:08:58.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:08:58.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 28 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:58.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:08:58.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:08:58..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:08:58..... sliclass.h.169: dial: 51 aCtxt[dial]: 0xffffffffffffffff
+ 11:08:58..... getDial.hxx.10: sepConf.currentDial:32*100/nDial:10000=0, time(0):1629351538<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:08:58...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:08:58...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=33
+ 11:08:58...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:08:58..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 51, dialogue_id: 28, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:08:58..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:58.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280053620, nEntry=0, nWait=0, threadId=-1
+ 11:08:58.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280053620, nEntry=1, nWait=1, threadId=33
+ 11:08:58..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:08:58...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:08:58...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:08:58...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:08:58...... threadtransp.cxx.634: Free thread in pool: 22
+ 11:08:58...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:08:58..... threadtransp.cxx.348: Assign thread 22 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:08:58..... threadtransp.cxx.260: 0x7fe293154fa0 Message for thread 22, origThread=33
+ 11:08:58..... threadtransp.cxx.260: 0000->00000000 1C000000 33000000 E37F0000 ........3......
+ 11:08:58..... threadtransp.cxx.260: 0016->602E0580 E27F0000                   `......        
+ 11:08:58..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:08:58.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:08:58.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:08:58.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 28 aCtxt[dial]: 0x7fe2800536f0
+ 11:08:58.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280053620, nEntry=0, nWait=0, threadId=-1
+ 11:08:58.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:08:58.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:08:58.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280053620, nEntry=1, nWait=1, threadId=33
+ 11:08:58.... tcptransp.cxx: Exiting from 'DPE_TRANSPORT::AnalyseMsg' to 'TCP_TRANSP::ReadEvent' }
+ 11:08:58... slitf.cxx: Exiting from 'TCP_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:58... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:58... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:58.. slitf.cxx.2771: Waiting incoming message during 27221 msec ...
+ 11:08:58.. transp.cxx.64: Transport ROUTER:fd=215, flags=FD_READ | 
+ 11:08:58.. transp.cxx.64: Transport ROUTER:fd=220, flags=FD_READ | 
+ 11:08:58.. transp.cxx.64: Transport THREAD:fd=195, flags=FD_READ | 
+ 11:08:58.. slitf.cxx.2779: MaxFD = 3
+ 11:09:08.. slitf.cxx.2849: calling Event on FD 220 (nbFD=1) for TRANSPORT 'ROUTER' index 1
+ 11:09:08.. transp.cxx.127: READ event transport ROUTER, FD= 220
+ 11:09:08... tcptransp.cxx.1284: { Entry in 'TCP_TRANSP::ReadEvent' [Jul 19 2019 17:50:30]
+ 11:09:08... tcptransp.cxx.1285: For transport ROUTER
+ 11:09:08... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280050fe0, nEntry=0, nWait=0, threadId=-1
+ 11:09:08... tcptransp.cxx.1347: Read Event: SepName: pfmddup-PSMF-4 (17), cnx 5, host : 172.19.26.67, port 0, length type : LONG_NT, status=ACCEPT, threadID=33, bWr=0, rdStatus=0, bRestricted=0, fd=220, idx=1
+ 11:09:08.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:09:08.... dpesocket.cxx.69: New message length to read:4
+ 11:09:08.... dpesocket.cxx.159: Message length to read:4, full message length=4
+ 11:09:08.... dpesocket.cxx.189: nRead=4, alreadyRead=0, in.length()=4
+ 11:09:08.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:09:08.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:09:08.... dpesocket.cxx.63: { Entry in 'socket_dpe::readDpeMessage' [Jan 13 2019 20:40:46]
+ 11:09:08.... dpesocket.cxx.69: New message length to read:861
+ 11:09:08.... dpesocket.cxx.159: Message length to read:861, full message length=861
+ 11:09:08.... dpesocket.cxx.189: nRead=861, alreadyRead=0, in.length()=861
+ 11:09:08.... dpesocket.cxx.192: Message complete, alreadyRead=0
+ 11:09:08.... tcptransp.cxx: Exiting from 'socket_dpe::readDpeMessage' to 'TCP_TRANSP::ReadEvent' }
+ 11:09:08... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280050fe0, nEntry=1, nWait=1, threadId=33
+ 11:09:08.... septransp.cxx.1055: { Entry in 'DPE_TRANSPORT::AnalyseMsg' [Aug 10 2021 18:46:50]
+ 11:09:08.... septransp.cxx.1070: hd=orig=17, dest=0, origDID=4294967295, destDID=4294967295, protocolRef=1, groupRef=13, flags=ROUTING IGNOREERROR NEWTRANSACTION (b0), version=1
+ 11:09:08.... septransp.cxx.1364: 0x7fe280052a5d DATA received : 
+ 11:09:08.... septransp.cxx.1364: 0000->52656C32 34017365 71436E74 0004FFFF Rel24.seqCnt....
+ 11:09:08.... septransp.cxx.1364: 0016->FFFF7072 6F740004 02000000 6D736754 ..prot......msgT
+ 11:09:08.... septransp.cxx.1364: 0032->79700004 0C000000 636F6E6E 6563746F yp......connecto
+ 11:09:08.... septransp.cxx.1364: 0048->72001173 7461745F 746B742E 72656365 r..stat_tkt.rece
+ 11:09:08.... septransp.cxx.1364: 0064->69766500 77656967 68740004 FFFFFFFF ive.weight......
+ 11:09:08.... septransp.cxx.1364: 0080->006E616D 65000973 7461745F 746B7400 .name..stat_tkt.
+ 11:09:08.... septransp.cxx.1364: 0096->636F6E74 00FFD502 00000168 6F73745F cont.......host_
+ 11:09:08.... septransp.cxx.1364: 0112->69640004 01000000 7365705F 69640004 id......sep_id..
+ 11:09:08.... septransp.cxx.1364: 0128->11000000 73657276 5F696400 04050000 ....serv_id.....
+ 11:09:08.... septransp.cxx.1364: 0144->00746B74 5F646174 000407E5 0813746B .tkt_dat......tk
+ 11:09:08.... septransp.cxx.1364: 0160->745F7469 6D00030B 0908746B 745F746C t_tim.....tkt_tl
+ 11:09:08.... septransp.cxx.1364: 0176->7600FF88 02000030 820284A0 030A0100 v......0........
+ 11:09:08.... septransp.cxx.1364: 0192->A1030201 05308202 76A21730 1502041C .....0..v..0....
+ 11:09:08.... septransp.cxx.1364: 0208->B7BD0F02 04000000 05040770 666D6464 ...........pfmdd
+ 11:09:08.... septransp.cxx.1364: 0224->7570A21C 301A0204 1AC3AF48 02040000 up..0......H....
+ 11:09:08.... septransp.cxx.1364: 0240->0001040C 4F535031 39444556 53544550 ....OSP19DEVSTEP
+ 11:09:08.... septransp.cxx.1364: 0256->A120301E 02040000 003A0204 00000002 . 0......:......
+ 11:09:08.... septransp.cxx.1364: 0272->02040000 00010204 00000001 02040000 ................
+ 11:09:08.... septransp.cxx.1364: 0288->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:09:08.... septransp.cxx.1364: 0304->00020204 00000001 02040000 00020204 ................
+ 11:09:08.... septransp.cxx.1364: 0320->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:09:08.... septransp.cxx.1364: 0336->00000002 02040000 00010204 00000003 ................
+ 11:09:08.... septransp.cxx.1364: 0352->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:09:08.... septransp.cxx.1364: 0368->02040000 00030204 00000001 02040000 ................
+ 11:09:08.... septransp.cxx.1364: 0384->00010204 00000000 A120301E 02040000 ......... 0.....
+ 11:09:08.... septransp.cxx.1364: 0400->003A0204 00000003 02040000 00010204 .:..............
+ 11:09:08.... septransp.cxx.1364: 0416->00000002 02040000 0000A120 301E0204 ........... 0...
+ 11:09:08.... septransp.cxx.1364: 0432->0000003A 02040000 00010204 00000001 ...:............
+ 11:09:08.... septransp.cxx.1364: 0448->02040000 00020204 00000000 A120301E ............. 0.
+ 11:09:08.... septransp.cxx.1364: 0464->02040000 003A0204 00000001 02040000 .....:..........
+ 11:09:08.... septransp.cxx.1364: 0480->00010204 00000003 02040000 0000A120 ............... 
+ 11:09:08.... septransp.cxx.1364: 0496->301E0204 0000003A 02040000 00040204 0......:........
+ 11:09:08.... septransp.cxx.1364: 0512->00000001 02040000 00010204 00000000 ................
+ 11:09:08.... septransp.cxx.1364: 0528->A120301E 02040000 003A0204 00000004 . 0......:......
+ 11:09:08.... septransp.cxx.1364: 0544->02040000 00010204 00000002 02040000 ................
+ 11:09:08.... septransp.cxx.1364: 0560->0000A120 301E0204 0000003A 02040000 ... 0......:....
+ 11:09:08.... septransp.cxx.1364: 0576->00040204 00000001 02040000 00030204 ................
+ 11:09:08.... septransp.cxx.1364: 0592->00000000 A120301E 02040000 003A0204 ..... 0......:..
+ 11:09:08.... septransp.cxx.1364: 0608->00000004 02040000 00010204 00000004 ................
+ 11:09:08.... septransp.cxx.1364: 0624->02040000 0000A120 301E0204 0000003A ....... 0......:
+ 11:09:08.... septransp.cxx.1364: 0640->02040000 00040204 00000001 02040000 ................
+ 11:09:08.... septransp.cxx.1364: 0656->00050204 00000000 A120301E 02040000 ......... 0.....
+ 11:09:08.... septransp.cxx.1364: 0672->00010204 00000000 02040000 00010204 ................
+ 11:09:08.... septransp.cxx.1364: 0688->00000001 02040000 0000A120 301E0204 ........... 0...
+ 11:09:08.... septransp.cxx.1364: 0704->00000001 02040000 00000204 00000006 ................
+ 11:09:08.... septransp.cxx.1364: 0720->02040000 00010204 00000000 A02F302D ............./0-
+ 11:09:08.... septransp.cxx.1364: 0736->02040000 00010204 00000002 02040000 ................
+ 11:09:08.... septransp.cxx.1364: 0752->00010204 00000005 04133139 2F30382F ..........19/08/
+ 11:09:08.... septransp.cxx.1364: 0768->32303231 2031313A 30393A30 34A13030 2021 11:09:04.00
+ 11:09:08.... septransp.cxx.1364: 0784->2E020400 00000002 04000000 00020400 ................
+ 11:09:08.... septransp.cxx.1364: 0800->00000002 04000000 00020400 00000004 ................
+ 11:09:08.... septransp.cxx.1364: 0816->0E737461 74207365 70617261 746F7200 .stat separator.
+ 11:09:08.... septransp.cxx.1387: septransp origDID from header: 4294967295
+ 11:09:08..... inmsg.cxx.178: { Entry in 'IN_MSG::HdUnserialize' [Jan 13 2019 20:40:44]
+ 11:09:08..... septransp.cxx: Exiting from 'IN_MSG::HdUnserialize' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:09:08.... septransp.cxx.1395: pMsg=prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:09:08.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:09:08.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:09:08.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.169: dial: 36 aCtxt[dial]: 0xffffffffffffffff
+ 11:09:08.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:09:08.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:09:08..... indic.cxx.378: { Entry in 'SLITF::InitiateCtxt' [Jul 19 2019 17:51:19]
+ 11:09:08..... sliclass.h.169: dial: 60 aCtxt[dial]: 0xffffffffffffffff
+ 11:09:08..... getDial.hxx.10: sepConf.currentDial:32*100/nDial:10000=0, time(0):1629351548<>lastRemoveDial:0, removeOldDial=0, bAllowIncreaseDial=0, lastIncreaseDial=0, mem=42, dialThreshold=85, saveComputeOverload=-1
+ 11:09:08...... slitf.cxx.3248: { Entry in 'SLITF::ComputeOverload' [Jul 19 2019 17:50:35]
+ 11:09:08...... slitf.cxx.3253: toSave=-1, t=200, over=0, threshold=85, current=33
+ 11:09:08...... indic.cxx: Exiting from 'SLITF::ComputeOverload' to 'SLITF::InitiateCtxt' }
+ 11:09:08..... indic.cxx.481: ThreadID=-1, transpThreadID=33, sliDial = 60, dialogue_id: 36, Protocol Used : STAT_PROTOCOL, Transport used : ROUTER, Entity=ANY
+ 11:09:08..... septransp.cxx: Exiting from 'SLITF::InitiateCtxt' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:09:08.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280053620, nEntry=0, nWait=0, threadId=-1
+ 11:09:08.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280053620, nEntry=1, nWait=1, threadId=33
+ 11:09:08..... threadtransp.cxx.284: { Entry in 'SLITF::INMsgIndication' [Jul 19 2019 17:50:26]
+ 11:09:08...... sepprotocol.cxx.242: { Entry in 'SEP_PROTOCOL::AssignToThread' [Sep 25 2019 12:20:32]
+ 11:09:08...... threadtransp.cxx: Exiting from 'SEP_PROTOCOL::AssignToThread' to 'SLITF::INMsgIndication' }
+ 11:09:08...... threadtransp.cxx.600: { Entry in 'SLITF::StartThread' [Jul 19 2019 17:50:26]
+ 11:09:08...... threadtransp.cxx.634: Free thread in pool: 30
+ 11:09:08...... threadtransp.cxx: Exiting from 'SLITF::StartThread' to 'SLITF::INMsgIndication' }
+ 11:09:08..... threadtransp.cxx.348: Assign thread 30 to this indic: prot=P_OBJ, msgTyp=T_OBJ, sig=0, entity=<CURRENT>, connector=stat_tkt.receive, acn=null, bLast=1
+ 11:09:08..... threadtransp.cxx.260: 0x7fe293154fa0 Message for thread 30, origThread=33
+ 11:09:08..... threadtransp.cxx.260: 0000->00000000 24000000 3C000000 E37F0000 ....$...<......
+ 11:09:08..... threadtransp.cxx.260: 0016->602E0580 E27F0000                   `......        
+ 11:09:08..... septransp.cxx: Exiting from 'SLITF::INMsgIndication' to 'DPE_TRANSPORT::AnalyseMsg' }
+ 11:09:08.... septransp.cxx.350: Entry in Lock: 0x7fe33fa45b68
+ 11:09:08.... septransp.cxx.350: Exit from Lock: 0x7fe33fa45b68
+ 11:09:08.... /osp/sde/osp19_src_view/lib/platform/sli/sliclass.h.340: Dial: 36 aCtxt[dial]: 0x7fe2800536f0
+ 11:09:08.... transp.cxx.298: TRANSPORT::Entry, (this)=0x7fe280053620, nEntry=0, nWait=0, threadId=-1
+ 11:09:08.... septransp.cxx.351: Entry in UnLock: 0x7fe33fa45b68
+ 11:09:08.... septransp.cxx.351: Exit from UnLock: 0x7fe33fa45b68
+ 11:09:08.... transp.cxx.278: TRANSPORT::Exit, (this)=0x7fe280053620, nEntry=1, nWait=1, threadId=33

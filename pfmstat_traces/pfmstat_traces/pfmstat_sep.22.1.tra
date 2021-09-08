@@ -1,0 +1,1104 @@
+ 11:08:13. threadtransp.cxx.533: { Entry in 'ThreadInit' [Jul 19 2019 17:50:26]
+ 11:08:13.. chaintask.cxx.49: { Entry in 'MAKE_CHAIN::ExecuteAll' [Jan 13 2019 20:40:51]
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'Transport ROUTER' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'Transport RECOVERY TRANSPORT' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. object.cxx.201: ptr: this:0x7fe3240011b0
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'Pfmstat statcmd thrctxt' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'alarm SUB_NAME' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'DATABASE cnx' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. shmdb.cxx.4328: Create new SHMDB_ThreadList array with sz=3
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'Transport LOCAL' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'Transport THREAD' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'CMD log' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'Transport AsynchMsg' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'ml_CATGETS' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'stat ASN buf' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'STAT GLOBAL TICKET THREAD CONTEXT' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'Trace Thread' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling '<unknown>' for chain 'Thread Context'
+ 11:08:13.. chaintask.cxx.53: Calling 'BSMP_Thread' for chain 'Thread Context'
+ 11:08:13.. threadtransp.cxx: Exiting from 'MAKE_CHAIN::ExecuteAll' to 'ThreadInit' }
+ 11:08:13. threadtransp.cxx.537: +++++++++++++++++++++++++++++++++++++++++++++++++++
+Starting new Thread id=1 at 19/08/2021 11:08:13
+ 11:08:13.. threadtransp.cxx.171: { Entry in 'THREAD_TRANSP::InitiateDial' [Jul 19 2019 17:50:26]
+ 11:08:13.. threadtransp.cxx.173: ctxt=0x2a0f9b0, _threadID=1
+ 11:08:13.. threadtransp.cxx: Exiting from 'THREAD_TRANSP::InitiateDial' to 'ThreadInit' }
+ 11:08:13.. slitf.cxx.2668: { Entry in 'SLITF::TreatMessage' [Jul 19 2019 17:50:35]
+ 11:08:13... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:13... slitf.cxx.1496: No timers
+ 11:08:13... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:13.. slitf.cxx.2771: Waiting incoming message during indefinitely 
+ 11:08:13.. transp.cxx.64: Transport THREAD:fd=39, flags=FD_READ | 
+ 11:08:13.. slitf.cxx.2779: MaxFD = 1
+ 11:08:13.. slitf.cxx.2849: calling Event on FD 39 (nbFD=1) for TRANSPORT 'THREAD' index 0
+ 11:08:13.. transp.cxx.127: READ event transport THREAD, FD= 39
+ 11:08:13... threadtransp.cxx.208: { Entry in 'THREAD_TRANSP::ReadEvent' [Jul 19 2019 17:50:26]
+ 11:08:13... threadtransp.cxx.218: 0x7fe3240458f0 Message received : 
+ 11:08:13... threadtransp.cxx.218: 0000->00000000 FFFFFFFF 01000000 00000000 ................
+ 11:08:13... threadtransp.cxx.218: 0016->8097AA02 00000000                   ........        
+ 11:08:13.... indic.cxx.273: { Entry in 'SLITF::DirectINMsgIndication' [Jul 19 2019 17:51:19]
+1 11:08:13.... indic.cxx.317: SliDial=1, Entity=ANY, Protocol=STAT_PROTOCOL, transport=LOCAL
+1 11:08:13.... indic.cxx.332: Dump msg received : dialogue_id : -1
+prot=P_INFO, msgTyp=T_INANY, sig=0, entity=ANY, connector=thread.create, acn=null, bLast=1,weight=81
+DATA TYPE=0
+1 11:08:13.... indic.cxx.342: _sliLog_.bLog=0
+1 11:08:13..... statProtocol.cxx.30: { Entry in 'StatProtocol::Analyse' [Jan 13 2019 22:04:36]
+1 11:08:13...... sepprotocol.cxx.26: { Entry in 'SEP_PROTOCOL::Analyse' [Sep 25 2019 12:20:32]
+1 11:08:13....... sepprotocol.cxx.114: { Entry in 'SEP_PROTOCOL::preTreatment' [Sep 25 2019 12:20:32]
+1 11:08:13....... sepprotocol.cxx.124: Message received :prot=P_INFO, msgTyp=T_INANY, sig=0, entity=ANY, connector=thread.create, acn=null, bLast=1,weight=81
+1 11:08:13........ protocol.cxx.30: { Entry in 'OSP_PROTOCOL::CreateCallCtxt()' [Jul 19 2019 17:51:18]
+1 11:08:13......... rootincall.cxx.25: { Entry in 'ROOT_INCALL::ROOT_INCALL' [Jul 19 2019 17:51:17]
+1 11:08:13.......... slitf.cxx.3193: { Entry in 'SLITF::DeclareCtxt' [Jul 19 2019 17:50:35]
+1 11:08:13.......... rootincall.cxx: Exiting from 'SLITF::DeclareCtxt' to 'ROOT_INCALL::ROOT_INCALL' }
+1 11:08:13.......... rootincall.cxx.81: { Entry in 'ROOT_INCALL::CallStart' [Jul 19 2019 17:51:17]
+1 11:08:13.......... rootincall.cxx: Exiting from 'ROOT_INCALL::CallStart' to 'ROOT_INCALL::ROOT_INCALL' }
+1 11:08:13......... protocol.cxx: Exiting from 'ROOT_INCALL::ROOT_INCALL' to 'OSP_PROTOCOL::CreateCallCtxt()' }
+1 11:08:13......... incall.cxx.24: { Entry in 'INCALL::INCALL' [Sep 25 2019 12:20:48]
+1 11:08:13.......... context.cxx.245: { Entry in 'CONTEXT::NewContext' [Sep 25 2019 12:20:30]
+1 11:08:13.......... context.cxx.246: size=576
+1 11:08:13.......... context.cxx.248: pContext=0x7fe324045e60
+1 11:08:13.......... incall.cxx: Exiting from 'CONTEXT::NewContext' to 'INCALL::INCALL' }
+1 11:08:13......... protocol.cxx: Exiting from 'INCALL::INCALL' to 'OSP_PROTOCOL::CreateCallCtxt()' }
+1 11:08:13........ sepprotocol.cxx: Exiting from 'OSP_PROTOCOL::CreateCallCtxt()' to 'SEP_PROTOCOL::preTreatment' }
+1 11:08:13....... sepprotocol.cxx.134: NEW CALL CREATION for service /osp/psmf/service/pfmstat/slee/bin/platform/pfmstat
+1 11:08:13........ script.cxx.3268: { Entry in 'OspScript::GetMethodStateNbr' [Sep 25 2019 12:20:20]
+1 11:08:13........ sepprotocol.cxx: Exiting from 'OspScript::GetMethodStateNbr' to 'SEP_PROTOCOL::preTreatment' }
+1 11:08:13....... sepprotocol.cxx: Exiting from 'SEP_PROTOCOL::preTreatment' to 'SEP_PROTOCOL::Analyse' }
+1 11:08:13...... sepprotocol.cxx.53: CALLING THE SIB'S PROCESSOR: state=1001
+1 11:08:13....... script.cxx.729: { Entry in 'OspScript::Run' [Sep 25 2019 12:20:20]
+1 11:08:13....... script.cxx.730: myName=main
+1 11:08:13........ script.cxx.575: { Entry in 'OspScript::InitThreadCtxt' [Sep 25 2019 12:20:20]
+1 11:08:13........ script.cxx.593: State=1001,SIB=platform/initsk.mthread
+1 11:08:13......... initsk.mthread.h.134: { Entry in 'SIB_PLATFORM_INITSK_MTHREAD::NewLocalObject' [Jan 13 2019 21:59:50]
+1 11:08:13......... initsk.mthread.h.135: io name=sepinfo,pFactory=0x7fe33d32c7c0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INITSK_MTHREAD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001001,SIB=platform/end
+1 11:08:13........ script.cxx.593: State=1003002,SIB=platform/inistat
+1 11:08:13........ script.cxx.593: State=1003003,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1003005,SIB=platserv/stat/role
+1 11:08:13......... role.h.180: { Entry in 'SIB_PLATSERV_STAT_ROLE::NewLocalObject' [Jan 13 2019 22:04:18]
+1 11:08:13......... role.h.181: io name=sepinfo,pFactory=0x7fe33d32c7c0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_ROLE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... role.h.180: { Entry in 'SIB_PLATSERV_STAT_ROLE::NewLocalObject' [Jan 13 2019 22:04:18]
+1 11:08:13......... role.h.181: io name=stat_ctx,pFactory=0x7fe33ca6d3c0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_ROLE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1003006,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1004006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1004007,SIB=platform/setValue
+1 11:08:13......... bstring.cxx.283: { Entry in 'BYTESTRING::ascii2c' [Jan 13 2019 20:40:53]
+1 11:08:13......... bstring.cxx.304: *this=f0
+1 11:08:13......... script.cxx: Exiting from 'BYTESTRING::ascii2c' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1005007,SIB=platform/setValue
+1 11:08:13......... bstring.cxx.283: { Entry in 'BYTESTRING::ascii2c' [Jan 13 2019 20:40:53]
+1 11:08:13......... bstring.cxx.304: *this=f0
+1 11:08:13......... script.cxx: Exiting from 'BYTESTRING::ascii2c' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006007,SIB=platform/setValue
+1 11:08:13......... bstring.cxx.283: { Entry in 'BYTESTRING::ascii2c' [Jan 13 2019 20:40:53]
+1 11:08:13......... bstring.cxx.304: *this=f0
+1 11:08:13......... script.cxx: Exiting from 'BYTESTRING::ascii2c' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006008,SIB=platserv/stat/checkOnlyOneTktSep
+1 11:08:13........ script.cxx.593: State=1006009,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1006011,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=1007010,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=1007012,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1008007,SIB=platserv/stat/getWriterInst
+1 11:08:13........ script.cxx.593: State=1008008,SIB=platform/setValue
+1 11:08:13......... bstring.cxx.283: { Entry in 'BYTESTRING::ascii2c' [Jan 13 2019 20:40:53]
+1 11:08:13......... bstring.cxx.304: *this=f0
+1 11:08:13......... script.cxx: Exiting from 'BYTESTRING::ascii2c' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1009012,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1011002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1011003,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1013002,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1013003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1013004,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1013007,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1015005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1015006,SIB=platform/wait
+1 11:08:13........ script.cxx.593: State=1015007,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1015009,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1016006,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1018002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1018003,SIB=platform/hole
+1 11:08:13........ script.cxx.593: State=1018007,SIB=platform/hole
+1 11:08:13........ script.cxx.593: State=1018008,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1018010,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1019003,SIB=platform/hole
+1 11:08:13........ script.cxx.593: State=1019009,SIB=platserv/stat/getWriterInst
+1 11:08:13........ script.cxx.593: State=1019010,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1021002,SIB=platform/end
+1 11:08:13........ script.cxx.593: State=2002003,SIB=platform/srobj
+1 11:08:13......... srobj.h.219: { Entry in 'SIB_PLATFORM_SROBJ::NewLocalObject' [Jan 13 2019 22:00:57]
+1 11:08:13......... srobj.h.220: io name=objrec,pFactory=0x7fe33bc325e0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SROBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=2002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=2002005,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=2002006,SIB=platform/tstbit
+1 11:08:13........ script.cxx.593: State=2002007,SIB=platform/tstbit
+1 11:08:13........ script.cxx.593: State=2002008,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bc325e0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=2002009,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=2002010,SIB=platserv/stat/forwardToAcc
+1 11:08:13........ script.cxx.593: State=2002011,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=2004004,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=2004008,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=2004009,SIB=platform/manageBytestring
+1 11:08:13........ script.cxx.593: State=2004010,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=2004011,SIB=platserv/stat/forwardToAcc
+1 11:08:13........ script.cxx.593: State=2004012,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=2005002,SIB=platform/superDispatch
+1 11:08:13........ script.cxx.593: State=2007002,SIB=platserv/stat/decode
+1 11:08:13......... decode.h.172: { Entry in 'SIB_PLATSERV_STAT_DECODE::NewLocalObject' [Jan 13 2019 22:04:02]
+1 11:08:13......... decode.h.173: io name=stat_tkt,pFactory=0x7fe33bc325e0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_DECODE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=2008003,SIB=platserv/stat/cleartag
+1 11:08:13........ script.cxx.593: State=2008004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=2008005,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=2008007,SIB=platserv/stat/tracesub
+1 11:08:13......... tracesub.h.141: { Entry in 'SIB_PLATSERV_STAT_TRACESUB::NewLocalObject' [Jan 13 2019 22:04:27]
+1 11:08:13......... tracesub.h.142: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TRACESUB::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=2008008,SIB=platform/acttraces
+1 11:08:13........ script.cxx.593: State=2008009,SIB=platserv/stat/dettrt
+1 11:08:13......... dettrt.h.157: { Entry in 'SIB_PLATSERV_STAT_DETTRT::NewLocalObject' [Jan 13 2019 22:04:03]
+1 11:08:13......... dettrt.h.158: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_DETTRT::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... dettrt.h.157: { Entry in 'SIB_PLATSERV_STAT_DETTRT::NewLocalObject' [Jan 13 2019 22:04:03]
+1 11:08:13......... dettrt.h.158: io name=stat_tkt,pFactory=0x7fe33bc325e0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_DETTRT::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=2008011,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=2008012,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=2009007,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=2009010,SIB=platserv/stat/updmat
+1 11:08:13......... updmat.h.161: { Entry in 'SIB_PLATSERV_STAT_UPDMAT::NewLocalObject' [Jan 13 2019 22:04:32]
+1 11:08:13......... updmat.h.162: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_UPDMAT::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=2009011,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=2009012,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=2011011,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=2011012,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=2012013,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=2013010,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=2015002,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=2015003,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=2015005,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=2018002,SIB=platserv/stat/moresub
+1 11:08:13........ script.cxx.593: State=3002002,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=3005002,SIB=platserv/stat/cadence
+1 11:08:13......... cadence.h.233: { Entry in 'SIB_PLATSERV_STAT_CADENCE::NewLocalObject' [Jan 13 2019 22:03:51]
+1 11:08:13......... cadence.h.234: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CADENCE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=3005003,SIB=platform/wait
+1 11:08:13........ script.cxx.593: State=3005004,SIB=platserv/stat/cadence
+1 11:08:13......... cadence.h.233: { Entry in 'SIB_PLATSERV_STAT_CADENCE::NewLocalObject' [Jan 13 2019 22:03:51]
+1 11:08:13......... cadence.h.234: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CADENCE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=3005006,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=3005009,SIB=platserv/stat/cadence
+1 11:08:13......... cadence.h.233: { Entry in 'SIB_PLATSERV_STAT_CADENCE::NewLocalObject' [Jan 13 2019 22:03:51]
+1 11:08:13......... cadence.h.234: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CADENCE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=3005010,SIB=platform/wait
+1 11:08:13........ script.cxx.593: State=3006007,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4002002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4002003,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=4002004,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4002009,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4002010,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4002013,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4002014,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4002020,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4002021,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=4002022,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=4002024,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4002025,SIB=platserv/stat/chkstate
+1 11:08:13......... chkstate.h.218: { Entry in 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' [Jan 13 2019 22:03:55]
+1 11:08:13......... chkstate.h.219: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... chkstate.h.218: { Entry in 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' [Jan 13 2019 22:03:55]
+1 11:08:13......... chkstate.h.219: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4003005,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=4003006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4003007,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=4003011,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4003015,SIB=platserv/stat/mngThrCtxMap
+1 11:08:13........ script.cxx.593: State=4003016,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4003017,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=4003018,SIB=platserv/stat/mngThrCtxMap
+1 11:08:13........ script.cxx.593: State=4004014,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4004015,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4004017,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=4004018,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=4004021,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4004022,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4007002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4007003,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=4007004,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4007008,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4007009,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4007011,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4007013,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=4008005,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=4008006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4008007,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=4010012,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4010013,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=4010014,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4013002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4013003,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=4013004,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4013008,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4013009,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4013010,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4013011,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4013014,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=4013016,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4013018,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4014005,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=4014006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4014007,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=4014012,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4014014,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4014015,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4017002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4017003,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=4017004,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4017008,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4017009,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4017010,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4017011,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4017018,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4017019,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4017021,SIB=platserv/stat/chkstate
+1 11:08:13......... chkstate.h.218: { Entry in 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' [Jan 13 2019 22:03:55]
+1 11:08:13......... chkstate.h.219: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... chkstate.h.218: { Entry in 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' [Jan 13 2019 22:03:55]
+1 11:08:13......... chkstate.h.219: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4018005,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=4018006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4018007,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=4018012,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4018013,SIB=platserv/stat/mngThrCtxMap
+1 11:08:13........ script.cxx.593: State=4018014,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4018015,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=4018016,SIB=platserv/stat/mngThrCtxMap
+1 11:08:13........ script.cxx.593: State=4018020,SIB=platserv/stat/chksumora
+1 11:08:13......... chksumora.h.168: { Entry in 'SIB_PLATSERV_STAT_CHKSUMORA::NewLocalObject' [Jan 13 2019 22:03:57]
+1 11:08:13......... chksumora.h.169: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4018021,SIB=platserv/stat/sumora
+1 11:08:13......... sumora.h.214: { Entry in 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' [Jan 13 2019 22:04:25]
+1 11:08:13......... sumora.h.215: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4019015,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=4019016,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=4019019,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4019020,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4022002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4022003,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=4022004,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4022008,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4022009,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4022010,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=4022011,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4022014,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=4022015,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4022016,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4023005,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=4023006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4023007,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=4023012,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4023014,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=4023015,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=4026002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=5002002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=5002003,SIB=platform/srobj
+1 11:08:13......... srobj.h.219: { Entry in 'SIB_PLATFORM_SROBJ::NewLocalObject' [Jan 13 2019 22:00:57]
+1 11:08:13......... srobj.h.220: io name=objrec,pFactory=0x7fe33ba243e0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SROBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5002004,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5002005,SIB=platserv/stat/idobj
+1 11:08:13......... idobj.h.193: { Entry in 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' [Jan 13 2019 22:04:12]
+1 11:08:13......... idobj.h.194: io name=obj,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5002006,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5002007,SIB=platserv/stat/idobj
+1 11:08:13......... idobj.h.193: { Entry in 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' [Jan 13 2019 22:04:12]
+1 11:08:13......... idobj.h.194: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5002008,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=5003009,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=5003010,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=5003011,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=5005002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=5005003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5005005,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5005007,SIB=platserv/stat/chkstate
+1 11:08:13......... chkstate.h.218: { Entry in 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' [Jan 13 2019 22:03:55]
+1 11:08:13......... chkstate.h.219: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... chkstate.h.218: { Entry in 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' [Jan 13 2019 22:03:55]
+1 11:08:13......... chkstate.h.219: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5006006,SIB=platserv/stat/chksumora
+1 11:08:13......... chksumora.h.168: { Entry in 'SIB_PLATSERV_STAT_CHKSUMORA::NewLocalObject' [Jan 13 2019 22:03:57]
+1 11:08:13......... chksumora.h.169: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5006007,SIB=platserv/stat/sumora
+1 11:08:13......... sumora.h.214: { Entry in 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' [Jan 13 2019 22:04:25]
+1 11:08:13......... sumora.h.215: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5007003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5007005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5007006,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5007007,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5007008,SIB=platform/gettad
+1 11:08:13........ script.cxx.593: State=5007009,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5007010,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5007011,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5007012,SIB=platserv/stat/sumora
+1 11:08:13......... sumora.h.214: { Entry in 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' [Jan 13 2019 22:04:25]
+1 11:08:13......... sumora.h.215: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5008011,SIB=platserv/stat/sumatra
+1 11:08:13......... sumatra.h.182: { Entry in 'SIB_PLATSERV_STAT_SUMATRA::NewLocalObject' [Jan 13 2019 22:04:22]
+1 11:08:13......... sumatra.h.183: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMATRA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5009003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5009005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5009006,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5009007,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5009008,SIB=platserv/stat/writeora
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5010007,SIB=platserv/stat/writedsk
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5011003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5011005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=5011006,SIB=platserv/stat/watcher
+1 11:08:13......... watcher.h.359: { Entry in 'SIB_PLATSERV_STAT_WATCHER::NewLocalObject' [Nov 19 2019 12:10:09]
+1 11:08:13......... watcher.h.360: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WATCHER::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=5011007,SIB=platform/mailto
+1 11:08:13........ script.cxx.593: State=7002002,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=7002003,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=7002005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=7002007,SIB=platserv/stat/watcher
+1 11:08:13......... watcher.h.359: { Entry in 'SIB_PLATSERV_STAT_WATCHER::NewLocalObject' [Nov 19 2019 12:10:09]
+1 11:08:13......... watcher.h.360: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WATCHER::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=7002008,SIB=platform/mailto
+1 11:08:13........ script.cxx.593: State=7005002,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=7005003,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=7005005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=7005007,SIB=platserv/stat/watcherend
+1 11:08:13......... watcherend.h.347: { Entry in 'SIB_PLATSERV_STAT_WATCHEREND::NewLocalObject' [Jan 13 2019 22:04:43]
+1 11:08:13......... watcherend.h.348: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WATCHEREND::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=7005008,SIB=platform/mailto
+1 11:08:13........ script.cxx.593: State=8002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=8002003,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=8002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=8002005,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=8002006,SIB=platform/sqlsel
+1 11:08:13......... sqlsel.h.156: { Entry in 'SIB_PLATFORM_SQLSEL::NewLocalObject' [Jan 13 2019 22:00:56]
+1 11:08:13......... sqlsel.h.157: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SQLSEL::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=8002007,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=8002009,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=8002010,SIB=platserv/stat/tvotmng
+1 11:08:13......... tvotmng.h.163: { Entry in 'SIB_PLATSERV_STAT_TVOTMNG::NewLocalObject' [Jan 13 2019 22:04:30]
+1 11:08:13......... tvotmng.h.164: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TVOTMNG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=8002011,SIB=platform/sqlsel
+1 11:08:13......... sqlsel.h.156: { Entry in 'SIB_PLATFORM_SQLSEL::NewLocalObject' [Jan 13 2019 22:00:56]
+1 11:08:13......... sqlsel.h.157: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SQLSEL::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=8003002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=8003004,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=8003007,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=8003012,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=8003013,SIB=platserv/stat/tvotmng
+1 11:08:13......... tvotmng.h.163: { Entry in 'SIB_PLATSERV_STAT_TVOTMNG::NewLocalObject' [Jan 13 2019 22:04:30]
+1 11:08:13......... tvotmng.h.164: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TVOTMNG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=8004002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=10002002,SIB=platform/srobj
+1 11:08:13......... srobj.h.219: { Entry in 'SIB_PLATFORM_SROBJ::NewLocalObject' [Jan 13 2019 22:00:57]
+1 11:08:13......... srobj.h.220: io name=objrec,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SROBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=10002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=10002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=10002005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=10002006,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=10002007,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=10002008,SIB=platserv/stat/sumflg
+1 11:08:13........ script.cxx.593: State=10002009,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=10002010,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=10002011,SIB=platform/sqlsel
+1 11:08:13......... sqlsel.h.156: { Entry in 'SIB_PLATFORM_SQLSEL::NewLocalObject' [Jan 13 2019 22:00:56]
+1 11:08:13......... sqlsel.h.157: io name=obj,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SQLSEL::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=10003003,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=10005004,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=10005005,SIB=platserv/stat/sumatra
+1 11:08:13......... sumatra.h.182: { Entry in 'SIB_PLATSERV_STAT_SUMATRA::NewLocalObject' [Jan 13 2019 22:04:22]
+1 11:08:13......... sumatra.h.183: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMATRA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=10006005,SIB=platserv/stat/sumora
+1 11:08:13......... sumora.h.214: { Entry in 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' [Jan 13 2019 22:04:25]
+1 11:08:13......... sumora.h.215: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=10009002,SIB=platform/wait
+1 11:08:13........ script.cxx.593: State=10009003,SIB=platform/sqlsel
+1 11:08:13......... sqlsel.h.156: { Entry in 'SIB_PLATFORM_SQLSEL::NewLocalObject' [Jan 13 2019 22:00:56]
+1 11:08:13......... sqlsel.h.157: io name=obj,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SQLSEL::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=11002002,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=11002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=11002004,SIB=platform/cast
+1 11:08:13........ script.cxx.593: State=11002005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=11002006,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=11002007,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=11002008,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=11002009,SIB=platserv/stat/sumflg
+1 11:08:13........ script.cxx.593: State=11002010,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=11002011,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=11003003,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=11005004,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=11005005,SIB=platserv/stat/sumatra
+1 11:08:13......... sumatra.h.182: { Entry in 'SIB_PLATSERV_STAT_SUMATRA::NewLocalObject' [Jan 13 2019 22:04:22]
+1 11:08:13......... sumatra.h.183: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMATRA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=11006005,SIB=platserv/stat/sumora
+1 11:08:13......... sumora.h.214: { Entry in 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' [Jan 13 2019 22:04:25]
+1 11:08:13......... sumora.h.215: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=11009002,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=11009003,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=12002002,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=12002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=12002005,SIB=platserv/stat/writeora
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=12003004,SIB=platform/sndala
+1 11:08:13......... sndala.h.145: { Entry in 'SIB_PLATFORM_SNDALA::NewLocalObject' [Jan 13 2019 22:00:37]
+1 11:08:13......... sndala.h.146: io name=obj_ref,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SNDALA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=13003002,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=13003003,SIB=platform/superDispatch
+1 11:08:13........ script.cxx.593: State=13004004,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=13005004,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=13006005,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=13009002,SIB=platserv/stat/writetoshm
+1 11:08:13........ script.cxx.593: State=13010003,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=13010004,SIB=platform/sndala
+1 11:08:13......... sndala.h.145: { Entry in 'SIB_PLATFORM_SNDALA::NewLocalObject' [Jan 13 2019 22:00:37]
+1 11:08:13......... sndala.h.146: io name=obj_ref,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SNDALA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=13011003,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=13011005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=13011006,SIB=platserv/stat/genrep
+1 11:08:13......... genrep.h.210: { Entry in 'SIB_PLATSERV_STAT_GENREP::NewLocalObject' [Jan 13 2019 22:04:07]
+1 11:08:13......... genrep.h.211: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_GENREP::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... genrep.h.210: { Entry in 'SIB_PLATSERV_STAT_GENREP::NewLocalObject' [Jan 13 2019 22:04:07]
+1 11:08:13......... genrep.h.211: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_GENREP::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=13011007,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=13011008,SIB=platform/sndala
+1 11:08:13......... sndala.h.145: { Entry in 'SIB_PLATFORM_SNDALA::NewLocalObject' [Jan 13 2019 22:00:37]
+1 11:08:13......... sndala.h.146: io name=obj_ref,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SNDALA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=13011009,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=13011010,SIB=platform/mailto
+1 11:08:13........ script.cxx.593: State=1001002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001002005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001005001,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1001005002,SIB=platform/tstbit
+1 11:08:13........ script.cxx.593: State=1001005003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001005004,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001005005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001005006,SIB=platserv/stat/writeora
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001005007,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001006006,SIB=platserv/stat/writedsk
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001006007,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1001006008,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=1001006009,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=1001008003,SIB=platform/tstbit
+1 11:08:13........ script.cxx.593: State=1001008004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001008005,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001008006,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001008007,SIB=platserv/stat/writeora
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001008008,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001009007,SIB=platserv/stat/writedsk
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001011002,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001011003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1001011004,SIB=platserv/stat/writeora
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001012004,SIB=platserv/stat/writedsk
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1001014002,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1001014003,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1001014004,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1001014005,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1002002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1002002003,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1002002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1002002005,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1002002006,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1002002007,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1002002008,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1002002011,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1002002012,SIB=platserv/stat/chkstate
+1 11:08:13......... chkstate.h.218: { Entry in 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' [Jan 13 2019 22:03:55]
+1 11:08:13......... chkstate.h.219: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... chkstate.h.218: { Entry in 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' [Jan 13 2019 22:03:55]
+1 11:08:13......... chkstate.h.219: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSTATE::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1002002013,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1002002014,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1002003004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1002003012,SIB=platserv/stat/chksumora
+1 11:08:13......... chksumora.h.168: { Entry in 'SIB_PLATSERV_STAT_CHKSUMORA::NewLocalObject' [Jan 13 2019 22:03:57]
+1 11:08:13......... chksumora.h.169: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKSUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1002003013,SIB=platserv/stat/sumora
+1 11:08:13......... sumora.h.214: { Entry in 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' [Jan 13 2019 22:04:25]
+1 11:08:13......... sumora.h.215: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1002005008,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1002006009,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1002008002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1002008003,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1002008004,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1002008005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1002008006,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1002008007,SIB=platform/wait
+1 11:08:13........ script.cxx.593: State=1002008008,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1002008009,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1002009003,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1004002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1004002003,SIB=platserv/stat/genrep
+1 11:08:13......... genrep.h.210: { Entry in 'SIB_PLATSERV_STAT_GENREP::NewLocalObject' [Jan 13 2019 22:04:07]
+1 11:08:13......... genrep.h.211: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_GENREP::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... genrep.h.210: { Entry in 'SIB_PLATSERV_STAT_GENREP::NewLocalObject' [Jan 13 2019 22:04:07]
+1 11:08:13......... genrep.h.211: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_GENREP::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1004002004,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1004002005,SIB=platform/sndala
+1 11:08:13......... sndala.h.145: { Entry in 'SIB_PLATFORM_SNDALA::NewLocalObject' [Jan 13 2019 22:00:37]
+1 11:08:13......... sndala.h.146: io name=obj_ref,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SNDALA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1004003006,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1004003007,SIB=platform/mailto
+1 11:08:13........ script.cxx.593: State=1004006002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1004006003,SIB=platserv/stat/mngThrCtxMap
+1 11:08:13........ script.cxx.593: State=1004006004,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=1004006005,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=1004009003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1004009004,SIB=platserv/stat/writeora
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writeora.h.268: { Entry in 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' [Jan 13 2019 22:04:47]
+1 11:08:13......... writeora.h.269: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1004010002,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1004010004,SIB=platserv/stat/writedsk
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_cfg,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13......... writedsk.h.256: { Entry in 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' [Nov 18 2019 16:22:19]
+1 11:08:13......... writedsk.h.257: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WRITEDSK::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1004010005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1004010006,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1004010007,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1004012002,SIB=platform/gettad
+1 11:08:13........ script.cxx.593: State=1004012003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1004012004,SIB=platserv/stat/tstoraflg
+1 11:08:13......... tstoraflg.h.146: { Entry in 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' [Jan 13 2019 22:04:29]
+1 11:08:13......... tstoraflg.h.147: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_TSTORAFLG::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1004012005,SIB=platserv/stat/sumatra
+1 11:08:13......... sumatra.h.182: { Entry in 'SIB_PLATSERV_STAT_SUMATRA::NewLocalObject' [Jan 13 2019 22:04:22]
+1 11:08:13......... sumatra.h.183: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMATRA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1004012006,SIB=platserv/stat/watcherend
+1 11:08:13......... watcherend.h.347: { Entry in 'SIB_PLATSERV_STAT_WATCHEREND::NewLocalObject' [Jan 13 2019 22:04:43]
+1 11:08:13......... watcherend.h.348: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WATCHEREND::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1004012007,SIB=platform/mailto
+1 11:08:13........ script.cxx.593: State=1004012008,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=1004013005,SIB=platserv/stat/sumora
+1 11:08:13......... sumora.h.214: { Entry in 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' [Jan 13 2019 22:04:25]
+1 11:08:13......... sumora.h.215: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_SUMORA::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1005002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1005002003,SIB=platform/gettad
+1 11:08:13........ script.cxx.593: State=1005002004,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1005002005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1005002006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1005002009,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1005002011,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1005003005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1005003007,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005003010,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005004009,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1005004011,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=1005005010,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005005011,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005005012,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=1005005013,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005007002,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1005007003,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1005007004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1005007005,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1005007006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1005008004,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1005008007,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005008009,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005011002,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1005011003,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=1005011004,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1005011005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1005011006,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1005011007,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1005012008,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005012010,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1005015002,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1005015003,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1005015004,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1005015005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1005015006,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1005016003,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1005016005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006002002,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006002003,SIB=platserv/stat/idobj
+1 11:08:13......... idobj.h.193: { Entry in 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' [Jan 13 2019 22:04:12]
+1 11:08:13......... idobj.h.194: io name=obj,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006002005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006002006,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006002007,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33ca6d3c0
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006002008,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006002009,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006002010,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006003004,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1006005002,SIB=platform/iniobj
+1 11:08:13......... iniobj.h.134: { Entry in 'SIB_PLATFORM_INIOBJ::NewLocalObject' [Jan 13 2019 21:59:46]
+1 11:08:13......... iniobj.h.135: io name=obj,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_INIOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006005003,SIB=platserv/stat/idobj
+1 11:08:13......... idobj.h.193: { Entry in 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' [Jan 13 2019 22:04:12]
+1 11:08:13......... idobj.h.194: io name=obj,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006005004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006005005,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006005006,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006005007,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006005008,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1006007002,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006007003,SIB=platform/setValue
+1 11:08:13......... bstring.cxx.283: { Entry in 'BYTESTRING::ascii2c' [Jan 13 2019 20:40:53]
+1 11:08:13......... bstring.cxx.304: *this=0000000000000000000000000000000000000000000000000000000000000000
+1 11:08:13......... script.cxx: Exiting from 'BYTESTRING::ascii2c' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006007005,SIB=platform/setValue
+1 11:08:13......... bstring.cxx.283: { Entry in 'BYTESTRING::ascii2c' [Jan 13 2019 20:40:53]
+1 11:08:13......... bstring.cxx.304: *this=0000000000000000000000000000000000000000000000000000000000000000
+1 11:08:13......... script.cxx: Exiting from 'BYTESTRING::ascii2c' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006007007,SIB=platform/setValue
+1 11:08:13......... bstring.cxx.283: { Entry in 'BYTESTRING::ascii2c' [Jan 13 2019 20:40:53]
+1 11:08:13......... bstring.cxx.304: *this=0000000000000000000000000000000000000000000000000000000000000000
+1 11:08:13......... script.cxx: Exiting from 'BYTESTRING::ascii2c' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1006009002,SIB=platform/setValue
+1 11:08:13......... bstring.cxx.283: { Entry in 'BYTESTRING::ascii2c' [Jan 13 2019 20:40:53]
+1 11:08:13......... bstring.cxx.304: *this=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+1 11:08:13......... script.cxx: Exiting from 'BYTESTRING::ascii2c' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1007002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1007002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1007002004,SIB=platform/frmdat
+1 11:08:13........ script.cxx.593: State=1007002005,SIB=platform/cast
+1 11:08:13........ script.cxx.593: State=1007002006,SIB=platform/srobj
+1 11:08:13........ script.cxx.593: State=1007002007,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=1008002002,SIB=platserv/stat/idobj
+1 11:08:13......... idobj.h.193: { Entry in 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' [Jan 13 2019 22:04:12]
+1 11:08:13......... idobj.h.194: io name=obj,pFactory=0x7fe33ccb4f40
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJ::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1008002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1008002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1009002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1009002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1009002004,SIB=platform/acttraces
+1 11:08:13........ script.cxx.593: State=1010002002,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1010002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1010002004,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=1010003005,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1010003006,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=1010003007,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1010003008,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1010003009,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1011002002,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1011002003,SIB=platform/tstbit
+1 11:08:13........ script.cxx.593: State=1011002004,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1011002005,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1011002006,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1011004003,SIB=platform/tstbit
+1 11:08:13........ script.cxx.593: State=1011004004,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1011004005,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1011004006,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1011005007,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1011005008,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1011005010,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1011005011,SIB=platserv/stat/chkLockThread
+1 11:08:13........ script.cxx.593: State=1012002002,SIB=platform/dbstatus
+1 11:08:13........ script.cxx.593: State=1012002003,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1012002004,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1013002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1013002003,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=1013002004,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1013002005,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1014002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1014002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1014002006,SIB=platserv/stat/chkwriter
+1 11:08:13......... chkwriter.h.216: { Entry in 'SIB_PLATSERV_STAT_CHKWRITER::NewLocalObject' [Jan 13 2019 22:03:59]
+1 11:08:13......... chkwriter.h.217: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_CHKWRITER::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1014002007,SIB=platform/mailto
+1 11:08:13........ script.cxx.593: State=1014005002,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1014005003,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1015002002,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1015002003,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1015002007,SIB=platserv/stat/watcherend
+1 11:08:13......... watcherend.h.347: { Entry in 'SIB_PLATSERV_STAT_WATCHEREND::NewLocalObject' [Jan 13 2019 22:04:43]
+1 11:08:13......... watcherend.h.348: io name=stat_sub,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_WATCHEREND::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1015002008,SIB=platform/mailto
+1 11:08:13........ script.cxx.593: State=1015005002,SIB=platform/frmval
+1 11:08:13........ script.cxx.593: State=1015005003,SIB=platform/compare
+1 11:08:13........ script.cxx.593: State=1016002002,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1016002003,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1016002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1017002002,SIB=platserv/stat/subshm
+1 11:08:13........ script.cxx.593: State=1017002003,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1018002002,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1018002003,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1018002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1019002002,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1019002003,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1019002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1020002002,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1020002003,SIB=platform/testNullity
+1 11:08:13........ script.cxx.593: State=1020002004,SIB=platform/setValue
+1 11:08:13........ script.cxx.593: State=1021002002,SIB=platform/method
+1 11:08:13......... method.h.2154: { Entry in 'SIB_PLATFORM_METHOD::NewLocalObject' [Jan 13 2019 22:00:05]
+1 11:08:13......... method.h.2155: io name=objtst,pFactory=0x7fe33c1c0a20
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_METHOD::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1022003002,SIB=platform/sqlsel
+1 11:08:13......... sqlsel.h.156: { Entry in 'SIB_PLATFORM_SQLSEL::NewLocalObject' [Jan 13 2019 22:00:56]
+1 11:08:13......... sqlsel.h.157: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SQLSEL::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1022003003,SIB=platserv/stat/idobjri
+1 11:08:13......... idobjri.h.170: { Entry in 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' [Jan 13 2019 22:04:14]
+1 11:08:13......... idobjri.h.171: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATSERV_STAT_IDOBJRI::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1022003004,SIB=platform/anaval
+1 11:08:13........ script.cxx.593: State=1022003005,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1022003006,SIB=platform/sndala
+1 11:08:13........ script.cxx.593: State=1022004005,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx.593: State=1022004006,SIB=platserv/stat/mngThrCtxMap
+1 11:08:13........ script.cxx.593: State=1022004007,SIB=platform/sqlsel
+1 11:08:13......... sqlsel.h.156: { Entry in 'SIB_PLATFORM_SQLSEL::NewLocalObject' [Jan 13 2019 22:00:56]
+1 11:08:13......... sqlsel.h.157: io name=obj,pFactory=0x7fe33bf87d00
+1 11:08:13......... script.cxx: Exiting from 'SIB_PLATFORM_SQLSEL::NewLocalObject' to 'OspScript::InitThreadCtxt' }
+1 11:08:13........ script.cxx.593: State=1022005008,SIB=platserv/stat/getNbrCPU
+1 11:08:13........ script.cxx.593: State=1022005009,SIB=platform/sliMethods.1
+1 11:08:13........ script.cxx: Exiting from 'OspScript::InitThreadCtxt' to 'OspScript::Run' }
+1 11:08:13....... sibspro.cxx.374: Adding entry for script main with index 0
+1 11:08:13........ sibspro.cxx.429: { Entry in 'SibsproThreadContext::addEntry' [Sep 25 2019 12:20:37]
+1 11:08:13........ script.cxx: Exiting from 'SibsproThreadContext::addEntry' to 'OspScript::Run' }
+1 11:08:13....... script.cxx.797: -----------------------------------------------------------------
+1 11:08:13....... script.cxx.1234: State[332] 13003002 , SCRIPT:main, SIB:platform/sliMethods.1,nParam=12
+1 11:08:13....... script.cxx.1245: SIB input parameters
+1 11:08:13....... script.cxx.1509: Calling SIB platform/sliMethods.1
+1 11:08:13........ sliMethods.1.cxx.5: { Entry in 'platform/sliMethods.1' [Jan 13 2019 22:00:35]
+1 11:08:13........ sliMethods.1.cxx.10: CV_ACTION=17
+1 11:08:13......... threadtransp.cxx.726: { Entry in 'SLITF::SetThreadBusy' [Jul 19 2019 17:50:26]
+1 11:08:13......... threadtransp.cxx.732: ThreadList::pList[1].busy=1, keep=0
+1 11:08:13......... sliMethods.1.cxx: Exiting from 'SLITF::SetThreadBusy' to 'platform/sliMethods.1' }
+1 11:08:13........ script.cxx: Exiting from 'platform/sliMethods.1' to 'OspScript::Run' }
+1 11:08:13....... script.cxx.1522: Exiting SIB platform/sliMethods.1
+1 11:08:13....... script.cxx.1596: pSt->pSib->getId()=platform/sliMethods.1
+1 11:08:13....... script.cxx.1600: os=ok (256)
+1 11:08:13....... script.cxx.1615: SIB output parameters
+1 11:08:13....... script.cxx.2098: Goto 13003003(index=333)
+1 11:08:13....... script.cxx.797: -----------------------------------------------------------------
+1 11:08:13....... script.cxx.1234: State[333] 13003003 , SCRIPT:main, SIB:platform/superDispatch,nParam=65
+1 11:08:13....... script.cxx.1245: SIB input parameters
+1 11:08:13....... script.cxx.1509: Calling SIB platform/superDispatch
+1 11:08:13........ superDispatch.cxx.6: { Entry in 'sib:platform/superDispatch' [Jan 13 2019 22:00:59]
+1 11:08:13........ script.cxx: Exiting from 'sib:platform/superDispatch' to 'OspScript::Run' }
+1 11:08:13....... script.cxx.1522: Exiting SIB platform/superDispatch
+1 11:08:13....... script.cxx.1596: pSt->pSib->getId()=platform/superDispatch
+1 11:08:13....... script.cxx.1600: os=wait (1)
+1 11:08:13....... script.cxx.1615: SIB output parameters
+1 11:08:13....... sepprotocol.cxx: Exiting from 'OspScript::Run' to 'SEP_PROTOCOL::Analyse' }
+1 11:08:13....... sepprotocol.cxx.164: { Entry in 'SEP_PROTOCOL::PostTreatment' [Sep 25 2019 12:20:32]
+1 11:08:13....... sepprotocol.cxx.166: POST-TREATMENT: state=13003003
+1 11:08:13....... sepprotocol.cxx.174: WAIT STATE REQUIRED
+1 11:08:13....... sepprotocol.cxx: Exiting from 'SEP_PROTOCOL::PostTreatment' to 'SEP_PROTOCOL::Analyse' }
+1 11:08:13....... threadtransp.cxx.688: { Entry in 'SLITF::DecThreadBusyCnt' [Jul 19 2019 17:50:26]
+1 11:08:13....... threadtransp.cxx.692: ThreadList::pList[1].busy=-1, keep=0
+1 11:08:13....... sepprotocol.cxx: Exiting from 'SLITF::DecThreadBusyCnt' to 'SEP_PROTOCOL::Analyse' }
+1 11:08:13...... statProtocol.cxx: Exiting from 'SEP_PROTOCOL::Analyse' to 'StatProtocol::Analyse' }
+1 11:08:13..... indic.cxx: Exiting from 'StatProtocol::Analyse' to 'SLITF::DirectINMsgIndication' }
+1 11:08:13.... threadtransp.cxx: Exiting from 'SLITF::DirectINMsgIndication' to 'THREAD_TRANSP::ReadEvent' }
+1 11:08:13... slitf.cxx: Exiting from 'THREAD_TRANSP::ReadEvent' to 'SLITF::TreatMessage' }
+ 11:08:13... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jul 19 2019 17:50:35]
+ 11:08:13... slitf.cxx.1496: No timers
+ 11:08:13... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:08:13.. slitf.cxx.2771: Waiting incoming message during indefinitely 
+ 11:08:13.. transp.cxx.64: Transport THREAD:fd=39, flags=FD_READ | 
+ 11:08:13.. slitf.cxx.2779: MaxFD = 1

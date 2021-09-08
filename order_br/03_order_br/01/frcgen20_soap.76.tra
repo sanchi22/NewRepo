@@ -1,0 +1,949 @@
+ 11:21:52.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:21:52
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:21:52.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:21:52... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:21:52.. slitf.cxx.2771: Waiting incoming message during 1999 msec ...
+ 11:21:52.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:21:52.. slitf.cxx.2779: MaxFD = 1
+ 11:21:54... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:21:54.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:21:54.... sepconf.cxx.343: SEP caps=0
+ 11:21:54..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:21:54..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:21:54..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:21:54.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:21:54... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:21:54.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:21:54.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:21:54.. slitf.cxx.2779: MaxFD = 1
+ 11:21:56... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:21:56.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:21:56.... sepconf.cxx.343: SEP caps=0
+ 11:21:56..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:21:56..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:21:56..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:21:56.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:21:56... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:21:56.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:21:56.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:21:56.. slitf.cxx.2779: MaxFD = 1
+ 11:21:58... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:21:58.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:21:58.... sepconf.cxx.343: SEP caps=0
+ 11:21:58..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:21:58..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:21:58..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:21:58.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:21:58... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:21:58.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:21:58.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:21:58.. slitf.cxx.2779: MaxFD = 1
+ 11:22:00... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:00.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:00.... sepconf.cxx.343: SEP caps=0
+ 11:22:00..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:00..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:00..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:00.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:00... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:00.. slitf.cxx.2771: Waiting incoming message during 1426 msec ...
+ 11:22:00.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:00.. slitf.cxx.2779: MaxFD = 1
+ 11:22:02... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:02.... septransp.cxx.2480: { Entry in 'DPE_TRANSPORT::TimerExpired' [Jan 13 2019 21:29:05]
+ 11:22:02.... shmdb.cxx.362: SHMDB::Lock sep[76], bWait=1, bTest=0
+ 11:22:02.... septransp.cxx.2553: sepList=0x0
+ 11:22:02..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:02..... slitf.cxx.1473: Setting timer t=10000 msec with idenfier 5 on SLI context : -2
+ 11:22:02..... septransp.cxx: Exiting from 'SLITF::SetTimer' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:22:02.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:02... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:02.. slitf.cxx.2771: Waiting incoming message during 572 msec ...
+ 11:22:02.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:02.. slitf.cxx.2779: MaxFD = 1
+ 11:22:02... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:02.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:02..... slitf.cxx.3666: { Entry in 'SLITF::BuildArgs' [Jan 13 2019 20:55:37]
+ 11:22:02..... sepconf.cxx: Exiting from 'SLITF::BuildArgs' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... sepScp.pc refresh sep24.11: { Entry in 'OBJECT_PLATFORM_SEP_REL24::Refresh' [Jan 13 2019 20:51:54]
+ 11:22:02..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEP_REL24::Refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... sepinfoScp.pc refresh rel23.3: { Entry in 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' [Jan 13 2019 20:52:23]
+ 11:22:02..... sepinfoScp.pc refresh rel23.23: State0[SEP_STATE]=0, State0[HOST_STATE]=0, State0[PARTITION_STATE]=0, State0[SERVICE_STATE]=0
+ 11:22:02..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:02..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:02.... sepconf.cxx.445: *pServiceInfo=,almfiltr=0,cpu=0,exename=/osp/psmf/service/frc20colt1/smf/bin/exec/frcgen20_soap 76 -t=100 -m=75,filter=0,grpref00=57&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0,host_ref=1,hostname=gurkes261,id=0,name=smfSrv-frc20colt1,part_ref=31,pid=31058,rate=100,ri=76,serv_ref=145,smf_ref=1,srv_name=frc20colt1,state0=0&0&0&0&0&0,wftc=0
+
+ 11:22:02..... sepconf.cxx.56: { Entry in 'CPU_LOAD::refresh' [Jan 13 2019 20:55:42]
+ 11:22:02..... sepconf.cxx.106: maxcpu=0
+ 11:22:02..... sepconf.cxx: Exiting from 'CPU_LOAD::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... slitf.cxx.902: { Entry in 'SLITF::CheckState' [Jan 13 2019 20:55:37]
+ 11:22:02..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:02..... sepconf.cxx: Exiting from 'SLITF::CheckState' to 'SEP_CONF::TimerExpired' }
+ 11:22:02.... sepconf.cxx.558: capacity=100
+ 11:22:02..... sepScp.pc.3213: { Entry in 'save_overload' [Jan 13 2019 20:51:54]
+ 11:22:02..... sepScp.pc.3239: SHM attr update OK
+ 11:22:02..... sepconf.cxx: Exiting from 'save_overload' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... sepScp.pc.2884: { Entry in 'save_capacity' [Jan 13 2019 20:51:54]
+ 11:22:02..... sepScp.pc.2910: SHM attr update OK
+ 11:22:02..... sepconf.cxx: Exiting from 'save_capacity' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... sepScp.pc.2931: { Entry in 'save_curcaps' [Jan 13 2019 20:51:54]
+ 11:22:02..... sepScp.pc.2957: SHM attr update OK
+ 11:22:02..... sepconf.cxx: Exiting from 'save_curcaps' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... sepScp.pc.3166: { Entry in 'save_opendial' [Jan 13 2019 20:51:54]
+ 11:22:02..... sepScp.pc.3192: SHM attr update OK
+ 11:22:02..... sepconf.cxx: Exiting from 'save_opendial' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... sepScp.pc.3401: { Entry in 'save_totdial' [Jan 13 2019 20:51:54]
+ 11:22:02..... sepScp.pc.3427: SHM attr update OK
+ 11:22:02..... sepconf.cxx: Exiting from 'save_totdial' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... sepScp.pc.3119: { Entry in 'save_msgout' [Jan 13 2019 20:51:54]
+ 11:22:02..... sepScp.pc.3145: SHM attr update OK
+ 11:22:02..... sepconf.cxx: Exiting from 'save_msgout' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... sepScp.pc.3025: { Entry in 'save_lastconf' [Jan 13 2019 20:51:54]
+ 11:22:02..... sepScp.pc.3051: SHM attr update OK
+ 11:22:02..... sepconf.cxx: Exiting from 'save_lastconf' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:02..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:02..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:02..... log.cxx.41: { Entry in 'LogFeature::GetConfig' [Jan 13 2019 20:40:41]
+ 11:22:02..... sepconf.cxx: Exiting from 'LogFeature::GetConfig' to 'SEP_CONF::TimerExpired' }
+ 11:22:02.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:22:02
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:22:02.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:02... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:02.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:02.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:02.. slitf.cxx.2779: MaxFD = 1
+ 11:22:04... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:04.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:04.... sepconf.cxx.343: SEP caps=0
+ 11:22:04..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:04..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:04..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:04.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:04... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:04.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:04.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:04.. slitf.cxx.2779: MaxFD = 1
+ 11:22:06... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:06.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:06.... sepconf.cxx.343: SEP caps=0
+ 11:22:06..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:06..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:06..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:06.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:06... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:06.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:06.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:06.. slitf.cxx.2779: MaxFD = 1
+ 11:22:08... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:08.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:08.... sepconf.cxx.343: SEP caps=0
+ 11:22:08..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:08..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:08..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:08.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:08... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:08.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:08.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:08.. slitf.cxx.2779: MaxFD = 1
+ 11:22:10... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:10.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:10.... sepconf.cxx.343: SEP caps=0
+ 11:22:10..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:10..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:10..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:10.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:10... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:10.. slitf.cxx.2771: Waiting incoming message during 1417 msec ...
+ 11:22:10.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:10.. slitf.cxx.2779: MaxFD = 1
+ 11:22:12... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:12.... septransp.cxx.2480: { Entry in 'DPE_TRANSPORT::TimerExpired' [Jan 13 2019 21:29:05]
+ 11:22:12.... shmdb.cxx.362: SHMDB::Lock sep[76], bWait=1, bTest=0
+ 11:22:12.... septransp.cxx.2553: sepList=0x0
+ 11:22:12..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:12..... slitf.cxx.1473: Setting timer t=10000 msec with idenfier 5 on SLI context : -2
+ 11:22:12..... septransp.cxx: Exiting from 'SLITF::SetTimer' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:22:12.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:12... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:12.. slitf.cxx.2771: Waiting incoming message during 582 msec ...
+ 11:22:12.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:12.. slitf.cxx.2779: MaxFD = 1
+ 11:22:12... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:12.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:12..... slitf.cxx.3666: { Entry in 'SLITF::BuildArgs' [Jan 13 2019 20:55:37]
+ 11:22:12..... sepconf.cxx: Exiting from 'SLITF::BuildArgs' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... sepScp.pc refresh sep24.11: { Entry in 'OBJECT_PLATFORM_SEP_REL24::Refresh' [Jan 13 2019 20:51:54]
+ 11:22:12..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEP_REL24::Refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... sepinfoScp.pc refresh rel23.3: { Entry in 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' [Jan 13 2019 20:52:23]
+ 11:22:12..... sepinfoScp.pc refresh rel23.23: State0[SEP_STATE]=0, State0[HOST_STATE]=0, State0[PARTITION_STATE]=0, State0[SERVICE_STATE]=0
+ 11:22:12..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:12..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:12.... sepconf.cxx.445: *pServiceInfo=,almfiltr=0,cpu=0,exename=/osp/psmf/service/frc20colt1/smf/bin/exec/frcgen20_soap 76 -t=100 -m=75,filter=0,grpref00=57&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0,host_ref=1,hostname=gurkes261,id=0,name=smfSrv-frc20colt1,part_ref=31,pid=31058,rate=100,ri=76,serv_ref=145,smf_ref=1,srv_name=frc20colt1,state0=0&0&0&0&0&0,wftc=0
+
+ 11:22:12..... sepconf.cxx.56: { Entry in 'CPU_LOAD::refresh' [Jan 13 2019 20:55:42]
+ 11:22:12..... sepconf.cxx.106: maxcpu=0
+ 11:22:12..... sepconf.cxx: Exiting from 'CPU_LOAD::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... slitf.cxx.902: { Entry in 'SLITF::CheckState' [Jan 13 2019 20:55:37]
+ 11:22:12..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:12..... sepconf.cxx: Exiting from 'SLITF::CheckState' to 'SEP_CONF::TimerExpired' }
+ 11:22:12.... sepconf.cxx.558: capacity=100
+ 11:22:12..... sepScp.pc.3213: { Entry in 'save_overload' [Jan 13 2019 20:51:54]
+ 11:22:12..... sepScp.pc.3239: SHM attr update OK
+ 11:22:12..... sepconf.cxx: Exiting from 'save_overload' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... sepScp.pc.2884: { Entry in 'save_capacity' [Jan 13 2019 20:51:54]
+ 11:22:12..... sepScp.pc.2910: SHM attr update OK
+ 11:22:12..... sepconf.cxx: Exiting from 'save_capacity' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... sepScp.pc.2931: { Entry in 'save_curcaps' [Jan 13 2019 20:51:54]
+ 11:22:12..... sepScp.pc.2957: SHM attr update OK
+ 11:22:12..... sepconf.cxx: Exiting from 'save_curcaps' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... sepScp.pc.3166: { Entry in 'save_opendial' [Jan 13 2019 20:51:54]
+ 11:22:12..... sepScp.pc.3192: SHM attr update OK
+ 11:22:12..... sepconf.cxx: Exiting from 'save_opendial' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... sepScp.pc.3401: { Entry in 'save_totdial' [Jan 13 2019 20:51:54]
+ 11:22:12..... sepScp.pc.3427: SHM attr update OK
+ 11:22:12..... sepconf.cxx: Exiting from 'save_totdial' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... sepScp.pc.3119: { Entry in 'save_msgout' [Jan 13 2019 20:51:54]
+ 11:22:12..... sepScp.pc.3145: SHM attr update OK
+ 11:22:12..... sepconf.cxx: Exiting from 'save_msgout' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... sepScp.pc.3025: { Entry in 'save_lastconf' [Jan 13 2019 20:51:54]
+ 11:22:12..... sepScp.pc.3051: SHM attr update OK
+ 11:22:12..... sepconf.cxx: Exiting from 'save_lastconf' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:12..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:12..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:12..... log.cxx.41: { Entry in 'LogFeature::GetConfig' [Jan 13 2019 20:40:41]
+ 11:22:12..... sepconf.cxx: Exiting from 'LogFeature::GetConfig' to 'SEP_CONF::TimerExpired' }
+ 11:22:12.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:22:12
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:22:12.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:12... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:12.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:12.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:12.. slitf.cxx.2779: MaxFD = 1
+ 11:22:14... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:14.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:14.... sepconf.cxx.343: SEP caps=0
+ 11:22:14..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:14..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:14..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:14.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:14... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:14.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:14.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:14.. slitf.cxx.2779: MaxFD = 1
+ 11:22:16... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:16.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:16.... sepconf.cxx.343: SEP caps=0
+ 11:22:16..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:16..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:16..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:16.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:16... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:16.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:16.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:16.. slitf.cxx.2779: MaxFD = 1
+ 11:22:18... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:18.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:18.... sepconf.cxx.343: SEP caps=0
+ 11:22:18..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:18..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:18..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:18.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:18... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:18.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:18.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:18.. slitf.cxx.2779: MaxFD = 1
+ 11:22:20... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:20.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:20.... sepconf.cxx.343: SEP caps=0
+ 11:22:20..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:20..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:20..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:20.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:20... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:20.. slitf.cxx.2771: Waiting incoming message during 1406 msec ...
+ 11:22:20.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:20.. slitf.cxx.2779: MaxFD = 1
+ 11:22:22... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:22.... septransp.cxx.2480: { Entry in 'DPE_TRANSPORT::TimerExpired' [Jan 13 2019 21:29:05]
+ 11:22:22.... shmdb.cxx.362: SHMDB::Lock sep[76], bWait=1, bTest=0
+ 11:22:22.... septransp.cxx.2553: sepList=0x0
+ 11:22:22..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:22..... slitf.cxx.1473: Setting timer t=10000 msec with idenfier 5 on SLI context : -2
+ 11:22:22..... septransp.cxx: Exiting from 'SLITF::SetTimer' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:22:22.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:22... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:22.. slitf.cxx.2771: Waiting incoming message during 593 msec ...
+ 11:22:22.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:22.. slitf.cxx.2779: MaxFD = 1
+ 11:22:22... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:22.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:22..... slitf.cxx.3666: { Entry in 'SLITF::BuildArgs' [Jan 13 2019 20:55:37]
+ 11:22:22..... sepconf.cxx: Exiting from 'SLITF::BuildArgs' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... sepScp.pc refresh sep24.11: { Entry in 'OBJECT_PLATFORM_SEP_REL24::Refresh' [Jan 13 2019 20:51:54]
+ 11:22:22..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEP_REL24::Refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... sepinfoScp.pc refresh rel23.3: { Entry in 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' [Jan 13 2019 20:52:23]
+ 11:22:22..... sepinfoScp.pc refresh rel23.23: State0[SEP_STATE]=0, State0[HOST_STATE]=0, State0[PARTITION_STATE]=0, State0[SERVICE_STATE]=0
+ 11:22:22..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:22..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:22.... sepconf.cxx.445: *pServiceInfo=,almfiltr=0,cpu=0,exename=/osp/psmf/service/frc20colt1/smf/bin/exec/frcgen20_soap 76 -t=100 -m=75,filter=0,grpref00=57&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0,host_ref=1,hostname=gurkes261,id=0,name=smfSrv-frc20colt1,part_ref=31,pid=31058,rate=100,ri=76,serv_ref=145,smf_ref=1,srv_name=frc20colt1,state0=0&0&0&0&0&0,wftc=0
+
+ 11:22:22..... sepconf.cxx.56: { Entry in 'CPU_LOAD::refresh' [Jan 13 2019 20:55:42]
+ 11:22:22..... sepconf.cxx.106: maxcpu=0
+ 11:22:22..... sepconf.cxx: Exiting from 'CPU_LOAD::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... slitf.cxx.902: { Entry in 'SLITF::CheckState' [Jan 13 2019 20:55:37]
+ 11:22:22..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:22..... sepconf.cxx: Exiting from 'SLITF::CheckState' to 'SEP_CONF::TimerExpired' }
+ 11:22:22.... sepconf.cxx.558: capacity=100
+ 11:22:22..... sepScp.pc.3213: { Entry in 'save_overload' [Jan 13 2019 20:51:54]
+ 11:22:22..... sepScp.pc.3239: SHM attr update OK
+ 11:22:22..... sepconf.cxx: Exiting from 'save_overload' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... sepScp.pc.2884: { Entry in 'save_capacity' [Jan 13 2019 20:51:54]
+ 11:22:22..... sepScp.pc.2910: SHM attr update OK
+ 11:22:22..... sepconf.cxx: Exiting from 'save_capacity' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... sepScp.pc.2931: { Entry in 'save_curcaps' [Jan 13 2019 20:51:54]
+ 11:22:22..... sepScp.pc.2957: SHM attr update OK
+ 11:22:22..... sepconf.cxx: Exiting from 'save_curcaps' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... sepScp.pc.3166: { Entry in 'save_opendial' [Jan 13 2019 20:51:54]
+ 11:22:22..... sepScp.pc.3192: SHM attr update OK
+ 11:22:22..... sepconf.cxx: Exiting from 'save_opendial' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... sepScp.pc.3401: { Entry in 'save_totdial' [Jan 13 2019 20:51:54]
+ 11:22:22..... sepScp.pc.3427: SHM attr update OK
+ 11:22:22..... sepconf.cxx: Exiting from 'save_totdial' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... sepScp.pc.3119: { Entry in 'save_msgout' [Jan 13 2019 20:51:54]
+ 11:22:22..... sepScp.pc.3145: SHM attr update OK
+ 11:22:22..... sepconf.cxx: Exiting from 'save_msgout' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... sepScp.pc.3025: { Entry in 'save_lastconf' [Jan 13 2019 20:51:54]
+ 11:22:22..... sepScp.pc.3051: SHM attr update OK
+ 11:22:22..... sepconf.cxx: Exiting from 'save_lastconf' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:22..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:22..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:22..... log.cxx.41: { Entry in 'LogFeature::GetConfig' [Jan 13 2019 20:40:41]
+ 11:22:22..... sepconf.cxx: Exiting from 'LogFeature::GetConfig' to 'SEP_CONF::TimerExpired' }
+ 11:22:22.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:22:22
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:22:22.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:22... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:22.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:22.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:22.. slitf.cxx.2779: MaxFD = 1
+ 11:22:24... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:24.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:24.... sepconf.cxx.343: SEP caps=0
+ 11:22:24..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:24..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:24..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:24.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:24... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:24.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:24.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:24.. slitf.cxx.2779: MaxFD = 1
+ 11:22:26... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:26.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:26.... sepconf.cxx.343: SEP caps=0
+ 11:22:26..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:26..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:26..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:26.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:26... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:26.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:26.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:26.. slitf.cxx.2779: MaxFD = 1
+ 11:22:28... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:28.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:28.... sepconf.cxx.343: SEP caps=0
+ 11:22:28..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:28..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:28..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:28.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:28... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:28.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:28.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:28.. slitf.cxx.2779: MaxFD = 1
+ 11:22:30... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:30.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:30.... sepconf.cxx.343: SEP caps=0
+ 11:22:30..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:30..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:30..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:30.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:30... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:30.. slitf.cxx.2771: Waiting incoming message during 1397 msec ...
+ 11:22:30.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:30.. slitf.cxx.2779: MaxFD = 1
+ 11:22:32... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:32.... septransp.cxx.2480: { Entry in 'DPE_TRANSPORT::TimerExpired' [Jan 13 2019 21:29:05]
+ 11:22:32.... shmdb.cxx.362: SHMDB::Lock sep[76], bWait=1, bTest=0
+ 11:22:32.... septransp.cxx.2553: sepList=0x0
+ 11:22:32..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:32..... slitf.cxx.1473: Setting timer t=10000 msec with idenfier 5 on SLI context : -2
+ 11:22:32..... septransp.cxx: Exiting from 'SLITF::SetTimer' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:22:32.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:32... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:32.. slitf.cxx.2771: Waiting incoming message during 601 msec ...
+ 11:22:32.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:32.. slitf.cxx.2779: MaxFD = 1
+ 11:22:32... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:32.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:32..... slitf.cxx.3666: { Entry in 'SLITF::BuildArgs' [Jan 13 2019 20:55:37]
+ 11:22:32..... sepconf.cxx: Exiting from 'SLITF::BuildArgs' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... sepScp.pc refresh sep24.11: { Entry in 'OBJECT_PLATFORM_SEP_REL24::Refresh' [Jan 13 2019 20:51:54]
+ 11:22:32..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEP_REL24::Refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... sepinfoScp.pc refresh rel23.3: { Entry in 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' [Jan 13 2019 20:52:23]
+ 11:22:32..... sepinfoScp.pc refresh rel23.23: State0[SEP_STATE]=0, State0[HOST_STATE]=0, State0[PARTITION_STATE]=0, State0[SERVICE_STATE]=0
+ 11:22:32..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:32..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:32.... sepconf.cxx.445: *pServiceInfo=,almfiltr=0,cpu=0,exename=/osp/psmf/service/frc20colt1/smf/bin/exec/frcgen20_soap 76 -t=100 -m=75,filter=0,grpref00=57&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0,host_ref=1,hostname=gurkes261,id=0,name=smfSrv-frc20colt1,part_ref=31,pid=31058,rate=100,ri=76,serv_ref=145,smf_ref=1,srv_name=frc20colt1,state0=0&0&0&0&0&0,wftc=0
+
+ 11:22:32..... sepconf.cxx.56: { Entry in 'CPU_LOAD::refresh' [Jan 13 2019 20:55:42]
+ 11:22:32..... sepconf.cxx.106: maxcpu=0
+ 11:22:32..... sepconf.cxx: Exiting from 'CPU_LOAD::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... slitf.cxx.902: { Entry in 'SLITF::CheckState' [Jan 13 2019 20:55:37]
+ 11:22:32..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:32..... sepconf.cxx: Exiting from 'SLITF::CheckState' to 'SEP_CONF::TimerExpired' }
+ 11:22:32.... sepconf.cxx.558: capacity=100
+ 11:22:32..... sepScp.pc.3213: { Entry in 'save_overload' [Jan 13 2019 20:51:54]
+ 11:22:32..... sepScp.pc.3239: SHM attr update OK
+ 11:22:32..... sepconf.cxx: Exiting from 'save_overload' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... sepScp.pc.2884: { Entry in 'save_capacity' [Jan 13 2019 20:51:54]
+ 11:22:32..... sepScp.pc.2910: SHM attr update OK
+ 11:22:32..... sepconf.cxx: Exiting from 'save_capacity' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... sepScp.pc.2931: { Entry in 'save_curcaps' [Jan 13 2019 20:51:54]
+ 11:22:32..... sepScp.pc.2957: SHM attr update OK
+ 11:22:32..... sepconf.cxx: Exiting from 'save_curcaps' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... sepScp.pc.3166: { Entry in 'save_opendial' [Jan 13 2019 20:51:54]
+ 11:22:32..... sepScp.pc.3192: SHM attr update OK
+ 11:22:32..... sepconf.cxx: Exiting from 'save_opendial' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... sepScp.pc.3401: { Entry in 'save_totdial' [Jan 13 2019 20:51:54]
+ 11:22:32..... sepScp.pc.3427: SHM attr update OK
+ 11:22:32..... sepconf.cxx: Exiting from 'save_totdial' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... sepScp.pc.3119: { Entry in 'save_msgout' [Jan 13 2019 20:51:54]
+ 11:22:32..... sepScp.pc.3145: SHM attr update OK
+ 11:22:32..... sepconf.cxx: Exiting from 'save_msgout' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... sepScp.pc.3025: { Entry in 'save_lastconf' [Jan 13 2019 20:51:54]
+ 11:22:32..... sepScp.pc.3051: SHM attr update OK
+ 11:22:32..... sepconf.cxx: Exiting from 'save_lastconf' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:32..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:32..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:32..... log.cxx.41: { Entry in 'LogFeature::GetConfig' [Jan 13 2019 20:40:41]
+ 11:22:32..... sepconf.cxx: Exiting from 'LogFeature::GetConfig' to 'SEP_CONF::TimerExpired' }
+ 11:22:32.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:22:32
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:22:32.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:32... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:32.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:32.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:32.. slitf.cxx.2779: MaxFD = 1
+ 11:22:34... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:34.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:34.... sepconf.cxx.343: SEP caps=0
+ 11:22:34..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:34..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:34..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:34.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:34... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:34.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:34.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:34.. slitf.cxx.2779: MaxFD = 1
+ 11:22:36... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:36.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:36.... sepconf.cxx.343: SEP caps=0
+ 11:22:36..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:36..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:36..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:36.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:36... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:36.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:36.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:36.. slitf.cxx.2779: MaxFD = 1
+ 11:22:38... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:38.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:38.... sepconf.cxx.343: SEP caps=0
+ 11:22:38..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:38..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:38..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:38.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:38... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:38.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:38.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:38.. slitf.cxx.2779: MaxFD = 1
+ 11:22:40... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:40.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:40.... sepconf.cxx.343: SEP caps=0
+ 11:22:40..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:40..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:40..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:40.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:40... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:40.. slitf.cxx.2771: Waiting incoming message during 1390 msec ...
+ 11:22:40.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:40.. slitf.cxx.2779: MaxFD = 1
+ 11:22:42... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:42.... septransp.cxx.2480: { Entry in 'DPE_TRANSPORT::TimerExpired' [Jan 13 2019 21:29:05]
+ 11:22:42.... shmdb.cxx.362: SHMDB::Lock sep[76], bWait=1, bTest=0
+ 11:22:42.... septransp.cxx.2553: sepList=0x0
+ 11:22:42..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:42..... slitf.cxx.1473: Setting timer t=10000 msec with idenfier 5 on SLI context : -2
+ 11:22:42..... septransp.cxx: Exiting from 'SLITF::SetTimer' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:22:42.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:42... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:42.. slitf.cxx.2771: Waiting incoming message during 608 msec ...
+ 11:22:42.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:42.. slitf.cxx.2779: MaxFD = 1
+ 11:22:42... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:42.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:42..... slitf.cxx.3666: { Entry in 'SLITF::BuildArgs' [Jan 13 2019 20:55:37]
+ 11:22:42..... sepconf.cxx: Exiting from 'SLITF::BuildArgs' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... sepScp.pc refresh sep24.11: { Entry in 'OBJECT_PLATFORM_SEP_REL24::Refresh' [Jan 13 2019 20:51:54]
+ 11:22:42..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEP_REL24::Refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... sepinfoScp.pc refresh rel23.3: { Entry in 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' [Jan 13 2019 20:52:23]
+ 11:22:42..... sepinfoScp.pc refresh rel23.23: State0[SEP_STATE]=0, State0[HOST_STATE]=0, State0[PARTITION_STATE]=0, State0[SERVICE_STATE]=0
+ 11:22:42..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:42..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:42.... sepconf.cxx.445: *pServiceInfo=,almfiltr=0,cpu=0,exename=/osp/psmf/service/frc20colt1/smf/bin/exec/frcgen20_soap 76 -t=100 -m=75,filter=0,grpref00=57&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0,host_ref=1,hostname=gurkes261,id=0,name=smfSrv-frc20colt1,part_ref=31,pid=31058,rate=100,ri=76,serv_ref=145,smf_ref=1,srv_name=frc20colt1,state0=0&0&0&0&0&0,wftc=0
+
+ 11:22:42..... sepconf.cxx.56: { Entry in 'CPU_LOAD::refresh' [Jan 13 2019 20:55:42]
+ 11:22:42..... sepconf.cxx.106: maxcpu=0
+ 11:22:42..... sepconf.cxx: Exiting from 'CPU_LOAD::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... slitf.cxx.902: { Entry in 'SLITF::CheckState' [Jan 13 2019 20:55:37]
+ 11:22:42..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:42..... sepconf.cxx: Exiting from 'SLITF::CheckState' to 'SEP_CONF::TimerExpired' }
+ 11:22:42.... sepconf.cxx.558: capacity=100
+ 11:22:42..... sepScp.pc.3213: { Entry in 'save_overload' [Jan 13 2019 20:51:54]
+ 11:22:42..... sepScp.pc.3239: SHM attr update OK
+ 11:22:42..... sepconf.cxx: Exiting from 'save_overload' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... sepScp.pc.2884: { Entry in 'save_capacity' [Jan 13 2019 20:51:54]
+ 11:22:42..... sepScp.pc.2910: SHM attr update OK
+ 11:22:42..... sepconf.cxx: Exiting from 'save_capacity' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... sepScp.pc.2931: { Entry in 'save_curcaps' [Jan 13 2019 20:51:54]
+ 11:22:42..... sepScp.pc.2957: SHM attr update OK
+ 11:22:42..... sepconf.cxx: Exiting from 'save_curcaps' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... sepScp.pc.3166: { Entry in 'save_opendial' [Jan 13 2019 20:51:54]
+ 11:22:42..... sepScp.pc.3192: SHM attr update OK
+ 11:22:42..... sepconf.cxx: Exiting from 'save_opendial' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... sepScp.pc.3401: { Entry in 'save_totdial' [Jan 13 2019 20:51:54]
+ 11:22:42..... sepScp.pc.3427: SHM attr update OK
+ 11:22:42..... sepconf.cxx: Exiting from 'save_totdial' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... sepScp.pc.3119: { Entry in 'save_msgout' [Jan 13 2019 20:51:54]
+ 11:22:42..... sepScp.pc.3145: SHM attr update OK
+ 11:22:42..... sepconf.cxx: Exiting from 'save_msgout' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... sepScp.pc.3025: { Entry in 'save_lastconf' [Jan 13 2019 20:51:54]
+ 11:22:42..... sepScp.pc.3051: SHM attr update OK
+ 11:22:42..... sepconf.cxx: Exiting from 'save_lastconf' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:42..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:42..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:42..... log.cxx.41: { Entry in 'LogFeature::GetConfig' [Jan 13 2019 20:40:41]
+ 11:22:42..... sepconf.cxx: Exiting from 'LogFeature::GetConfig' to 'SEP_CONF::TimerExpired' }
+ 11:22:42.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:22:42
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:22:42.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:42... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:42.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:42.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:42.. slitf.cxx.2779: MaxFD = 1
+ 11:22:44... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:44.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:44.... sepconf.cxx.343: SEP caps=0
+ 11:22:44..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:44..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:44..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:44.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:44... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:44.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:44.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:44.. slitf.cxx.2779: MaxFD = 1
+ 11:22:46... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:46.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:46.... sepconf.cxx.343: SEP caps=0
+ 11:22:46..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:46..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:46..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:46.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:46... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:46.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:46.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:46.. slitf.cxx.2779: MaxFD = 1
+ 11:22:48... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:48.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:48.... sepconf.cxx.343: SEP caps=0
+ 11:22:48..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:48..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:48..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:48.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:48... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:48.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:48.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:48.. slitf.cxx.2779: MaxFD = 1
+ 11:22:50... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:50.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:50.... sepconf.cxx.343: SEP caps=0
+ 11:22:50..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:50..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:50..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:50.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:50... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:50.. slitf.cxx.2771: Waiting incoming message during 1383 msec ...
+ 11:22:50.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:50.. slitf.cxx.2779: MaxFD = 1
+ 11:22:52... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:52.... septransp.cxx.2480: { Entry in 'DPE_TRANSPORT::TimerExpired' [Jan 13 2019 21:29:05]
+ 11:22:52.... shmdb.cxx.362: SHMDB::Lock sep[76], bWait=1, bTest=0
+ 11:22:52.... septransp.cxx.2553: sepList=0x0
+ 11:22:52..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:52..... slitf.cxx.1473: Setting timer t=10000 msec with idenfier 5 on SLI context : -2
+ 11:22:52..... septransp.cxx: Exiting from 'SLITF::SetTimer' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:22:52.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:52... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:52.. slitf.cxx.2771: Waiting incoming message during 615 msec ...
+ 11:22:52.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:52.. slitf.cxx.2779: MaxFD = 1
+ 11:22:52... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:52.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:52..... slitf.cxx.3666: { Entry in 'SLITF::BuildArgs' [Jan 13 2019 20:55:37]
+ 11:22:52..... sepconf.cxx: Exiting from 'SLITF::BuildArgs' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... sepScp.pc refresh sep24.11: { Entry in 'OBJECT_PLATFORM_SEP_REL24::Refresh' [Jan 13 2019 20:51:54]
+ 11:22:52..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEP_REL24::Refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... sepinfoScp.pc refresh rel23.3: { Entry in 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' [Jan 13 2019 20:52:23]
+ 11:22:52..... sepinfoScp.pc refresh rel23.23: State0[SEP_STATE]=0, State0[HOST_STATE]=0, State0[PARTITION_STATE]=0, State0[SERVICE_STATE]=0
+ 11:22:52..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:52..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:52.... sepconf.cxx.445: *pServiceInfo=,almfiltr=0,cpu=0,exename=/osp/psmf/service/frc20colt1/smf/bin/exec/frcgen20_soap 76 -t=100 -m=75,filter=0,grpref00=57&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0,host_ref=1,hostname=gurkes261,id=0,name=smfSrv-frc20colt1,part_ref=31,pid=31058,rate=100,ri=76,serv_ref=145,smf_ref=1,srv_name=frc20colt1,state0=0&0&0&0&0&0,wftc=0
+
+ 11:22:52..... sepconf.cxx.56: { Entry in 'CPU_LOAD::refresh' [Jan 13 2019 20:55:42]
+ 11:22:52..... sepconf.cxx.106: maxcpu=0
+ 11:22:52..... sepconf.cxx: Exiting from 'CPU_LOAD::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... slitf.cxx.902: { Entry in 'SLITF::CheckState' [Jan 13 2019 20:55:37]
+ 11:22:52..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:22:52..... sepconf.cxx: Exiting from 'SLITF::CheckState' to 'SEP_CONF::TimerExpired' }
+ 11:22:52.... sepconf.cxx.558: capacity=100
+ 11:22:52..... sepScp.pc.3213: { Entry in 'save_overload' [Jan 13 2019 20:51:54]
+ 11:22:52..... sepScp.pc.3239: SHM attr update OK
+ 11:22:52..... sepconf.cxx: Exiting from 'save_overload' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... sepScp.pc.2884: { Entry in 'save_capacity' [Jan 13 2019 20:51:54]
+ 11:22:52..... sepScp.pc.2910: SHM attr update OK
+ 11:22:52..... sepconf.cxx: Exiting from 'save_capacity' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... sepScp.pc.2931: { Entry in 'save_curcaps' [Jan 13 2019 20:51:54]
+ 11:22:52..... sepScp.pc.2957: SHM attr update OK
+ 11:22:52..... sepconf.cxx: Exiting from 'save_curcaps' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... sepScp.pc.3166: { Entry in 'save_opendial' [Jan 13 2019 20:51:54]
+ 11:22:52..... sepScp.pc.3192: SHM attr update OK
+ 11:22:52..... sepconf.cxx: Exiting from 'save_opendial' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... sepScp.pc.3401: { Entry in 'save_totdial' [Jan 13 2019 20:51:54]
+ 11:22:52..... sepScp.pc.3427: SHM attr update OK
+ 11:22:52..... sepconf.cxx: Exiting from 'save_totdial' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... sepScp.pc.3119: { Entry in 'save_msgout' [Jan 13 2019 20:51:54]
+ 11:22:52..... sepScp.pc.3145: SHM attr update OK
+ 11:22:52..... sepconf.cxx: Exiting from 'save_msgout' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... sepScp.pc.3025: { Entry in 'save_lastconf' [Jan 13 2019 20:51:54]
+ 11:22:52..... sepScp.pc.3051: SHM attr update OK
+ 11:22:52..... sepconf.cxx: Exiting from 'save_lastconf' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:52..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:52..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:52..... log.cxx.41: { Entry in 'LogFeature::GetConfig' [Jan 13 2019 20:40:41]
+ 11:22:52..... sepconf.cxx: Exiting from 'LogFeature::GetConfig' to 'SEP_CONF::TimerExpired' }
+ 11:22:52.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:22:52
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:22:52.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:52... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:52.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:52.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:52.. slitf.cxx.2779: MaxFD = 1
+ 11:22:54... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:54.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:54.... sepconf.cxx.343: SEP caps=0
+ 11:22:54..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:54..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:54..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:54.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:54... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:54.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:54.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:54.. slitf.cxx.2779: MaxFD = 1
+ 11:22:56... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:56.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:56.... sepconf.cxx.343: SEP caps=0
+ 11:22:56..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:56..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:56..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:56.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:56... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:56.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:56.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:56.. slitf.cxx.2779: MaxFD = 1
+ 11:22:58... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:22:58.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:22:58.... sepconf.cxx.343: SEP caps=0
+ 11:22:58..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:22:58..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:22:58..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:22:58.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:22:58... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:22:58.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:22:58.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:22:58.. slitf.cxx.2779: MaxFD = 1
+ 11:23:00... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:00.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:00.... sepconf.cxx.343: SEP caps=0
+ 11:23:00..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:00..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:00..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:00.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:00... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:00.. slitf.cxx.2771: Waiting incoming message during 1375 msec ...
+ 11:23:00.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:00.. slitf.cxx.2779: MaxFD = 1
+ 11:23:02... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:02.... septransp.cxx.2480: { Entry in 'DPE_TRANSPORT::TimerExpired' [Jan 13 2019 21:29:05]
+ 11:23:02.... shmdb.cxx.362: SHMDB::Lock sep[76], bWait=1, bTest=0
+ 11:23:02.... septransp.cxx.2553: sepList=0x0
+ 11:23:02..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:02..... slitf.cxx.1473: Setting timer t=10000 msec with idenfier 5 on SLI context : -2
+ 11:23:02..... septransp.cxx: Exiting from 'SLITF::SetTimer' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:23:02.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:02... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:02.. slitf.cxx.2771: Waiting incoming message during 623 msec ...
+ 11:23:02.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:02.. slitf.cxx.2779: MaxFD = 1
+ 11:23:02... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:02.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:02..... slitf.cxx.3666: { Entry in 'SLITF::BuildArgs' [Jan 13 2019 20:55:37]
+ 11:23:02..... sepconf.cxx: Exiting from 'SLITF::BuildArgs' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... sepScp.pc refresh sep24.11: { Entry in 'OBJECT_PLATFORM_SEP_REL24::Refresh' [Jan 13 2019 20:51:54]
+ 11:23:02..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEP_REL24::Refresh' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... sepinfoScp.pc refresh rel23.3: { Entry in 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' [Jan 13 2019 20:52:23]
+ 11:23:02..... sepinfoScp.pc refresh rel23.23: State0[SEP_STATE]=0, State0[HOST_STATE]=0, State0[PARTITION_STATE]=0, State0[SERVICE_STATE]=0
+ 11:23:02..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:23:02..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:23:02.... sepconf.cxx.445: *pServiceInfo=,almfiltr=0,cpu=0,exename=/osp/psmf/service/frc20colt1/smf/bin/exec/frcgen20_soap 76 -t=100 -m=75,filter=0,grpref00=57&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0,host_ref=1,hostname=gurkes261,id=0,name=smfSrv-frc20colt1,part_ref=31,pid=31058,rate=100,ri=76,serv_ref=145,smf_ref=1,srv_name=frc20colt1,state0=0&0&0&0&0&0,wftc=0
+
+ 11:23:02..... sepconf.cxx.56: { Entry in 'CPU_LOAD::refresh' [Jan 13 2019 20:55:42]
+ 11:23:02..... sepconf.cxx.106: maxcpu=0
+ 11:23:02..... sepconf.cxx: Exiting from 'CPU_LOAD::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... slitf.cxx.902: { Entry in 'SLITF::CheckState' [Jan 13 2019 20:55:37]
+ 11:23:02..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:23:02..... sepconf.cxx: Exiting from 'SLITF::CheckState' to 'SEP_CONF::TimerExpired' }
+ 11:23:02.... sepconf.cxx.558: capacity=100
+ 11:23:02..... sepScp.pc.3213: { Entry in 'save_overload' [Jan 13 2019 20:51:54]
+ 11:23:02..... sepScp.pc.3239: SHM attr update OK
+ 11:23:02..... sepconf.cxx: Exiting from 'save_overload' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... sepScp.pc.2884: { Entry in 'save_capacity' [Jan 13 2019 20:51:54]
+ 11:23:02..... sepScp.pc.2910: SHM attr update OK
+ 11:23:02..... sepconf.cxx: Exiting from 'save_capacity' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... sepScp.pc.2931: { Entry in 'save_curcaps' [Jan 13 2019 20:51:54]
+ 11:23:02..... sepScp.pc.2957: SHM attr update OK
+ 11:23:02..... sepconf.cxx: Exiting from 'save_curcaps' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... sepScp.pc.3166: { Entry in 'save_opendial' [Jan 13 2019 20:51:54]
+ 11:23:02..... sepScp.pc.3192: SHM attr update OK
+ 11:23:02..... sepconf.cxx: Exiting from 'save_opendial' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... sepScp.pc.3401: { Entry in 'save_totdial' [Jan 13 2019 20:51:54]
+ 11:23:02..... sepScp.pc.3427: SHM attr update OK
+ 11:23:02..... sepconf.cxx: Exiting from 'save_totdial' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... sepScp.pc.3119: { Entry in 'save_msgout' [Jan 13 2019 20:51:54]
+ 11:23:02..... sepScp.pc.3145: SHM attr update OK
+ 11:23:02..... sepconf.cxx: Exiting from 'save_msgout' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... sepScp.pc.3025: { Entry in 'save_lastconf' [Jan 13 2019 20:51:54]
+ 11:23:02..... sepScp.pc.3051: SHM attr update OK
+ 11:23:02..... sepconf.cxx: Exiting from 'save_lastconf' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:02..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:02..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:02..... log.cxx.41: { Entry in 'LogFeature::GetConfig' [Jan 13 2019 20:40:41]
+ 11:23:02..... sepconf.cxx: Exiting from 'LogFeature::GetConfig' to 'SEP_CONF::TimerExpired' }
+ 11:23:02.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:23:02
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:23:02.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:02... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:02.. slitf.cxx.2771: Waiting incoming message during 1999 msec ...
+ 11:23:02.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:02.. slitf.cxx.2779: MaxFD = 1
+ 11:23:04... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:04.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:04.... sepconf.cxx.343: SEP caps=0
+ 11:23:04..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:04..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:04..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:04.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:04... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:04.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:23:04.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:04.. slitf.cxx.2779: MaxFD = 1
+ 11:23:06... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:06.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:06.... sepconf.cxx.343: SEP caps=0
+ 11:23:06..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:06..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:06..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:06.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:06... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:06.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:23:06.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:06.. slitf.cxx.2779: MaxFD = 1
+ 11:23:08... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:08.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:08.... sepconf.cxx.343: SEP caps=0
+ 11:23:08..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:08..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:08..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:08.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:08... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:08.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:23:08.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:08.. slitf.cxx.2779: MaxFD = 1
+ 11:23:10... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:10.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:10.... sepconf.cxx.343: SEP caps=0
+ 11:23:10..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:10..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:10..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:10.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:10... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:10.. slitf.cxx.2771: Waiting incoming message during 1368 msec ...
+ 11:23:10.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:10.. slitf.cxx.2779: MaxFD = 1
+ 11:23:12... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:12.... septransp.cxx.2480: { Entry in 'DPE_TRANSPORT::TimerExpired' [Jan 13 2019 21:29:05]
+ 11:23:12.... shmdb.cxx.362: SHMDB::Lock sep[76], bWait=1, bTest=0
+ 11:23:12.... septransp.cxx.2553: sepList=0x0
+ 11:23:12..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:12..... slitf.cxx.1473: Setting timer t=10000 msec with idenfier 5 on SLI context : -2
+ 11:23:12..... septransp.cxx: Exiting from 'SLITF::SetTimer' to 'DPE_TRANSPORT::TimerExpired' }
+ 11:23:12.... slitf.cxx: Exiting from 'DPE_TRANSPORT::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:12... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:12.. slitf.cxx.2771: Waiting incoming message during 630 msec ...
+ 11:23:12.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:12.. slitf.cxx.2779: MaxFD = 1
+ 11:23:12... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:12.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:12..... slitf.cxx.3666: { Entry in 'SLITF::BuildArgs' [Jan 13 2019 20:55:37]
+ 11:23:12..... sepconf.cxx: Exiting from 'SLITF::BuildArgs' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... sepScp.pc refresh sep24.11: { Entry in 'OBJECT_PLATFORM_SEP_REL24::Refresh' [Jan 13 2019 20:51:54]
+ 11:23:12..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEP_REL24::Refresh' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... sepinfoScp.pc refresh rel23.3: { Entry in 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' [Jan 13 2019 20:52:23]
+ 11:23:12..... sepinfoScp.pc refresh rel23.23: State0[SEP_STATE]=0, State0[HOST_STATE]=0, State0[PARTITION_STATE]=0, State0[SERVICE_STATE]=0
+ 11:23:12..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:23:12..... sepconf.cxx: Exiting from 'OBJECT_PLATFORM_SEPINFO_REL24::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:23:12.... sepconf.cxx.445: *pServiceInfo=,almfiltr=0,cpu=0,exename=/osp/psmf/service/frc20colt1/smf/bin/exec/frcgen20_soap 76 -t=100 -m=75,filter=0,grpref00=57&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0,host_ref=1,hostname=gurkes261,id=0,name=smfSrv-frc20colt1,part_ref=31,pid=31058,rate=100,ri=76,serv_ref=145,smf_ref=1,srv_name=frc20colt1,state0=0&0&0&0&0&0,wftc=0
+
+ 11:23:12..... sepconf.cxx.56: { Entry in 'CPU_LOAD::refresh' [Jan 13 2019 20:55:42]
+ 11:23:12..... sepconf.cxx.106: maxcpu=0
+ 11:23:12..... sepconf.cxx: Exiting from 'CPU_LOAD::refresh' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... slitf.cxx.902: { Entry in 'SLITF::CheckState' [Jan 13 2019 20:55:37]
+ 11:23:12..... ud.cxx.1464: Group: frc20colt1-smfSrv(57) msg.updCnt(1) - grp.updCnt(1)=0
+ 11:23:12..... sepconf.cxx: Exiting from 'SLITF::CheckState' to 'SEP_CONF::TimerExpired' }
+ 11:23:12.... sepconf.cxx.558: capacity=100
+ 11:23:12..... sepScp.pc.3213: { Entry in 'save_overload' [Jan 13 2019 20:51:54]
+ 11:23:12..... sepScp.pc.3239: SHM attr update OK
+ 11:23:12..... sepconf.cxx: Exiting from 'save_overload' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... sepScp.pc.2884: { Entry in 'save_capacity' [Jan 13 2019 20:51:54]
+ 11:23:12..... sepScp.pc.2910: SHM attr update OK
+ 11:23:12..... sepconf.cxx: Exiting from 'save_capacity' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... sepScp.pc.2931: { Entry in 'save_curcaps' [Jan 13 2019 20:51:54]
+ 11:23:12..... sepScp.pc.2957: SHM attr update OK
+ 11:23:12..... sepconf.cxx: Exiting from 'save_curcaps' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... sepScp.pc.3166: { Entry in 'save_opendial' [Jan 13 2019 20:51:54]
+ 11:23:12..... sepScp.pc.3192: SHM attr update OK
+ 11:23:12..... sepconf.cxx: Exiting from 'save_opendial' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... sepScp.pc.3401: { Entry in 'save_totdial' [Jan 13 2019 20:51:54]
+ 11:23:12..... sepScp.pc.3427: SHM attr update OK
+ 11:23:12..... sepconf.cxx: Exiting from 'save_totdial' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... sepScp.pc.3119: { Entry in 'save_msgout' [Jan 13 2019 20:51:54]
+ 11:23:12..... sepScp.pc.3145: SHM attr update OK
+ 11:23:12..... sepconf.cxx: Exiting from 'save_msgout' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... sepScp.pc.3025: { Entry in 'save_lastconf' [Jan 13 2019 20:51:54]
+ 11:23:12..... sepScp.pc.3051: SHM attr update OK
+ 11:23:12..... sepconf.cxx: Exiting from 'save_lastconf' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:12..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:12..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:12..... log.cxx.41: { Entry in 'LogFeature::GetConfig' [Jan 13 2019 20:40:41]
+ 11:23:12..... sepconf.cxx: Exiting from 'LogFeature::GetConfig' to 'SEP_CONF::TimerExpired' }
+ 11:23:12.... : 
+---------------------------------------------------------
+date: 2021/08/13 11:23:12
+output file: /osp/local/var/trace/frcgen20_soap.76.tra
+procedures list: 
+Extra options: 
+---------------------------------------------------------
+ 11:23:12.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:12... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:12.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:23:12.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:12.. slitf.cxx.2779: MaxFD = 1
+ 11:23:14... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:14.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:14.... sepconf.cxx.343: SEP caps=0
+ 11:23:14..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:14..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:14..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:14.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:14... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:14.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:23:14.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:14.. slitf.cxx.2779: MaxFD = 1
+ 11:23:16... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:16.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:16.... sepconf.cxx.343: SEP caps=0
+ 11:23:16..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:16..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:16..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:16.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:16... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:16.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:23:16.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:16.. slitf.cxx.2779: MaxFD = 1
+ 11:23:18... slitf.cxx.1491: { Entry in 'SLITF::HandleTimer' [Jan 13 2019 20:55:37]
+ 11:23:18.... sepconf.cxx.317: { Entry in 'SEP_CONF::TimerExpired' [Jan 13 2019 20:55:42]
+ 11:23:18.... sepconf.cxx.343: SEP caps=0
+ 11:23:18..... slitf.cxx.1472: { Entry in 'SLITF::SetTimer' [Jan 13 2019 20:55:37]
+ 11:23:18..... slitf.cxx.1473: Setting timer t=2000 msec with idenfier 0 on SLI context : -2
+ 11:23:18..... sepconf.cxx: Exiting from 'SLITF::SetTimer' to 'SEP_CONF::TimerExpired' }
+ 11:23:18.... slitf.cxx: Exiting from 'SEP_CONF::TimerExpired' to 'SLITF::HandleTimer' }
+ 11:23:18... slitf.cxx: Exiting from 'SLITF::HandleTimer' to 'SLITF::TreatMessage' }
+ 11:23:18.. slitf.cxx.2771: Waiting incoming message during 2000 msec ...
+ 11:23:18.. transp.cxx.64: Transport THREAD:fd=28, flags=FD_READ | 
+ 11:23:18.. slitf.cxx.2779: MaxFD = 1
